@@ -10,11 +10,13 @@ Para aumentar nossa produtividade, nós podemos escolher algumas ferramentas den
 
 Cada IDE dispõe de recursos comuns ou plugins específicos para te auxiliar na agilidade de desenvolvimento.
 
-![](<../.gitbook/assets/image (6).png>)
+![](<../.gitbook/assets/image (7).png>)
 
 {% hint style="success" %}
 Antes de escolhar sua IDE super recomendamos realizar uma pesquisa e ter uma experiência em cada uma delas.
 {% endhint %}
 
-* Eclipse: Mais utilizada no ambiente corporativo com interface bem interativa
-* NetBeans: Utilizada mais em ambiente acadêmico
+* Eclipse: Mais utilizada no ambiente corporativo com interface bem interativa.
+* NetBeans: Utilizada mais em ambiente acadêmico e com versão de menu e assistentes em português.
+* IntelliJ: Ofereça muitos recursos de inteligência para agilidade de nosso desenvolvimento com sugestões de ações bem assertivas.
+* VS Code: Hoje muito utilizada por desenvolvedores que já atuam com NodeJs ou plataformas de front-end.
