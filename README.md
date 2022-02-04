@@ -1,6 +1,6 @@
 # Java Básico
 
-Mudou Iremos apresentar todos os requisitos necessários para você começar a desenvolver em uma das linguagens mais utilizadas no mercado.
+Iremos apresentar todos os requisitos necessários para você começar a desenvolver em uma das linguagens mais utilizadas no mercado.
 
 ![](<.gitbook/assets/image (6).png>)
 
@@ -49,3 +49,5 @@ Nas linguagens de programação, você aprendeu que eles usam o compilador ou o 
 Thread é um subprocesso leve e independente de um programa em execução (ou seja, processo) que compartilha recursos. E quando vários threads são executados simultaneamente é chamado de multi-threading.
 
 O servidor também usa multithreading para fornecer seus serviços a várias solicitações de clientes. Em Java, você pode criar threads de duas maneiras, implementando a interface Runnable ou estendendo a classe Thread.&#x20;
+
+### Referências
