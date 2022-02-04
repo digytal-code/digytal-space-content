@@ -46,9 +46,9 @@ Existe uma regra adicional para variáveis quando na mesma queremos identificar 
 
 ```
 String BR = "Brasil"
-Double PI = 3.14
-Integer ESTADOS_BRASILEIRO = 27
-Integer ANO_2000 = 2000
+double PI = 3.14
+int ESTADOS_BRASILEIRO = 27
+int ANO_2000 = 2000
 ```
 
 ## Declarando variáveis e métodos
@@ -60,13 +60,27 @@ Como identificar que entre declaração de variáveis e métodos em nossa progra
 ```
 // Estrutura
 
-Tipo nomeBemDefinido = Atribuição (opcional em alguns casos)
+Tipo NomeBemDefinido = Atribuição (opcional em alguns casos)
 
 // Exemplo
 
-Integer idade = 23;
-Double altura = 1.62;
+int idade = 23;
+double altura = 1.62;
 Dog spike; //observe que aqui a variável spike não tem valor, é normal
+```
+
+* Declarando métodos em Java segue uma estrutura bem simples:
+
+```
+// Estrutura
+
+TipoRetorno NomeObjetivoNoInfinitivo Parametro(s)
+
+//Exemplo
+
+int somar (int numeroUm, int numero2)
+
+String formatarCep (long cep)
 ```
 
 ## Identação
