@@ -11,7 +11,7 @@ Para se começar a desenvolver em Java é necessário que tenhamos o JDK instala
 * Busque no Google por Java [JDK xxx](https://www.oracle.com/br/java/technologies/javase/javase8-archive-downloads.html) (versão desejada)
 * Selecione a opção **.exe** de acordo com o seu sistema operacional. No meu exemplo eu baixei a versão: [jdk-8u202-windows-x64.exe](https://www.oracle.com/br/java/technologies/javase/javase8-archive-downloads.html#license-lightbox)
 
-![](<../.gitbook/assets/image (4).png>)
+![](<../.gitbook/assets/image (4) (1).png>)
 
 * Depois você precisará realizar um login no site da [Oracle](https://login.oracle.com/mysso/signon.jsp).
 
