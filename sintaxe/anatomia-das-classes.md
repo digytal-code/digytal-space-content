@@ -165,7 +165,7 @@ public class BoletimEstudantil {
 
 ![Ilustração de uso de pacotes](<../.gitbook/assets/image (2).png>)
 
-Com o uso de pacotes as nossas classes (.java) passa é possuir duas identificação, o nome simples e nome qualificado:
+Com o uso de pacotes as nossas classes (.java) passam a possuir duas identificações, o nome simples e nome qualificado:
 
 * **Nome Simples**: Nome do arquivo, exemplo `ContaBanco`.
 * **Nome Qualificado**: Nome do pacote + nome do arquivo, exemplo: `com.suaempresa.ContaBanco`.&#x20;
