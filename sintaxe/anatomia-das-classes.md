@@ -26,3 +26,7 @@ A escrita de códigos de um programa é a composição de palavras pré definida
 asd
 
 ![](<../.gitbook/assets/image (5).png>)
+
+## Organizando nossos arquivos
+
+À medida que nosso sistema vai sendo evoluído, surgem novos arquivos (código fonte) em nossa estrutura de arquivos do projeto. Isso exige que seja realizado uma organização destes arquivos através de pacotes (packages).
