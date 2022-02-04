@@ -83,6 +83,10 @@ int somar (int numeroUm, int numero2)
 String formatarCep (long cep)
 ```
 
+{% hint style="warning" %}
+Como parte da estrutura de declaração de variáveis e métodos também temos o aspecto da **visibilidade**, mas ainda não é necessário nesta etapa de estudos.
+{% endhint %}
+
 ## Identação
 
 asd
