@@ -162,3 +162,10 @@ public class BoletimEstudantil {
 ## Organizando nossos arquivos
 
 À medida que nosso sistema vai sendo evoluído, surgem novos arquivos (código fonte) em nossa estrutura de arquivos do projeto. Isso exige que seja realizado uma organização destes arquivos através de pacotes (packages).
+
+![Ilustração de uso de pacotes](<../.gitbook/assets/image (2).png>)
+
+Com o uso de pacotes as nossas classes (.java) passa é possuir duas identificação, o nome simples e nome qualificado:
+
+* **Nome Simples**: Nome do arquivo, exemplo `ContaBanco`.
+* **Nome Qualificado**: Nome do pacote + nome do arquivo, exemplo: `com.suaempresa.ContaBanco`.&#x20;

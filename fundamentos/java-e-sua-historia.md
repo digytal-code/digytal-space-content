@@ -17,7 +17,7 @@ Em maio de 1995, a Sun anunciou Java formalmente em uma conferência importante.
 * Softwares destinados ao consumidor final.
 * Aplicativos para Smartphones.
 
-![Em 23 de janeiro de 2021 foi celebrado os 25 anos da linguagem Java hoje mantida pela Oracle Inc.](<../.gitbook/assets/image (2).png>)
+![Em 23 de janeiro de 2021 foi celebrado os 25 anos da linguagem Java hoje mantida pela Oracle Inc.](<../.gitbook/assets/image (2) (1).png>)
 
 Características de cada versão
 
