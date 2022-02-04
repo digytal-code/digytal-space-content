@@ -38,6 +38,21 @@ public class CalculadoraCientifica {
 }
 ```
 
+* **Nome de variável e métodos**: toda variável deve ser escrita com letra minúscula, porém se a palavra for composta, a primeira letra da segunda palavra deverá ser MAIÚSCULA, exemplo:                 `ano` e `ano`**`F`**`abricacao.`
+
+{% hint style="info" %}
+Existe uma regra adicional para variáveis quando na mesma queremos identificar que ela não sofrerá alteração de valor, exemplo: queremos determinar que uma variável de nome **br** sempre representará **"Brasil"** e nunca mudará seu valor, logo, determinamos como escrita o código abaixo:
+{% endhint %}
+
+```
+String BR = "Brasil"
+Double PI = 3.14
+Integer ESTADOS_BRASILEIRO = 27
+Integer ANO_2000 = 2000
+```
+
+
+
 ## Identação
 
 asd
