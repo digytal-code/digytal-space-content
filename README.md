@@ -10,11 +10,15 @@ Java é uma linguagem de programação simples e fácil de entender porque não 
 
 ### Orientada a Objeto <a href="#object-oriented" id="object-oriented"></a>
 
-Java é uma linguagem de programação orientada a objetos, o que significa que em Java tudo é escrito em termos de classes e objetos. O nosso maior desafio ao começar a desenvolver com Java é que para ter um software consistente é necessário que a gente compreenda os aspectos dos pilares da Orientação a Objetos, como:&#x20;
+Java é uma linguagem de programação orientada a objetos, o que significa que em Java tudo é escrito em termos de CLASSES e OBJETOS.
 
-1. Classe e objeto
+A POO surgiu como uma alternativa às características da programação estruturada tradicionalmente, onde um programa basicamente segue uma única rotina. O intuito da sua criação também foi o de aproximar o manuseio das estruturas de um programa de computador ao manuseio das coisas do mundo concreto. Por isso o nome "objeto", representando algo que pode ser manuseado fisicamente.
+
+Para começar a desenvolver softwares de forma consistente com Java, é necessário compreender os pilares da Programação Orientada a Objetos (POO). Eles são:
+
+1. Classe e Objeto
 2. Encapsulamento
-3. Abstração  &#x20;
+3. Abstração &#x20;
 4. Herança
 5. Polimorfismo
 
@@ -45,4 +49,3 @@ Nas linguagens de programação, você aprendeu que eles usam o compilador ou o 
 Thread é um subprocesso leve e independente de um programa em execução (ou seja, processo) que compartilha recursos. E quando vários threads são executados simultaneamente é chamado de multi-threading.
 
 O servidor também usa multithreading para fornecer seus serviços a várias solicitações de clientes. Em Java, você pode criar threads de duas maneiras, implementando a interface Runnable ou estendendo a classe Thread.&#x20;
-
