@@ -1,6 +1,6 @@
-# Java Básico 2
+# Java Básico
 
-Iremos apresentar todos os requisitos necessários para você começar a desenvolver em uma das linguagens mais utilizadas no mercado.
+Mudou Iremos apresentar todos os requisitos necessários para você começar a desenvolver em uma das linguagens mais utilizadas no mercado.
 
 ![](<.gitbook/assets/image (6).png>)
 
