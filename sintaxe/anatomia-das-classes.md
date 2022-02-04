@@ -38,7 +38,7 @@ public class CalculadoraCientifica {
 }
 ```
 
-* **Nome de variável e métodos**: toda variável deve ser escrita com letra minúscula, porém se a palavra for composta, a primeira letra da segunda palavra deverá ser MAIÚSCULA, exemplo:                 `ano` e `ano`**`F`**`abricacao.`
+* **Nome de variável**: toda variável deve ser escrita com letra minúscula, porém se a palavra for composta, a primeira letra da segunda palavra deverá ser MAIÚSCULA, exemplo:                 `ano` e `ano`**`F`**`abricacao.`
 
 {% hint style="info" %}
 Existe uma regra adicional para variáveis quando na mesma queremos identificar que ela não sofrerá alteração de valor, exemplo: queremos determinar que uma variável de nome **br** sempre representará **"Brasil"** e nunca mudará seu valor, logo, determinamos como escrita o código abaixo:
@@ -49,6 +49,18 @@ String BR = "Brasil"
 double PI = 3.14
 int ESTADOS_BRASILEIRO = 27
 int ANO_2000 = 2000
+```
+
+{% hint style="danger" %}
+Recomendações: Para declarar uma variáveis nós podemos utilizar caracteres, números e símbolos, porém devemos seguir algumas regras da linguagem.
+{% endhint %}
+
+```
+// Declação inválida de variáveis
+
+int numero um = 1; //Não pode ter espaço no nome da variável
+int 1numero = 1    //Uma variável não pode começar com númerico
+
 ```
 
 ## Declarando variáveis e métodos
