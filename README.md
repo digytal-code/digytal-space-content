@@ -1,18 +1,18 @@
-# Java Básico 2
+# Java Básico
 
-Iremos apresentar todos os requisitos necessários para você começar a desenvolver em uma das linguagens mais utilizadas no mercado.
+Neste primeiro módulo iremos apresentar todos os requisitos necessários para você começar a desenvolver em Java, uma das linguagens mais utilizadas no mercado.
 
 ![](<.gitbook/assets/image (6).png>)
 
 ### Simples
 
-Java é uma linguagem de programação simples e fácil de entender porque não contém complexidades que existiam em linguagens de programação anteriores. Na verdade, a simplicidade era o objetivo do design dos povos Javasoft, porque ele tem que funcionar em dispositivos eletrônicos onde menos memória/recursos estão disponíveis. Java contém a mesma sintaxe que em C, C++, então os programadores que estão mudando para Java não enfrentarão nenhum problema em termos de sintaxe.
+Java é uma linguagem de programação simples e fácil de entender, pois não contém complexidades que existiam em linguagens de programação anteriores. Na verdade, a simplicidade era o objetivo do design dos povos Javasoft, porque ele tem que funcionar em dispositivos eletrônicos onde menos memória/recursos estão disponíveis. Java contém a mesma sintaxe que em C, C++, portanto,programadores que estão vindo dessas linguagens não enfrentarão nenhum problema em termos de sintaxe.
 
 ### Orientada a Objeto <a href="#object-oriented" id="object-oriented"></a>
 
-Java é uma linguagem de programação orientada a objetos, o que significa que em Java tudo é escrito em termos de CLASSES e OBJETOS.
+Java é uma linguagem de Programação Orientada a Objetos. Isso significa que em Java tudo é escrito em termos de CLASSES e OBJETOS.
 
-A POO surgiu como uma alternativa às características da programação estruturada tradicionalmente, onde um programa basicamente segue uma única rotina. O intuito da sua criação também foi o de aproximar o manuseio das estruturas de um programa de computador ao manuseio das coisas do mundo concreto. Por isso o nome "objeto", representando algo que pode ser manuseado fisicamente.
+A POO surgiu como uma alternativa às características da programação estruturada tradicionalmente. O intuito da sua criação foi o de aproximar o manuseio das estruturas de um programa de computador à forma como lidamos com as coisas do mundo concreto. Por isso o nome "objeto", representando algo do mundo real.
 
 Para começar a desenvolver softwares de forma consistente com Java, é necessário compreender os pilares da Programação Orientada a Objetos (POO). Eles são:
 
@@ -38,14 +38,14 @@ A linguagem de programação Java é robusta, o que significa que é capaz de li
 
 ### Segura
 
-Na era de hoje, a segurança é uma grande preocupação de todos os aplicativos. Como agora, todos os dispositivos estão conectados uns aos outros usando a Internet e isso abre a possibilidade de hackers. E nossa construção de aplicativo usando java também precisa de algum tipo de segurança. Assim, o Java também fornece recursos de segurança para os programadores. Problemas de segurança como ameaças de vírus, adulteração, espionagem, representação podem ser tratados ou minimizados usando Java. Recursos de criptografia e descriptografia para proteger seus dados contra _espionagem_ e _adulteração_ na Internet. Uma _representação_ é um ato de fingir ser outra pessoa na internet. A solução para
+Na era de hoje, a segurança é uma grande preocupação de todos os aplicativos. Atualmente, todos os dispositivos estão conectados uns aos outros usando a Internet, o que abre oportunidade para vulnerabilidades ou invasões de hackers. E nossa construção de aplicativo usando Java também precisa de algum tipo de segurança. Por isso, a linguagem também fornece recursos de segurança para os programadores. Problemas como ameaças de vírus, adulteração, espionagem ou representação podem ser tratados ou minimizados usando Java. Também existem Recursos de criptografia e descriptografia para proteger seus dados contra _espionagem_ e _adulteração_ na Internet.
 
 ### Interpretada
 
-Nas linguagens de programação, você aprendeu que eles usam o compilador ou o interpretador, mas a linguagem de programação Java usa um compilador e um interpretador. Os programas Java são compilados para gerar arquivos de bytecode e a JVM interpreta o arquivo de bytecode durante a execução.&#x20;
+Nas linguagens de programação, você aprendeu que eles usam o compilador ou o interpretador, mas a linguagem de programação Java usa os dois. Os programas Java são compilados para gerar arquivos de bytecode e a JVM (Java Virtual Machine) interpreta o arquivo de bytecode durante a execução.&#x20;
 
 ### Multi-thread
 
-Thread é um subprocesso leve e independente de um programa em execução (ou seja, processo) que compartilha recursos. E quando vários threads são executados simultaneamente é chamado de multi-threading.
+Thread é um subprocesso leve e independente de um programa em execução (ou seja, processo) que compartilha recursos. Multi-threading é o nome dado ao processo de vários threads sendo executados simultaneamente.
 
-O servidor também usa multithreading para fornecer seus serviços a várias solicitações de clientes. Em Java, você pode criar threads de duas maneiras, implementando a interface Runnable ou estendendo a classe Thread.&#x20;
+O servidor também usa multi-threading para fornecer seus serviços a várias solicitações de clientes. Em Java, você pode criar threads de duas maneiras, implementando a interface Runnable ou estendendo a classe Thread. &#x20;
