@@ -117,9 +117,47 @@ Como parte da estrutura de declaração de variáveis e métodos também temos o
 
 ## Identação
 
-asd
+Basicamente **indentar** é um termo utilizado para escrever o código do programa de forma hierárquica, facilitando assim a visualização e o entendimento do programa.
 
 ![](<../.gitbook/assets/image (5).png>)
+
+Abaixo veja um exemplo de um algoritmo de validação de aprovação de estudante de forma sem e com identação:
+
+{% tabs %}
+{% tab title="Sem Identação" %}
+```java
+// arquivo BoletimEstudantil.java
+
+public class BoletimEstudantil {
+public static void main(String[] args) {
+int mediaFinal = 6;
+if(mediaFinal<6)	
+System.out.println("REPROVADO"); 
+else if(mediaFinal==6)
+System.out.println("PROVA MINERVA"); 
+else
+System.out.println("APROVADO"); 		
+}
+}
+```
+{% endtab %}
+
+{% tab title="Com Identação" %}
+```java
+public class BoletimEstudantil {
+	public static void main(String[] args) {
+		int mediaFinal = 6;
+		if (mediaFinal < 6)
+			System.out.println("REPROVADO");
+		else if (mediaFinal == 6)
+			System.out.println("PROVA MINERVA");
+		else
+			System.out.println("APROVADO");
+	}
+}
+```
+{% endtab %}
+{% endtabs %}
 
 ## Organizando nossos arquivos
 
