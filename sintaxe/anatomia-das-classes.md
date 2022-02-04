@@ -25,11 +25,18 @@ A escrita de códigos de um programa é a composição de palavras pré definida
 
 Quando se trata de escrever códigos na linguagem Java é recomendado seguir algumas convenções de escrita diante dos itens abaixo:
 
-**Arquivo .java**:  Todo arquivo .java deve começar com letra MAIÚSCULA e se palavra for composta, a segunda palavra deve também ser maiúscula, exemplo:&#x20;
+*   **Arquivo .java**:  Todo arquivo .java deve começar com letra MAIÚSCULA e se palavra for composta, a segunda palavra deve também ser maiúscula, exemplo:&#x20;
 
-`Calculadora.java`, `CalculadoraCientifica.java`
+    `Calculadora.java`, `CalculadoraCientifica.java`
+* **Nome da classe no arquivo**: A classe deve possuir o mesmo nome do arquivo.java, exemplo:
 
+```
+// arquivo CalculadoraCientifica.java
 
+public class CalculadoraCientifica {
+
+}
+```
 
 ## Identação
 
