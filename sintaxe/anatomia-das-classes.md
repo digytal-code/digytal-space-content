@@ -51,7 +51,9 @@ Integer ESTADOS_BRASILEIRO = 27
 Integer ANO_2000 = 2000
 ```
 
+## Declarando variáveis e métodos
 
+asdasd
 
 ## Identação
 
