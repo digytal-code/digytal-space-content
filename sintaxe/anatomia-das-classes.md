@@ -53,7 +53,21 @@ Integer ANO_2000 = 2000
 
 ## Declarando variáveis e métodos
 
-asdasd
+Como identificar que entre declaração de variáveis e métodos em nossa programa? Existe uma estrutura comum para ambas as finalidades, exemplo:
+
+* Declarar uma variável em Java é sempre a seguinte estrutura
+
+```
+// Estrutura
+
+Tipo nomeBemDefinido = Atribuição (opcional em alguns casos)
+
+// Exemplo
+
+Integer idade = 23;
+Double altura = 1.62;
+Dog spike; //observe que aqui a variável spike não tem valor, é normal
+```
 
 ## Identação
 
