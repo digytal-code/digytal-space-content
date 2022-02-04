@@ -15,7 +15,7 @@ Para se começar a desenvolver em Java é necessário que tenhamos o JDK instala
 
 * Depois você precisará realizar um login no site da [Oracle](https://login.oracle.com/mysso/signon.jsp).
 
-![](<../.gitbook/assets/image (8).png>)
+![](<../.gitbook/assets/image (8) (1).png>)
 
 * Após realizar o download, executar o instalador para instalar o Java no Windows. Este processo instalará tanto o **JDK** quanto a **JRE**.
 
