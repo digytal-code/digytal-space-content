@@ -21,6 +21,16 @@ A escrita de códigos de um programa é a composição de palavras pré definida
 * &#x20;Dentro de uma aplicação recomenda-se que somente uma classe possua o método `main`, responsável por iniciar todo o nosso programa.
 * O método main recebe seu nome `main`, sempre terá a visibilidade `public`, será difinido como `static`, não retornará nenhum valor com `void` e receberá um parâmetro do tipo array de caracteres `String[]`.
 
+## Padrão de nomenclatura
+
+Quando se trata de escrever códigos na linguagem Java é recomendado seguir algumas convenções de escrita diante dos itens abaixo:
+
+**Arquivo .java**:  Todo arquivo .java deve começar com letra MAIÚSCULA e se palavra for composta, a segunda palavra deve também ser maiúscula, exemplo:&#x20;
+
+`Calculadora.java`, `CalculadoraCientifica.java`
+
+
+
 ## Identação
 
 asd
