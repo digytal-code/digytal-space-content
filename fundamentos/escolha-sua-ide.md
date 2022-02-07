@@ -44,8 +44,8 @@ Vamos explorar alguns principais recursos utilizando as IDEs, Eclipse, IntelliJ 
 ![Agora é mão-na-massa galera](../.gitbook/assets/mao-na-massa.gif)
 
 * O que são workspaces ?
-* Criar \ abrir um projeto Java
 * Definir a JDK na IDE
+* Criar \ abrir um projeto Java
 * Criar \ importar um projeto Maven
 * Conhecer os principais atalhos
 * Executar \ Depurar nosso programa
