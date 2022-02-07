@@ -36,7 +36,7 @@ Mesmo com a proposta de ser inteligente, talvez em um primeiro contato, é difí
 ## Mão na massa
 
 * O que são workspaces
-* Criar um projeto Java
-* Criar um projeto Maven
+* Criar \ abrir um projeto Java
+* Criar \ importar um projeto Maven
 * Conhecer os principais atalhos
 * Executar \ Depurar nosso programa
