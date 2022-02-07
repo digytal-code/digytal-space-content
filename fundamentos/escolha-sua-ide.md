@@ -48,6 +48,7 @@ Vamos explorar alguns principais recursos utilizando as IDEs, Eclipse, IntelliJ 
 * Criar \ abrir um projeto Java
 * Criar \ importar um projeto Maven
 * Conhecer os principais atalhos
+* Code Snippet
 * Executar \ Depurar nosso programa
 * Conhecer alguns atalhos
 
