@@ -66,6 +66,6 @@ Todas as IDEs possuem combinações de comandos que são facilitadores para cria
 
 | Comando                      | Eclipse                     | IntelliJ |
 | ---------------------------- | --------------------------- | -------- |
-| Cria o método principal main | main,  ctlr + espaç,o enter |          |
+| Cria o método principal main | main,  ctlr + espaço, enter |          |
 |                              |                             |          |
 |                              |                             |          |
