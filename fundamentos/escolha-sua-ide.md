@@ -48,3 +48,7 @@ Vamos explorar alguns principais recursos utilizando as IDEs, Eclipse, IntelliJ 
 * Criar \ importar um projeto Maven
 * Conhecer os principais atalhos
 * Executar \ Depurar nosso programa
+
+{% hint style="info" %}
+**Maven**, é uma ferramenta de automação de compilação utilizada primariamente em projetos Java, mas hoje ambém é utilizada para construir e gerenciar projetos escritos em C#, Ruby, Scala e outras linguagens
+{% endhint %}
