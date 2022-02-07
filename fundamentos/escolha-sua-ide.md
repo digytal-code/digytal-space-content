@@ -27,13 +27,13 @@ O [Eclipse IDE](https://www.eclipse.org/downloads/) é uma alternativa muita com
 
 ## IntelliJ
 
-O IntelliJ é uma plataforma de código aberto para criação de IDEs e ferramentas para desenvolvedores, mas nem todos os recursos estão disponíveis de forma gratuita.
+O [IntelliJ](https://www.jetbrains.com/pt-br/idea/) é uma plataforma de código aberto para criação de IDEs e ferramentas para desenvolvedores, mas nem todos os recursos estão disponíveis de forma gratuita.
 
 Mesmo com a proposta de ser inteligente, talvez em um primeiro contato, é difícil já desfrutar de todos os recursos, fazendo com você opte por mudar ou voltar para uma IDE  como o Eclipse. Claro que não podemos deixar de destacar que muitas coisas a gente não precisa se como: Salvar aquivo, encode padrão UTF-8 e sugestões que vão surgindo ao longo da nossa interação com a ferramenta.
 
 ![Agora é mão-na-massa galera](../.gitbook/assets/mao-na-massa.gif)
 
-Vamos explorar nas respectivas IDEs:
+## Mão na massa
 
 * O que são workspaces
 * Criar um projeto Java
