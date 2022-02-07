@@ -45,6 +45,7 @@ Vamos explorar alguns principais recursos utilizando as IDEs, Eclipse, IntelliJ 
 
 * O que são workspaces ?
 * Criar \ abrir um projeto Java
+* Definir a JDK na IDE
 * Criar \ importar um projeto Maven
 * Conhecer os principais atalhos
 * Executar \ Depurar nosso programa
