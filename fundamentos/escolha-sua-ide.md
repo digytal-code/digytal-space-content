@@ -55,3 +55,7 @@ Vamos explorar alguns principais recursos utilizando as IDEs, Eclipse, IntelliJ 
 {% hint style="info" %}
 **Maven**, é uma ferramenta de automação de compilação utilizada primariamente em projetos Java, mas hoje ambém é utilizada para construir e gerenciar projetos escritos em C#, Ruby, Scala e outras linguagens
 {% endhint %}
+
+> _**Code Snippets**_, que numa tradução livre seria algo como “retalhos de código”,  são pedaços de código pré-fabricados e parametrizáveis que podemos inserir em nossa aplicação\
+> \
+> [Linha do código](http://www.linhadecodigo.com.br/artigo/2274/code-snippets.aspx#ixzz7KEQ3PlmT)
