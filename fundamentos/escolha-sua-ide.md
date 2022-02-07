@@ -31,8 +31,6 @@ O [IntelliJ](https://www.jetbrains.com/pt-br/idea/) é uma plataforma de código
 
 Mesmo com a proposta de ser inteligente, talvez em um primeiro contato, é difícil já desfrutar de todos os recursos, fazendo com você opte por mudar ou voltar para uma IDE  como o Eclipse. Claro que não podemos deixar de destacar que muitas coisas a gente não precisa se como: Salvar aquivo, encode padrão UTF-8 e sugestões que vão surgindo ao longo da nossa interação com a ferramenta.
 
-![Agora é mão-na-massa galera](../.gitbook/assets/mao-na-massa.gif)
-
 ## Visual Studio Code
 
 Desenvolvido pela Microsoft, é uma editor de texto muito simples e interativo que conta com inúmeras extensões, temas variados e integração com tecnologias como NodeJS e Java.
@@ -41,7 +39,11 @@ Comparando-se em performance, o VS Code demonstra um grande desempenho de inicia
 
 ## Mão na massa
 
-* O que são workspaces
+Vamos explorar alguns principais recursos utilizando as IDEs, Eclipse, IntelliJ e VSCode.
+
+![Agora é mão-na-massa galera](../.gitbook/assets/mao-na-massa.gif)
+
+* O que são workspaces ?
 * Criar \ abrir um projeto Java
 * Criar \ importar um projeto Maven
 * Conhecer os principais atalhos
