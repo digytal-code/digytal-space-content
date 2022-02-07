@@ -6,7 +6,7 @@ Para se começar a desenvolver em Java é necessário que tenhamos o JDK instala
 É extremamente relevante determinar a versão do Java que precisa utilizar diante de alguns requisitos do projeto.
 {% endhint %}
 
-### Instalando o JDK  no Windows
+### Instalando o JDK no Windows
 
 * Busque no Google por Java [JDK xxx](https://www.oracle.com/br/java/technologies/javase/javase8-archive-downloads.html) (versão desejada)
 * Selecione a opção **.exe** de acordo com o seu sistema operacional. No meu exemplo eu baixei a versão: [jdk-8u202-windows-x64.exe](https://www.oracle.com/br/java/technologies/javase/javase8-archive-downloads.html#license-lightbox)
@@ -19,7 +19,7 @@ Para se começar a desenvolver em Java é necessário que tenhamos o JDK instala
 
 * Após realizar o download, executar o instalador para instalar o Java no Windows. Este processo instalará tanto o **JDK** quanto a **JRE**.
 
-![](<../.gitbook/assets/image (11).png>)
+![](<../.gitbook/assets/image (11) (1).png>)
 
 {% hint style="warning" %}
 Evite mudar o diretório de instalação
@@ -35,16 +35,9 @@ Evite mudar o diretório de instalação
 ![](../.gitbook/assets/image.png)
 
 {% hint style="info" %}
-Não iremos configurar as variáveis de ambiente pois não é um pré-requisito para desenvolver em Java considerando que iremos usufruir das mais poderosas IDEs para aumentar nossa produtividade em codificar na linguagem.&#x20;
+Não iremos configurar as variáveis de ambiente pois não é um pré-requisito para desenvolver em Java considerando que iremos usufruir das mais poderosas IDEs para aumentar nossa produtividade em codificar na linguagem.
 {% endhint %}
 
 {% content-ref url="escolha-sua-ide.md" %}
 [escolha-sua-ide.md](escolha-sua-ide.md)
 {% endcontent-ref %}
-
-
-
-
-
-
-

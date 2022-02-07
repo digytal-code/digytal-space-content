@@ -23,5 +23,14 @@ Antes de escolhar sua IDE super recomendamos realizar uma pesquisa e ter uma exp
 
 ## Eclipse
 
-O Eclipse IDE é uma alternativa muita comum de encontrar ambientes de desenvolvimento, principalmente pelo aspecto de uma interface simples, plugins para recursos adicionais, atalhos para operações de menu e de escrita e para quem trabalhar com Java Swing você pode adicionar o plugin WindowBuilder que de dispõe de  uma interface gráfica para criar as telas gerando o código de layout para o desenvolvedor.
+O [Eclipse IDE](https://www.eclipse.org/downloads/) é uma alternativa muita comum de encontrar ambientes de desenvolvimento, principalmente pelo aspecto de uma interface simples, plugins para recursos adicionais, atalhos para operações de menu e de escrita e para quem trabalhar com Java Swing você pode adicionar o plugin [WindowBuilder](https://www.eclipse.org/windowbuilder/download.php) que de dispõe de  uma interface gráfica para criar as telas gerando o código de layout para o desenvolvedor.
 
+![Agora é mão-na-massa galera](../.gitbook/assets/mao-na-massa.gif)
+
+Vamos explorar nas respectivas IDEs:
+
+* O que são workspaces
+* Criar um projeto Java
+* Criar um projeto Maven
+* Conhecer os principais atalhos
+* Executar \ Depurar nosso programa
