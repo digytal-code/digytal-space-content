@@ -20,3 +20,8 @@ Antes de escolhar sua IDE super recomendamos realizar uma pesquisa e ter uma exp
 * NetBeans: Utilizada mais em ambiente acadêmico e com versão de menu e assistentes em português.
 * IntelliJ: Ofereça muitos recursos de inteligência para agilidade de nosso desenvolvimento com sugestões de ações bem assertivas.
 * VS Code: Hoje muito utilizada por desenvolvedores que já atuam com NodeJs ou plataformas de front-end.
+
+## Eclipse
+
+O Eclipse IDE é uma alternativa muita comum de encontrar ambientes de desenvolvimento, principalmente pelo aspecto de uma interface simples, plugins para recursos adicionais, atalhos para operações de menu e de escrita e para quem trabalhar com Java Swing você pode adicionar o plugin WindowBuilder que de dispõe de  uma interface gráfica para criar as telas gerando o código de layout para o desenvolvedor.
+
