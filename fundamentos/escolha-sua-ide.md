@@ -72,3 +72,4 @@ Todas as IDEs possuem combinações de comandos que são facilitadores para cria
 | Renomeando variável ou método       | alt+shift+R                 |          |
 | Localizando arquivo                 | ctrl+shift+R                |          |
 | Localizar a utilização de um método | ctrl+shift+G                |          |
+| Entrar na implementação do método   | ctrl+click                  |          |
