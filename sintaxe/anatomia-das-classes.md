@@ -189,6 +189,15 @@ String emails = "aluno@escola.com" //confuso se a variável seria um array ou ú
 String myName = "JOSEPH" //se idioma pt-BR, o valor poder ser de outro idioma mas o nome da variável não 
 ```
 
+#### Recomendado
+
+```
+double salarioMedio=1500.23;
+String email ="aluno@escola.com";
+String [] emails = {"aluno@escola.com","professor@escola.com"}
+String meuNome = "JOSEPH" 
+```
+
 #### Métodos
 
 Os métodos deverão ser nomeados com verbos, através de uma mistura de letras minúsculas e maiúsculas. Em princípio todas as letras que compõem o nome devem ser mantidas em minúsculo, com exceção da primeira letra de cada palavra composta a partir da segunda palavra.
