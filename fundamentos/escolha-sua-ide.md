@@ -64,8 +64,11 @@ Todas as IDEs possuem combinações de comandos que são facilitadores para cria
 > \
 > [Linha do código](http://www.linhadecodigo.com.br/artigo/2274/code-snippets.aspx#ixzz7KEQ3PlmT)
 
-| Comando                        | Eclipse                     | IntelliJ |
-| ------------------------------ | --------------------------- | -------- |
-| Cria o método principal main   | main,  ctrl + espaço, enter |          |
-| Localiza recurso               | ctrl + shit + R             |          |
-| Método de impressão no Console | sysout, ctrl + espaço       |          |
+| Comando                             | Eclipse                     | IntelliJ |
+| ----------------------------------- | --------------------------- | -------- |
+| Cria o método principal main        | main,  ctrl + espaço, enter |          |
+| Localiza recurso                    | ctrl + shit + R             |          |
+| Método de impressão no Console      | sysout, ctrl + espaço       |          |
+| Renomeando variável ou método       | alt+shift+R                 |          |
+| Localizando arquivo                 | ctrl+shift+R                |          |
+| Localizar a utilização de um método | ctrl+shift+G                |          |
