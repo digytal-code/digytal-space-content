@@ -216,5 +216,88 @@ findById(int id){} // não se assuste, você verá muito método em inglês em s
 calcularImprimir(){} // há algo de errado neste método, ele deveria ter uma única finalidade
 ```
 
+## Getters e Setters
+
+É comum  nossos objetos terem atributos ou características que podem ser definido ou obtido os seus valores/estado através da instância de um objeto.
+
+Vamos o código abaixo da criação de um objeto Aluno com nome e idade:
+
+```
+//arquivo Aluno.java
+public class Aluno {
+	String nome;
+	int idade;
+}
+
+//arquivo Escola.java
+public class Escola {
+	public static void main(String[] args) {
+		Aluno felipe = new Aluno();
+		felipe.nome="Felipe";
+		felipe.idade = 8;
+		
+		System.out.println("O aluno " + felipe.nome + " tem " + felipe.idade + " anos ");
+		//RESULTADO NO CONSOLE
+		//O aluno Felipe tem 8 anos 		
+	}
+}
+```
 
 
+
+Seguindo a convenção Java Beans, uma classe que contém esta estrutura de estados deverá seguir as regras abaixo:
+
+* Os atributos precisam ter o modificador de acesso `private`. Ex.: private String nome;
+* Como agora os atributos estarão somente a nível de classe, precisaremos dos métodos **get**X e **set**X, Ex.: getNome() e setNome(String novoNome);
+* O método **get** é responsável por obter o valor atual do atributo, logo ele precisa ser `public` retornar um tipo correspondente ao valor, Ex.: `public String getNome() {}`;
+* O método **set** é responsável por definir ou modificador o valor de um atributo em um objeto, logo também ele precisa ser `public`, receber um parâmetro do mesmo tipo da variável mas não retorna nenhum valor void. Ex.: `public void setNome(String newNome)`;
+
+```
+//arquivo Aluno.java
+public class Aluno {
+	private String nome;
+	private int idade;
+	
+	public String getNome() {
+		return nome;
+	}
+	public void setNome(String newNome) {
+		nome = newNome;
+	}
+	public int getIdade() {
+		return idade;
+	}
+	public void setIdade(int newIdade) {
+		this.idade = newIdade;
+	}
+}
+//arquivo Escola.java
+public class Escola {
+	public static void main(String[] args) {
+		Aluno felipe = new Aluno();
+		felipe.setNome("Felipe");
+		felipe.setIdade(8);
+		
+		System.out.println("O aluno " + felipe.getNome() + " tem " + felipe.getIdade() + " anos ");	
+	}
+}
+```
+
+{% hint style="info" %}
+A proposta do código acima é a mesma que o código anterior, a diferença é que adotamos a convenção Java Beans para definir e obter as características dos nossos objetos.
+{% endhint %}
+
+Uso do `this` no método set. É muito comum vermos nossos metodos de definição ter a seguinte sintaxe:
+
+```
+//arquivo Aluno.java
+private String nome;
+
+public void setNome(String nome) {
+	this.nome = nome;
+}
+```
+
+{% hint style="warning" %}
+Observe que a descrição do nosso atributo `nome` é igual a descrição do parâmetro, logo utilizamos mais uma palavra reservada `this` para distinguir um do outro. Para mais detalhes veja [Palavras Reservadas](broken-reference).
+{% endhint %}
