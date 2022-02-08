@@ -56,7 +56,7 @@ Recomendações: Para declarar uma variável nós podemos utilizar caracteres, n
 {% endhint %}
 
 * Deve conter apenas letras, \_ (underline), $ ou os números de 0 a 9
-* Deve obrigatoriamente se iniciar por uma letra (preferencialmente), \_ ou $
+* Deve obrigatoriamente se iniciar por uma letra (preferencialmente), \_ ou $, jamais com número
 * Deve iniciar com uma letra minúscula (boa prática – ver abaixo)
 * Não pode conter espaços
 * Não podemos usar palavras-chave da linguagem
@@ -170,4 +170,20 @@ Com o uso de pacotes as nossas classes (.java) passam a possuir duas identifica�
 * **Nome Qualificado**: Nome do pacote + nome do arquivo, exemplo: `com.suaempresa.ContaBanco`.
 
 ## Java Beans
+
+Umas das maiores dificuldades na programação é escrever algoritmos legíveis a níveis que sejam compreendidos por todo seu time ou por você mesmo no futuro. Para isso a linguagem Java sugere através de convenções formas de escrita universal para nossas classes, atributos, métodos e pacotes.
+
+#### Variáveis
+
+
+
+#### Métodos
+
+Os métodos deverão ser nomeados com verbos, através de uma mistura de letras minúsculas e maiúsculas. Em princípio todas as letras que compõem o nome devem ser mantidas em minúsculo, com exceção da primeira letra de cada palavra composta a partir da segunda palavra.
+
+Exemplos sugeridos para nomenclatura de métodos:
+
+
+
+
 
