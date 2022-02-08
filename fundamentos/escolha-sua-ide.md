@@ -70,8 +70,8 @@ Todas as IDEs possuem combinações de comandos que são facilitadores para cria
 | Localiza recurso \ arquivo          | ctrl + shit + R             | ctrl+shift + N |
 | Método de impressão no Console      | sysout, ctrl + espaço       | sout           |
 | Renomeando variável ou método       | alt+shift+R                 | shift + F6     |
-| Localizar a utilização de um método | ctrl+shift+G                |                |
-| Entrar na implementação do método   | ctrl+click                  |                |
+| Localizar a utilização de um método | ctrl+shift+G                | alt + F7       |
+| Entrar na implementação do método   | ctrl+click                  | ctrl+click     |
 
 #### Referências
 
