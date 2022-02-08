@@ -64,6 +64,8 @@ Todas as IDEs possuem combinações de comandos que são facilitadores para cria
 > \
 > [Linha do código](http://www.linhadecodigo.com.br/artigo/2274/code-snippets.aspx#ixzz7KEQ3PlmT)
 
+#### Comparação de alguns atalhos
+
 | Comando                             | Eclipse                     | IntelliJ       |
 | ----------------------------------- | --------------------------- | -------------- |
 | Cria o método principal main        | main,  ctrl + espaço, enter | psvm           |
