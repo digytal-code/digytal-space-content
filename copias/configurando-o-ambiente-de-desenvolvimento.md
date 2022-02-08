@@ -9,7 +9,7 @@ Para começar a desenvolver em Java é necessário que tenhamos o JDK instalado.
 ### Instalando o JDK no Windows
 
 - Busque no Google por Java [JDK xxx](https://www.oracle.com/br/java/technologies/javase/javase8-archive-downloads.html) (versão desejada)
-- Selecione a opção **.exe** de acordo com o seu sistema operacional. No meu exemplo eu baixei a versão: [jdk-8u202-windows-x64.exe](https://www.oracle.com/br/java/technologies/javase/javase8-archive-downloads.html#license-lightbox)
+- Selecione a opção **.exe** de acordo com o seu sistema operacional. No meu exemplo, baixei a versão: [jdk-8u202-windows-x64.exe](https://www.oracle.com/br/java/technologies/javase/javase8-archive-downloads.html#license-lightbox)
 
 ![](<../.gitbook/assets/image (4) (1).png>)
 
@@ -17,12 +17,12 @@ Para começar a desenvolver em Java é necessário que tenhamos o JDK instalado.
 
 ![](<../.gitbook/assets/image (8) (1).png>)
 
-- Após realizar o download, executar o instalador para instalar o Java no Windows. Este processo instalará tanto o **JDK** quanto a **JRE**.
+- Após realizar o download, execute o instalador para instalar o Java no Windows. Este processo instalará tanto o **JDK** quanto a **JRE**.
 
-![](<../.gitbook/assets/image (11) (1).png>)
+![](<../.gitbook/assets/image (11).png>)
 
 {% hint style="warning" %}
-Evite mudar o diretório de instalação
+Evite mudar o diretório de instalação!
 {% endhint %}
 
 - Em seu explorer deve ter algo mais ou menos assim:
@@ -35,9 +35,11 @@ Evite mudar o diretório de instalação
 ![](../.gitbook/assets/image.png)
 
 {% hint style="info" %}
-Não iremos configurar as variáveis de ambiente pois não é um pré-requisito para desenvolver em Java considerando que iremos usufruir das mais poderosas IDEs para aumentar nossa produtividade em codificar na linguagem.
+Não iremos configurar as variáveis de ambiente pois não é um pré-requisito para desenvolver em Java considerando que iremos usufruir das mais poderosas IDEs para aumentar nossa produtividade em codificar na linguagem.&#x20;
 {% endhint %}
 
 {% content-ref url="escolha-sua-ide.md" %}
 [escolha-sua-ide.md](escolha-sua-ide.md)
 {% endcontent-ref %}
+
+Teste
