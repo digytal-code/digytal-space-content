@@ -19,7 +19,7 @@ Para começar a desenvolver em Java é necessário que tenhamos o JDK instalado.
 
 - Após realizar o download, executar o instalador para instalar o Java no Windows. Este processo instalará tanto o **JDK** quanto a **JRE**.
 
-![](<../.gitbook/assets/image (11).png>)
+![](<../.gitbook/assets/image (11) (1).png>)
 
 {% hint style="warning" %}
 Evite mudar o diretório de instalação
@@ -35,7 +35,7 @@ Evite mudar o diretório de instalação
 ![](../.gitbook/assets/image.png)
 
 {% hint style="info" %}
-Não iremos configurar as variáveis de ambiente pois não é um pré-requisito para desenvolver em Java considerando que iremos usufruir das mais poderosas IDEs para aumentar nossa produtividade em codificar na linguagem.&#x20;
+Não iremos configurar as variáveis de ambiente pois não é um pré-requisito para desenvolver em Java considerando que iremos usufruir das mais poderosas IDEs para aumentar nossa produtividade em codificar na linguagem.
 {% endhint %}
 
 {% content-ref url="escolha-sua-ide.md" %}

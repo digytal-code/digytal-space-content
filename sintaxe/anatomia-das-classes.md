@@ -4,7 +4,7 @@ description: Uma classe bem estruturada não quer guerra com ninguém
 
 # Anatomia das classes
 
-A escrita de códigos de um programa é a composição de palavras pré definidas pela linguagem mais as expressões que utilizamos para determinar o nome do nossos arquivos, classes, atributos e métodos.&#x20;
+A escrita de códigos de um programa é a composição de palavras pré definidas pela linguagem mais as expressões que utilizamos para determinar o nome do nossos arquivos, classes, atributos e métodos.
 
 É muito comum mesclarmos expressões no idioma americano com os nosso vocabulário, existem projetos que recomendam que toda a implementação do seu programa seja escrita na língua inglesa.
 
@@ -18,14 +18,14 @@ A escrita de códigos de um programa é a composição de palavras pré definida
 ![](<../.gitbook/assets/image (12).png>)
 
 * É de suma importância que agora você consiga se localizar dentro do conjunto de chaves `{ }` existentes em sua classe.
-* &#x20;Dentro de uma aplicação recomenda-se que somente uma classe possua o método `main`, responsável por iniciar todo o nosso programa.
+* Dentro de uma aplicação recomenda-se que somente uma classe possua o método `main`, responsável por iniciar todo o nosso programa.
 * O método main recebe seu nome `main`, sempre terá a visibilidade `public`, será difinido como `static`, não retornará nenhum valor com `void` e receberá um parâmetro do tipo array de caracteres `String[]`.
 
 ## Padrão de nomenclatura
 
 Quando se trata de escrever códigos na linguagem Java é recomendado seguir algumas convenções de escrita diante dos itens abaixo:
 
-*   **Arquivo .java**:  Todo arquivo .java deve começar com letra MAIÚSCULA e se palavra for composta, a segunda palavra deve também ser maiúscula, exemplo:&#x20;
+*   **Arquivo .java**: Todo arquivo .java deve começar com letra MAIÚSCULA e se palavra for composta, a segunda palavra deve também ser maiúscula, exemplo:
 
     `Calculadora.java`, `CalculadoraCientifica.java`
 * **Nome da classe no arquivo**: A classe deve possuir o mesmo nome do arquivo.java, exemplo:
@@ -38,7 +38,7 @@ public class CalculadoraCientifica {
 }
 ```
 
-* **Nome de variável**: toda variável deve ser escrita com letra minúscula, porém se a palavra for composta, a primeira letra da segunda palavra deverá ser MAIÚSCULA, exemplo:                 `ano` e `ano`**`F`**`abricacao.`
+* **Nome de variável**: toda variável deve ser escrita com letra minúscula, porém se a palavra for composta, a primeira letra da segunda palavra deverá ser MAIÚSCULA, exemplo: `ano` e `ano`**`F`**`abricacao.`
 
 {% hint style="info" %}
 Existe uma regra adicional para variáveis quando na mesma queremos identificar que ela não sofrerá alteração de valor, exemplo: queremos determinar que uma variável de nome **br** sempre representará **"Brasil"** e nunca mudará seu valor, logo, determinamos como escrita o código abaixo:
@@ -56,7 +56,7 @@ Recomendações: Para declarar uma variável nós podemos utilizar caracteres, n
 {% endhint %}
 
 * Deve conter apenas letras, \_ (underline), $ ou os números de 0 a 9
-* Deve obrigatoriamente se iniciar por uma letra (preferencialmente), \_ ou $
+* Deve obrigatoriamente se iniciar por uma letra (preferencialmente), \_ ou $, jamais com número
 * Deve iniciar com uma letra minúscula (boa prática – ver abaixo)
 * Não pode conter espaços
 * Não podemos usar palavras-chave da linguagem
@@ -76,7 +76,6 @@ int numero1 = 1;
 int numeroum = 1;
 int longo = 1;
 		
-
 ```
 
 ## Declarando variáveis e métodos
@@ -159,7 +158,7 @@ public class BoletimEstudantil {
 {% endtab %}
 {% endtabs %}
 
-## Organizando nossos arquivos
+## Organizando arquivos
 
 À medida que nosso sistema vai sendo evoluído, surgem novos arquivos (código fonte) em nossa estrutura de arquivos do projeto. Isso exige que seja realizado uma organização destes arquivos através de pacotes (packages).
 
@@ -168,4 +167,137 @@ public class BoletimEstudantil {
 Com o uso de pacotes as nossas classes (.java) passam a possuir duas identificações, o nome simples e nome qualificado:
 
 * **Nome Simples**: Nome do arquivo, exemplo `ContaBanco`.
-* **Nome Qualificado**: Nome do pacote + nome do arquivo, exemplo: `com.suaempresa.ContaBanco`.&#x20;
+* **Nome Qualificado**: Nome do pacote + nome do arquivo, exemplo: `com.suaempresa.ContaBanco`.
+
+## Java Beans
+
+Umas das maiores dificuldades na programação é escrever algoritmos legíveis a níveis que sejam compreendidos por todo seu time ou por você mesmo no futuro. Para isso a linguagem Java sugere através de convenções formas de escrita universal para nossas classes, atributos, métodos e pacotes.
+
+#### Variáveis
+
+Mais cedo já aprendemos algumas regras de declaração de variáveis, mas agora iremos conhecer algumas sugestões de de nomenclatura:
+
+* Uma variável deve ser clara, sem abreviações ou definição sem sentido;
+* Uma variável é sempre no singular, exceto quando se referir a um array ou coleção.
+* Defina um idioma única para suas variáveis.
+
+#### Não recomendado
+
+```
+double salMedio = 1500.23  //variável abreviada
+String emails = "aluno@escola.com" //confuso se a variável seria um array ou único e-mail
+String myName = "JOSEPH" //se idioma pt-BR, o valor poder ser de outro idioma mas o nome da variável não 
+```
+
+#### Recomendado
+
+```
+double salarioMedio=1500.23;
+String email ="aluno@escola.com";
+String [] emails = {"aluno@escola.com","professor@escola.com"}
+String meuNome = "JOSEPH" 
+```
+
+#### Métodos
+
+Os métodos deverão ser nomeados com verbos, através de uma mistura de letras minúsculas e maiúsculas. Em princípio todas as letras que compõem o nome devem ser mantidas em minúsculo, com exceção da primeira letra de cada palavra composta a partir da segunda palavra.
+
+Exemplos sugeridos para nomenclatura de métodos:
+
+```
+somar(int n1, int n2){}
+
+abrirConexao(){}
+
+concluirProcessamento() {}
+
+findById(int id){} // não se assuste, você verá muito método em inglês em sua jornada
+
+calcularImprimir(){} // há algo de errado neste método, ele deveria ter uma única finalidade
+```
+
+## Getters e Setters
+
+É comum  nossos objetos terem atributos ou características que podem ser definido ou obtido os seus valores/estado através da instância de um objeto.
+
+Vamos o código abaixo da criação de um objeto Aluno com nome e idade:
+
+```
+//arquivo Aluno.java
+public class Aluno {
+	String nome;
+	int idade;
+}
+
+//arquivo Escola.java
+public class Escola {
+	public static void main(String[] args) {
+		Aluno felipe = new Aluno();
+		felipe.nome="Felipe";
+		felipe.idade = 8;
+		
+		System.out.println("O aluno " + felipe.nome + " tem " + felipe.idade + " anos ");
+		//RESULTADO NO CONSOLE
+		//O aluno Felipe tem 8 anos 		
+	}
+}
+```
+
+
+
+Seguindo a convenção Java Beans, uma classe que contém esta estrutura de estados deverá seguir as regras abaixo:
+
+* Os atributos precisam ter o modificador de acesso `private`. Ex.: private String nome;
+* Como agora os atributos estarão somente a nível de classe, precisaremos dos métodos **get**X e **set**X, Ex.: getNome() e setNome(String novoNome);
+* O método **get** é responsável por obter o valor atual do atributo, logo ele precisa ser `public` retornar um tipo correspondente ao valor, Ex.: `public String getNome() {}`;
+* O método **set** é responsável por definir ou modificador o valor de um atributo em um objeto, logo também ele precisa ser `public`, receber um parâmetro do mesmo tipo da variável mas não retorna nenhum valor void. Ex.: `public void setNome(String newNome)`;
+
+```
+//arquivo Aluno.java
+public class Aluno {
+	private String nome;
+	private int idade;
+	
+	public String getNome() {
+		return nome;
+	}
+	public void setNome(String newNome) {
+		nome = newNome;
+	}
+	public int getIdade() {
+		return idade;
+	}
+	public void setIdade(int newIdade) {
+		this.idade = newIdade;
+	}
+}
+//arquivo Escola.java
+public class Escola {
+	public static void main(String[] args) {
+		Aluno felipe = new Aluno();
+		felipe.setNome("Felipe");
+		felipe.setIdade(8);
+		
+		System.out.println("O aluno " + felipe.getNome() + " tem " + felipe.getIdade() + " anos ");	
+	}
+}
+```
+
+{% hint style="info" %}
+A proposta do código acima é a mesma que o código anterior, a diferença é que adotamos a convenção Java Beans para definir e obter as características dos nossos objetos.
+{% endhint %}
+
+Uso do `this` no método set. É muito comum vermos nossos metodos de definição ter a seguinte sintaxe:
+
+```
+//arquivo Aluno.java
+private String nome;
+
+public void setNome(String nome) {
+	this.nome = nome;
+}
+```
+
+{% hint style="warning" %}
+Observe que a descrição do nosso atributo `nome` é igual a descrição do parâmetro, logo utilizamos mais uma palavra reservada `this` para distinguir um do outro. Para mais detalhes veja [Palavras Reservadas](broken-reference).
+{% endhint %}
