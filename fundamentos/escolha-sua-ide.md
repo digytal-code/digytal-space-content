@@ -64,12 +64,21 @@ Todas as IDEs possuem combinações de comandos que são facilitadores para cria
 > \
 > [Linha do código](http://www.linhadecodigo.com.br/artigo/2274/code-snippets.aspx#ixzz7KEQ3PlmT)
 
-| Comando                             | Eclipse                     | IntelliJ |
-| ----------------------------------- | --------------------------- | -------- |
-| Cria o método principal main        | main,  ctrl + espaço, enter |          |
-| Localiza recurso                    | ctrl + shit + R             |          |
-| Método de impressão no Console      | sysout, ctrl + espaço       |          |
-| Renomeando variável ou método       | alt+shift+R                 |          |
-| Localizando arquivo                 | ctrl+shift+R                |          |
-| Localizar a utilização de um método | ctrl+shift+G                |          |
-| Entrar na implementação do método   | ctrl+click                  |          |
+| Comando                             | Eclipse                     | IntelliJ       |
+| ----------------------------------- | --------------------------- | -------------- |
+| Cria o método principal main        | main,  ctrl + espaço, enter | psvm           |
+| Localiza recurso \ arquivo          | ctrl + shit + R             | ctrl+shift + N |
+| Método de impressão no Console      | sysout, ctrl + espaço       | sout           |
+| Renomeando variável ou método       | alt+shift+R                 | shift + F6     |
+| Localizar a utilização de um método | ctrl+shift+G                |                |
+| Entrar na implementação do método   | ctrl+click                  |                |
+
+#### Referências
+
+{% embed url="https://blog.algaworks.com/atalhos-e-configuracoes-para-ganhar-produtividade-com-eclipse" %}
+
+{% embed url="http://www.w3big.com/pt/eclipse/eclipse-shortcuts.html" %}
+
+{% embed url="https://medium.com/@francisco.kindermann/alguns-atalhos-do-eclipse-65ad47eec6ae" %}
+
+{% embed url="http://www.basef.com.br/index.php/Atalhos_do_IntelliJ_Idea" %}
