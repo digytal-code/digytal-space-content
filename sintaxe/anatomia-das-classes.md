@@ -175,7 +175,19 @@ Umas das maiores dificuldades na programação é escrever algoritmos legíveis 
 
 #### Variáveis
 
+Mais cedo já aprendemos algumas regras de declaração de variáveis, mas agora iremos conhecer algumas sugestões de de nomenclatura:
 
+* Uma variável deve ser clara, sem abreviações ou definição sem sentido;
+* Uma variável é sempre no singular, exceto quando se referir a um array ou coleção.
+* Defina um idioma única para suas variáveis.
+
+#### Não recomendado
+
+```
+double salMedio = 1500.23  //variável abreviada
+String emails = "aluno@escola.com" //confuso se a variável seria um array ou único e-mail
+String myName = "JOSEPH" //se idioma pt-BR, o valor poder ser de outro idioma mas o nome da variável não 
+```
 
 #### Métodos
 
