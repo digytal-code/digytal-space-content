@@ -204,7 +204,17 @@ Os métodos deverão ser nomeados com verbos, através de uma mistura de letras 
 
 Exemplos sugeridos para nomenclatura de métodos:
 
+```
+somar(int n1, int n2){}
 
+abrirConexao(){}
+
+concluirProcessamento() {}
+
+findById(int id){} // não se assuste, você verá muito método em inglês em sua jornada
+
+calcularImprimir(){} // há algo de errado neste método, ele deveria ter uma única finalidade
+```
 
 
 
