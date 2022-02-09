@@ -36,7 +36,7 @@ A linguagem de programação Java é robusta, o que significa que é capaz de li
 
 ### Segura
 
-Na era de hoje, a segurança é uma grande preocupação de todos os aplicativos. Atualmente, todos os dispositivos estão conectados uns aos outros usando a Internet, o que abre oportunidade para vulnerabilidades ou invasões de hackers. E nossa construção de aplicativo usando Java também precisa de algum tipo de segurança. Por isso, a linguagem também fornece recursos de segurança para os programadores. Problemas como ameaças de vírus, adulteração, espionagem ou representação podem ser tratados ou minimizados usando Java. Também existem Recursos de criptografia e descriptografia para proteger seus dados contra _espionagem_ e _adulteração_ na Internet.
+&#x20;Problemas como ameaças de vírus, adulteração, espionagem ou representação podem ser tratados ou minimizados usando Java. E nossa construção de aplicativo usando Java também precisa de algum tipo de segurança. Por isso, a linguagem também fornece recursos de segurança para os programadores. Também existem Recursos de criptografia e descriptografia para proteger seus dados contra _espionagem_ e _adulteração_ na Internet.
 
 ### Interpretada
 
@@ -45,5 +45,3 @@ Nas linguagens de programação, você aprendeu que eles usam o compilador ou o 
 ### Multi-thread
 
 Thread é um subprocesso leve e independente de um programa em execução (ou seja, processo) que compartilha recursos. Multi-threading é o nome dado ao processo de vários threads sendo executados simultaneamente.
-
-O servidor também usa multi-threading para fornecer seus serviços a várias solicitações de clientes. Em Java, você pode criar threads de duas maneiras, implementando a interface Runnable ou estendendo a classe Thread.
