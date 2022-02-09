@@ -36,7 +36,11 @@ O conceito WORA (Write Once Run Anywhere) e o recurso independente de plataforma
 
 ### Robusta
 
-A linguagem de programação Java é robusta, o que significa que é capaz de lidar com o encerramento inesperado de um programa. Existem 2 razões por trás disso, primeiro, ele tem um recurso muito importante e útil chamado Tratamento de Exceções. Se ocorrer uma exceção no código java, nenhum dano acontecerá, enquanto em outras linguagens de baixo nível, o programa travará. Outra razão pela qual o Java é forte está em seus recursos de gerenciamento de memória. Ao contrário de outras linguagens de baixo nível, Java fornece um coletor de lixo de tempo de execução oferecido pela JVM, que coleta todas as variáveis ​​não utilizadas.
+A linguagem de programação Java é robusta, o que significa que é capaz de lidar com o encerramento inesperado de um programa.&#x20;
+
+* Ele usa um gerenciamento de memória forte.
+* Java fornece coleta de lixo automática.
+* Há tratamento de exceção e mecanismo de verificação de tipo em Java.
 
 ### Segura
 
