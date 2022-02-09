@@ -22,7 +22,7 @@ Para começar a desenvolver softwares de forma consistente com Java, é necessá
 
 ### Plataforma independente <a href="#platform-independent" id="platform-independent"></a>
 
-O objetivo de design do javasoft people é desenvolver uma linguagem que funcione em qualquer plataforma. Aqui plataforma significa um tipo de sistema operacional e tecnologia de hardware.&#x20;
+O objetivo de design do javasoft people é desenvolver uma linguagem que funcione em qualquer plataforma. Uma plataforma é o ambiente de hardware ou software no qual um programa é executado..&#x20;
 
 Em Java, o código-fonte Java é compilado para bytecode e esse bytecode não está vinculado a nenhuma plataforma.
 
@@ -36,7 +36,7 @@ A linguagem de programação Java é robusta, o que significa que é capaz de li
 
 ### Segura
 
-&#x20;Problemas como ameaças de vírus, adulteração, espionagem ou representação podem ser tratados ou minimizados usando Java. E nossa construção de aplicativo usando Java também precisa de algum tipo de segurança. Por isso, a linguagem também fornece recursos de segurança para os programadores. Também existem Recursos de criptografia e descriptografia para proteger seus dados contra _espionagem_ e _adulteração_ na Internet.
+Problemas como ameaças de vírus, adulteração, espionagem ou representação podem ser tratados ou minimizados usando Java. E nossa construção de aplicativo usando Java também precisa de algum tipo de segurança. Por isso, a linguagem também fornece recursos de segurança para os programadores. Também existem Recursos de criptografia e descriptografia para proteger seus dados contra _espionagem_ e _adulteração_ na Internet.
 
 ### Interpretada
 
