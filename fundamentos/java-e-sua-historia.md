@@ -13,7 +13,7 @@ Em maio de 1995, a Sun anunciou Java formalmente em uma conferência importante.
 ### Java é agora utilizada praticamente em todo lugar:
 
 * Páginas da Web com conteúdo interativo e dinâmico;
-* Aplicações corporativos de grande porte;
+* Aplicações corporativas de grande porte;
 * Softwares destinados ao consumidor final.
 * Aplicativos para Smartphones.
 
