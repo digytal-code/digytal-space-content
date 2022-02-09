@@ -35,7 +35,7 @@ O Java se subdivide em componentes de desenvolvimento (JDK) e de execução (JRE
 
 ### Processo de desenvolvimento
 
-* Todo código-fonte escrito em arquivo texto possui extensão .java\*\*.\*\*
+* Todo código-fonte escrito em arquivo texto possui extensão .java
 * Este arquivo é compilado com o javac gerando o arquivo .class.
 * O arquivo .class não contém código de máquina nativo, e sim o `bytecodes`.
 
