@@ -1,7 +1,5 @@
 # Java Básico
 
-Neste primeiro módulo iremos apresentar todos os requisitos necessários para você começar a desenvolver em Java, uma das linguagens mais utilizadas no mercado.
-
 A Linguagem Java é composta por um conjunto bem definido de funcionalidades (features) que são super recomendadas para você entusiasta em programação conhecer o máximo que puder.
 
 Abaixo iremos explorar algumas funcionalidades essenciais para nosso engajamento com a linguagam.
