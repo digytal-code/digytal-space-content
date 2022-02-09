@@ -2,7 +2,7 @@
 
 Interessada em dispositivos eletrônicos inteligentes, a Sun Microsystems financiou uma pesquisa interna com o codinome Green em 1991. O projeto resultou no desenvolvimento de uma linguagem baseada em C e C++ que seu criador, James Gosling, chamou de Oak (carvalho) em homenagem a uma árvore que dava para a janela do seu escritório na Sun.
 
-![](<../.gitbook/assets/image (5) (1).png>)
+![](<../.gitbook/assets/image (5) (1) (1).png>)
 
 Descobriu-se mais tarde que já havia uma linguagem de computador chamada Oak. Quando uma equipe da Sun visitou uma cafeteria local, o nome Java (cidade de origem de um tipo de café importado) foi sugerido e pegou.
 
@@ -41,4 +41,3 @@ Características de cada versão
 | JAVA SE 15     | Setembro de 2020           | O Java 15 oferece aos desenvolvedor 14 aprimoramentos/alterações, incluindo um módulo de incubadora, três recursos de visualização, dois recursos obsoletos e duas remoções. Algumas mudanças servem para reduzir o tamanho e o escopo do JDK através da Depreciação, que é uma técnica para transmitir informações sobre o ciclo de vida de uma API.         |
 | JAVA SE 16     | Março de 2021              | Foram acrescentados muitos recursos para melhorar a perfomance, consumo de memória e uso da linguagem. Alguns dos novos recursos incluem mudanças no ZGC, suporte à versão 14 do C++ para evolução da JDK e JVM, capacidade elástica do metaspace, novas APIs e ferramentas.                                                                                  |
 | JAVA SE 17 LTS | Setembro de 2021           | Entre os novos recursos da nova versão do Java padrão estão o suporte a filtros de desserialização específicos do contexto, que é um aprimoramento de segurança e uma visualização de correspondência de padrões para instruções switch.                                                                                                                      |
-
