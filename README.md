@@ -42,7 +42,7 @@ A linguagem de programação Java é robusta, o que significa que é capaz de li
 
 ### Segura
 
-Problemas como ameaças de vírus, adulteração, espionagem ou representação podem ser tratados ou minimizados usando Java. E nossa construção de aplicativo usando Java também precisa de algum tipo de segurança. Por isso, a linguagem também fornece recursos de segurança para os programadores. Também existem Recursos de criptografia e descriptografia para proteger seus dados contra _espionagem_ e _adulteração_ na Internet.
+Problemas como ameaças de vírus, adulteração, espionagem ou representação podem ser tratados ou minimizados usando Java. E nossa construção de aplicativo usando Java também precisa de algum tipo de segurança. Por isso, a linguagem também fornece recursos de segurança para os programadores. Também existem Recursos de criptografia e decriptografia para proteger seus dados contra _espionagem_ e _adulteração_ na Internet.
 
 ### Interpretada
 
