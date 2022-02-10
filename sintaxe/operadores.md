@@ -143,6 +143,26 @@ Vamos a alguns exemplos para ilustrar:
 
 **Valor e referência**: Precisamos entender que em Java tudo é objeto, logo objetos diferentes podem ter as mesmas características, mas lembrando, _**são objetos diferentes**_.
 
+```java
+// ComparacaoAvancada.java
+public static void main(String[] args) {
+
+        String nome1 = "JAVA";
+        String nome2 = "JAVA";
+        
+        System.out.println(nome1 == nome2); //true
+
+        String nome3 = new String("JAVA");
+        
+        System.out.println(nome1 == nome3); //false
+
+        String nome4 = nome3;
+
+        System.out.println(nome3 == nome4); //true
+
+    }
+```
+
 **== versus equals:** Existe uma relevância forte em realizar comparações com **==** e **equals** na qual precisamos ter uma compreensão de quais as regras seguidas pela linguagem **** , exemplo:
 
 ```java
