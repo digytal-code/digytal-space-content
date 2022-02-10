@@ -197,7 +197,7 @@ public static void main(String[] args) {
 Os operadores lógicos representam o recurso que nos permite criar expressões lógicas maiores a partir da junção de duas ou mais expressões. Para isso, aplicamos as operações lógicas E (representado por “&&”) e OU (representado por “||”).
 
 ```java
-// classe Operadores.java
+// Operadores.java
 boolean condicao1=true;
 
 boolean condicao2=false;
@@ -218,6 +218,19 @@ Nós acabamos de aprender que existem os operadores lógicos **&** (E)  e **|** 
 {% hint style="success" %}
 A duplicidade nos operadores lógicos é um recurso conhecido como _**Operador Abreviado**_, isso quer que se a condição1 atender aos critérios não será necessário validar a condição2.
 {% endhint %}
+
+```java
+// ComparacaoAvancada.java
+int numero1 = 1;
+int numero2 = 2;
+
+if(numero1 ++ == 2 & numero2 ++ == 2 )
+    System.out.println("As 2 condições são verdadeiras");
+
+System.out.println("O numero 1 agora é " + numero1);
+System.out.println("O numero 2 agora é " + numero2);
+
+```
 
 ### Ternário
 
