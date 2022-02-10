@@ -131,6 +131,10 @@ if(numero1 != numero2)
 	System.out.print("Numero 1 é diferente de numero 2");jav
 ```
 
+#### Comparações avançadas
+
+asd
+
 ### Lógicos
 
 Os operadores lógicos representam o recurso que nos permite criar expressões lógicas maiores a partir da junção de duas ou mais expressões. Para isso, aplicamos as operações lógicas E (representado por “&&”) e OU (representado por “||”).
@@ -147,6 +151,8 @@ if(condicao1 && condicao2)
 if(condicao1 || condicao2)
 	System.out.print("Um dos valores precisa ser verdadeiro");
 ```
+
+#### Expressões lógicas avançadas
 
 ### Ternário
 
