@@ -159,6 +159,11 @@ public static void main(String[] args) {
         String nome4 = nome3;
 
         System.out.println(nome3 == nome4); //true
+        
+        //equals na parada
+        System.out.println(nome1.equals(nome2)); //??
+        System.out.println(nome2.equals(nome3)); //??
+        System.out.println(nome3.equals(nome4)); //??
 
     }
 ```
@@ -186,14 +191,6 @@ public static void main(String[] args) {
          System.out.println(numero1.equals(numero2)); 
  }
 ```
-
-
-
-
-
-
-
-
 
 ### Lógicos
 
