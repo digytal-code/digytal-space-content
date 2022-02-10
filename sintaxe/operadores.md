@@ -141,6 +141,10 @@ Quando estiver mais familiarizado com linguagem, recomendamos se aprofundar no c
 
 Vamos a alguns exemplos para ilustrar:
 
+**Números:** Em java dependendo do tipo de variável que representamos um número podemos ter resultados diferentes na comparação, exemplo:
+
+
+
 
 
 
