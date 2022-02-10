@@ -141,6 +141,8 @@ Quando estiver mais familiarizado com linguagem, recomendamos se aprofundar no c
 
 Vamos a alguns exemplos para ilustrar:
 
+**Valor e referência**: Precisamos entender que em Java tudo é objeto, logo objetos diferentes podem ter as mesmas características, mas lembrando, _**são objetos diferentes**_.
+
 **== versus equals:** Existe uma relevância forte em realizar comparações com **==** e **equals** na qual precisamos ter uma compreensão de quais as regras seguidas pela linguagem **** , exemplo:
 
 ```
