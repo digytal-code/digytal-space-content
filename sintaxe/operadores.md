@@ -133,7 +133,19 @@ if(numero1 != numero2)
 
 #### Comparações avançadas
 
-asd
+Quando se refere a comparação de conteúdos na linguagem devemos ter um certo domínio de como o Java trata o armazenamento deste valores na memória.
+
+{% hint style="success" %}
+Quando estiver mais familiarizado com linguagem, recomendamos se aprofundar no conceito, espaço em memória **Stack** versus **Heap**.
+{% endhint %}
+
+Vamos a alguns exemplos para ilustrar:
+
+
+
+
+
+
 
 ### Lógicos
 
