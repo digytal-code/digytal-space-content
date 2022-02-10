@@ -35,7 +35,7 @@ Mesmo com a proposta de ser inteligente, talvez em um primeiro contato, é difí
 
 Desenvolvido pela Microsoft, é uma editor de texto muito simples e interativo que conta com inúmeras extensões, temas variados e integração com tecnologias como NodeJS e Java.
 
-Comparando-se em performance, o VS Code demonstra um grande desempenho de inicialização, codificação e execução dos programas desenvolvidos.
+Comparando-se em performance, o [VS Code](https://code.visualstudio.com/docs/languages/java) demonstra um grande desempenho de inicialização, codificação e execução dos programas desenvolvidos.
 
 ## Mão na massa
 
