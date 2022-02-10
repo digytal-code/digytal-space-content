@@ -211,6 +211,8 @@ if(condicao1 || condicao2)
 
 #### Expressões lógicas avançadas
 
+Nós acabamos de aprender que existem os operadores lógicos **&** (E)  e **|** (OU), mas por quê no exemplo acima, foi ilustrado as condições  if(condicao1 <mark style="color:red;">**&&**</mark> condicao2)  e f(condicao1 <mark style="color:red;">**||**</mark> condicao2)
+
 ### Ternário
 
 Condição ternária é uma forma resumida para definir uma condição e escolher por um dentre dois valores. Você deve pensar numa condição ternária como se fosse uma condição IF normal, porém, de uma forma em que toda a sua estrutura estará escrita numa única linha.
