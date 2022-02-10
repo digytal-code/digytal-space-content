@@ -224,7 +224,7 @@ A duplicidade nos operadores lógicos é um recurso conhecido como _**Operador A
 int numero1 = 1;
 int numero2 = 1;
 
-if(numero1== 1 & numero2 ++ == 2 )
+if(numero1== 2 & numero2 ++ == 2 )
     System.out.println("As 2 condições são verdadeiras");
 
 System.out.println("O numero 1 agora é " + numero1);
