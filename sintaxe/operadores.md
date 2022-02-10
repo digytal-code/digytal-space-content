@@ -122,6 +122,10 @@ String resultado = (a==b) ? "verdadeiro" : "false";
 System.out.println(valor);
 ```
 
+{% hint style="info" %}
+O operador ternário é aplicado para qualquer tipo de valor
+{% endhint %}
+
 ### Relacionais
 
 Os operadores relacionais, assim como os de igualdade, avaliam dois operandos. Neste caso, mais precisamente, definem se o operando à esquerda é igual, diferente, menor, menor ou igual, maior ou maior ou igual ao da direita, retornando um valor booleano.
