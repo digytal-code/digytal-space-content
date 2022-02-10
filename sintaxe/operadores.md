@@ -145,9 +145,8 @@ Vamos a alguns exemplos para ilustrar:
 
 **== versus equals:** Existe uma relevância forte em realizar comparações com **==** e **equals** na qual precisamos ter uma compreensão de quais as regras seguidas pela linguagem **** , exemplo:
 
-```
+```java
 // ComparacaoAvancada.java
-
  public static void main(String[] args) {
         
         int numero1 = 130;
