@@ -232,6 +232,10 @@ System.out.println("O numero 2 agora é " + numero2);
 
 ```
 
+{% hint style="warning" %}
+Vamos mudar a linha 5 do código acima para: if(numero1== 2 <mark style="color:red;">**&&**</mark> numero2 ++ == 2 )
+{% endhint %}
+
 ### Ternário
 
 Condição ternária é uma forma resumida para definir uma condição e escolher por um dentre dois valores. Você deve pensar numa condição ternária como se fosse uma condição IF normal, porém, de uma forma em que toda a sua estrutura estará escrita numa única linha.
