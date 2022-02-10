@@ -61,7 +61,7 @@ concatenacao = "1"+1+1+1;
 concatenacao = "1"+(1+1+1);
 ```
 
-### Unário
+### Unários
 
 Esses operadores são aplicados especificamente sobre um operador. Eles realizam alguns trabalhos básicos como incremental, decremental e inversão de valores numéricos e booleanos.
 
