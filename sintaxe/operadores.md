@@ -211,7 +211,13 @@ if(condicao1 || condicao2)
 
 #### Expressões lógicas avançadas
 
-Nós acabamos de aprender que existem os operadores lógicos **&** (E)  e **|** (OU), mas por quê no exemplo acima, foi ilustrado as condições  if(condicao1 <mark style="color:red;">**&&**</mark> condicao2)  e f(condicao1 <mark style="color:red;">**||**</mark> condicao2)
+Nós acabamos de aprender que existem os operadores lógicos **&** (E)  e **|** (OU), mas por quê no exemplo acima, foram ilustradas as condições:
+
+&#x20; if(condicao1 <mark style="color:red;">**&&**</mark> condicao2)  e  if(condicao1 <mark style="color:red;">**||**</mark> condicao2) ?
+
+{% hint style="success" %}
+A duplicidade nos operadores lógicos é um recurso conhecido como _**Operador Abreviado**_, isso quer que se a condição1 atender aos critérios não será necessário validar a condição2.
+{% endhint %}
 
 ### Ternário
 
