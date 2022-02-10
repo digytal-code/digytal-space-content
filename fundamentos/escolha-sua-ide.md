@@ -77,6 +77,8 @@ Todas as IDEs possuem combinações de comandos que são facilitadores para cria
 
 #### Referências
 
+{% embed url="https://www.youtube.com/watch?v=vim1bTa-Bkc" %}
+
 {% embed url="https://blog.algaworks.com/atalhos-e-configuracoes-para-ganhar-produtividade-com-eclipse" %}
 
 {% embed url="http://www.w3big.com/pt/eclipse/eclipse-shortcuts.html" %}
