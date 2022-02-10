@@ -12,3 +12,4 @@
 ## Sintaxe
 
 * [Anatomia das classes](sintaxe/anatomia-das-classes.md)
+* [Operadores](sintaxe/operadores.md)
