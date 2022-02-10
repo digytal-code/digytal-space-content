@@ -99,6 +99,29 @@ System.out.println("Inverteu " + !verdadeiro);
 Muito cuidado com ordem de precedência dos operadores unários
 {% endhint %}
 
+### Ternário
+
+Condição ternária é uma forma resumida para definir uma condição e escolher por um dentre dois valores. Você deve pensar numa condição ternária como se fosse uma condição IF normal, porém, de uma forma em que toda a sua estrutura estará escrita numa única linha.
+
+```java
+// classe Operadores.java
+int a, b;
+
+a = 5;
+b = 6;
+
+/*
+if(a==b)
+   resultado = "verdadeiro";
+else
+   resultado = "falso";
+*/
+
+String resultado = (a==b) ? "verdadeiro" : "false";
+
+System.out.println(valor);
+```
+
 ### Relacionais
 
 Os operadores relacionais, assim como os de igualdade, avaliam dois operandos. Neste caso, mais precisamente, definem se o operando à esquerda é igual, diferente, menor, menor ou igual, maior ou maior ou igual ao da direita, retornando um valor booleano.
@@ -236,33 +259,6 @@ System.out.println("O numero 2 agora é " + numero2);
 
 {% hint style="success" %}
 O mesmo acontece com o operador | e || considerando que operador agora representa que se uma das alternativas for verdadeira, vamos testar ??
-{% endhint %}
-
-### Ternário
-
-Condição ternária é uma forma resumida para definir uma condição e escolher por um dentre dois valores. Você deve pensar numa condição ternária como se fosse uma condição IF normal, porém, de uma forma em que toda a sua estrutura estará escrita numa única linha.
-
-```java
-// classe Operadores.java
-int a, b;
-
-a = 5;
-b = 6;
-
-/*
-if(a==b)
-   resultado = "verdadeiro";
-else
-   resultado = "falso";
-*/
-
-String resultado = (a==b) ? "verdadeiro" : "false";
-
-System.out.println(valor);
-```
-
-{% hint style="info" %}
-O operador ternário considera qualquer tipo de valor como resposta.
 {% endhint %}
 
 
