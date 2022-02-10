@@ -30,7 +30,7 @@ Quando se trata de escrever códigos na linguagem Java é recomendado seguir alg
     `Calculadora.java`, `CalculadoraCientifica.java`
 * **Nome da classe no arquivo**: A classe deve possuir o mesmo nome do arquivo.java, exemplo:
 
-```
+```java
 // arquivo CalculadoraCientifica.java
 
 public class CalculadoraCientifica {
@@ -44,7 +44,7 @@ public class CalculadoraCientifica {
 Existe uma regra adicional para variáveis quando na mesma queremos identificar que ela não sofrerá alteração de valor, exemplo: queremos determinar que uma variável de nome **br** sempre representará **"Brasil"** e nunca mudará seu valor, logo, determinamos como escrita o código abaixo:
 {% endhint %}
 
-```
+```java
 String BR = "Brasil"
 double PI = 3.14
 int ESTADOS_BRASILEIRO = 27
@@ -62,7 +62,7 @@ Recomendações: Para declarar uma variável nós podemos utilizar caracteres, n
 * Não podemos usar palavras-chave da linguagem
 * O nome deve ser único dentro de um escopo
 
-```
+```java
 // Declação inválida de variáveis
 
 int numero&um = 1; //Os únicos símbolos permitidos são _ e $
@@ -84,7 +84,7 @@ Como identificar que entre declaração de variáveis e métodos em nossa progra
 
 * Declarar uma variável em Java é sempre a seguinte estrutura
 
-```
+```java
 // Estrutura
 
 Tipo NomeBemDefinido = Atribuição (opcional em alguns casos)
@@ -98,7 +98,7 @@ Dog spike; //observe que aqui a variável spike não tem valor, é normal
 
 * Declarando métodos em Java segue uma estrutura bem simples:
 
-```
+```java
 // Estrutura
 
 TipoRetorno NomeObjetivoNoInfinitivo Parametro(s)
@@ -183,7 +183,7 @@ Mais cedo já aprendemos algumas regras de declaração de variáveis, mas agora
 
 #### Não recomendado
 
-```
+```java
 double salMedio = 1500.23  //variável abreviada
 String emails = "aluno@escola.com" //confuso se a variável seria um array ou único e-mail
 String myName = "JOSEPH" //se idioma pt-BR, o valor poder ser de outro idioma mas o nome da variável não 
@@ -191,7 +191,7 @@ String myName = "JOSEPH" //se idioma pt-BR, o valor poder ser de outro idioma ma
 
 #### Recomendado
 
-```
+```java
 double salarioMedio=1500.23;
 String email ="aluno@escola.com";
 String [] emails = {"aluno@escola.com","professor@escola.com"}
@@ -204,7 +204,7 @@ Os métodos deverão ser nomeados com verbos, através de uma mistura de letras 
 
 Exemplos sugeridos para nomenclatura de métodos:
 
-```
+```java
 somar(int n1, int n2){}
 
 abrirConexao(){}
@@ -222,7 +222,7 @@ calcularImprimir(){} // há algo de errado neste método, ele deveria ter uma ú
 
 Vamos o código abaixo da criação de um objeto Aluno com nome e idade:
 
-```
+```java
 //arquivo Aluno.java
 public class Aluno {
 	String nome;
