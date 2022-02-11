@@ -42,6 +42,13 @@ A linguagem Java possui 52 palavras reservadas que possuem uma finalidade espec�
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | De acordo com a Java Language Specification, **null**, **true** e **false** são tecnicamente chamados de valores literais, e não keywords. Se você tentar criar algum identificador com estes valores, você também terá um erro de compilação. |
 
+| Uso      | Palavras                                                | Observação                                                  |
+| -------- | ------------------------------------------------------- | ----------------------------------------------------------- |
+| Arquivo  | package, import, static                                 |                                                             |
+| Classe   | public, protected, private                              | **private** (em caso de classe interna)                     |
+| Método   | public ou protected ou private + static + void e return | **void** em caso de não ter retorno ou **return** se houver |
+| Atributo |                                                         |                                                             |
+
 #### Referência
 
 {% embed url="http://www.linhadecodigo.com.br/artigo/83/as-52-palavras-reservadas-do-java.aspx" %}
