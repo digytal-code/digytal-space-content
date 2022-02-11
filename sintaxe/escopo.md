@@ -12,7 +12,7 @@ public class Conta {
 	double saldo=10.0;
 	
 	public void sacar(Double valor) {
-		//variavel do método
+		//variavel local de método
 		double novoSaldo = saldo - valor;
 	}
 	public void imprimirSaldo(){
@@ -20,6 +20,16 @@ public class Conta {
 		System.out.println(saldo);
 		//somente o método sacar conhece esta variavel
 		System.out.println(novoSaldo);
+	
+	}
+	public double calcularDividaExponencial(){
+		//variável local de método
+		double valorParcela = 50.0;
+		
+		for(int x=1; x<=5; x++) {//x variável de escopo
+		
+		}
+		//x nunca estará disponível fora do for
 	
 	}
 }
