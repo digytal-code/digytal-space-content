@@ -22,7 +22,7 @@ Números que podem conter partes fracionárias podem ser representados por dois 
 | float  | 4 bytes | -3,4028E + 38  | 3,4028E + 38  | 6 – 7 dígitos |
 | double | 8 bytes | -1,7976E + 308 | 1,7976E + 308 | 15 dígitos    |
 
-_Apesar de o tipo float ocupar metade da memória consumida por um tipo double, ele é menos utilizado. Ele sofre de uma limitação que compromete seu uso em determinadas situações: somente mantém uma precisão decimal entre 6 e 7 dígitos._
+_Apesar de o tipo float ocupar metade da memória consumida do que um tipo double, ele é menos utilizado. Ele sofre de uma limitação que compromete seu uso em determinadas situações: somente mantém uma precisão decimal entre 6 e 7 dígitos._
 
 {% hint style="info" %}
 _O ponto mais relevante em compreender a definição dos tipos de dados é o momento da definição do tipo para uma variável. **Qual tipo de dados eu utilizaria para determinar a idade de uma pessoa ou o salário de um funcionário ?**_
@@ -55,9 +55,9 @@ Observe que o tipo long precisa terminar com L, o tipo float precisa terminar co
 
 ## Variáveis e Constantes
 
-Na programação, uma **variável** é uma palavra (_geralmente abreviada, mas não recomendado_) que representa um valor arbitrário, não totalmente especificado ou desconhecido.
+Na programação, uma **variável** é uma palavra (_geralmente abreviada, mas não recomendada_) que representa um valor arbitrário, não totalmente especificado ou desconhecido.
 
-No Java utilizamos identificadores que representam uma referencia (ponteiro) a um valor em memória, e esta referência pode ser redirecionada a outro valor e assim por diante e é por isso que chamamos este identificador de variável, pois pode alterar o seu valor.
+No Java utilizamos identificadores que representam uma referência (ponteiro) a um valor em memória, e esta referência pode ser redirecionada a outro valor e assim por diante e é por isso que chamamos este identificador de variável, pois pode alterar o seu valor.
 
 Abaixo temos um exemplo explicativo sobre uso de variáveis e constantes:
 
