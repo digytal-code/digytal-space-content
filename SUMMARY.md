@@ -14,3 +14,4 @@
 * [Anatomia das classes](sintaxe/anatomia-das-classes.md)
 * [Operadores](sintaxe/operadores.md)
 * [Variáveis](sintaxe/variaveis.md)
+* [Métodos](sintaxe/metodos.md)
