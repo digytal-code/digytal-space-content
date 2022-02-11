@@ -4,11 +4,28 @@ description: Todas as ações da aplicações são consideradas métodos
 
 # Métodos
 
-
-
 Na programação orientada a objetos, métodos correspondem a funções ou sub-rotinas disponíveis em nossas classes.
 
+Os métodos deverão ser nomeados com verbos, através de uma mistura de letras minúsculas e maiúsculas. Em princípio todas as letras que compõem o nome devem ser mantidas em minúsculo, com exceção da primeira letra de cada palavra composta a partir da segunda palavra.
+
+Exemplos sugeridos para nomenclatura de métodos:
+
+```java
+somar(int n1, int n2){}
+
+abrirConexao(){}
+
+concluirProcessamento() {}
+
+findById(int id){} // não se assuste, você verá muito método em inglês em sua jornada
+
+calcularImprimir(){} // há algo de errado neste método, ele deveria ter uma única finalidade
+
+```
+
 Existe uma convenção estrutural para todos os métodos que é determinada pelos aspectos abaixo:
+
+#### Critério de definição de métodos
 
 1. **Qual a proposta principal do método?** Você se perguntar constantemente até compreender a real finalidade do mesmo.
 2. **Qual o tipo de retorno esperado após executar o método?** Você analisar se o método será responsável por retornar algum valor ou não.
