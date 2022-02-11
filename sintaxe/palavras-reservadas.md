@@ -2,6 +2,8 @@
 
 A linguagem Java possui 52 palavras reservadas que possuem uma finalidade específica e não podem ser utilizadas como nome de classe, métodos e atributos. Todas as palavras reservadas são classificadas em grupos e escritas com letra minúscula e as IDEs identificam com uma cor especial. Abaixo temos a lista de palavras agrupadas por sua finalidades.
 
+![](<../.gitbook/assets/image (10).png>)
+
 | Modificadores de acesso                                                                                                                                                                                                                                           |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <p><strong>private:</strong> acesso apenas dentro da classe</p><p><strong></strong></p><p><strong>protected:</strong> acesso por classes no mesmo pacote e subclasses</p><p><strong></strong></p><p><strong>public:</strong> acesso de qualquer classe</p><p></p> |
