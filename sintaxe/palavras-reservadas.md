@@ -42,12 +42,12 @@ A linguagem Java possui 52 palavras reservadas que possuem uma finalidade espec�
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | De acordo com a Java Language Specification, **null**, **true** e **false** são tecnicamente chamados de valores literais, e não keywords. Se você tentar criar algum identificador com estes valores, você também terá um erro de compilação. |
 
-| Uso      | Palavras                                                          | Observação                                                  |
-| -------- | ----------------------------------------------------------------- | ----------------------------------------------------------- |
-| Arquivo  | package, import, static                                           |                                                             |
-| Classe   | public ou protected ou private + extends ou implements            | **private** (em caso de classe interna)                     |
-| Método   | public ou protected ou private + static ou final + void e return  | **void** em caso de não ter retorno ou **return** se houver |
-| Atributo | public ou protected ou private + static ou final + tipo primitivo |                                                             |
+| Uso      | Palavras                                                                     | Observação                                                           |
+| -------- | ---------------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| Arquivo  | package, import, static                                                      |                                                                      |
+| Classe   | public ou protected ou private + final ou abstract + extends ou implements   | **private** (em caso de classe interna), **final** ou **abstract** ? |
+| Método   | public ou protected ou private + static ou final ou abstract + void e return | **void** em caso de não ter retorno ou **return** se houver          |
+| Atributo | public ou protected ou private + static ou final + tipo primitivo            | ****                                                                 |
 
 #### Referência
 
