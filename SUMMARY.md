@@ -15,3 +15,4 @@
 * [Operadores](sintaxe/operadores.md)
 * [Variáveis](sintaxe/variaveis.md)
 * [Métodos](sintaxe/metodos.md)
+* [Escopo](sintaxe/escopo.md)
