@@ -42,7 +42,7 @@ A linguagem Java possui 52 palavras reservadas que possuem uma finalidade espec�
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | De acordo com a Java Language Specification, **null**, **true** e **false** são tecnicamente chamados de valores literais, e não keywords. Se você tentar criar algum identificador com estes valores, você também terá um erro de compilação. |
 
-#### Fronteiro de uso
+#### Escopo de uso
 
 | Uso      | Palavras                                                                     | Observação                                                           |
 | -------- | ---------------------------------------------------------------------------- | -------------------------------------------------------------------- |
