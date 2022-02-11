@@ -91,3 +91,7 @@ public class ExemploVariavel {
 }
 ```
 
+{% hint style="warning" %}
+Compreendemos que para declarar uma variável como uma constante, utilizamos a palavra `final`, mas por convenção, esta variável deverá ser escrita toda em caixa alta.&#x20;
+{% endhint %}
+
