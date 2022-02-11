@@ -16,3 +16,4 @@
 * [Variáveis](sintaxe/variaveis.md)
 * [Métodos](sintaxe/metodos.md)
 * [Escopo](sintaxe/escopo.md)
+* [Palavras reservadas](sintaxe/palavras-reservadas.md)
