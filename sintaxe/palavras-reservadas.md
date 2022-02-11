@@ -51,12 +51,11 @@ A linguagem Java possui 52 palavras reservadas que possuem uma finalidade espec�
 
 Assim como nas classificações gramaticais da língua portuguesa, existem algumas palavras que são completamente opostas (antônimas) na linguagem Java conforme tabela abaixo:
 
-| Palavra | Palavra    | Explicação                                                                                                                                                                                                                                                          |
-| ------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| extends | implements | enquanto **extends** determinas que uma classe estende outra classe, **implements** determina que uma classe implementa uma interface, porém nunca o contrário                                                                                                      |
-| final   | abstract   | enquanto **final** determina fim de alteração de valor ou lógica comportamental, **abstract** em métodos exige que sub-classes precisarão definir comportamento é um método abstrato. NOTA: Se uma classe contém um único método abstrato, toda classe precisa ser. |
-|         |            |                                                                                                                                                                                                                                                                     |
-|         |            |                                                                                                                                                                                                                                                                     |
+| Palavra | Palavra    | Explicação                                                                                                                                                                                                                                                                |
+| ------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| extends | implements | enquanto **extends** determinas que uma classe estende outra classe, **implements** determina que uma classe implementa uma interface, porém nunca o contrário                                                                                                            |
+| final   | abstract   | enquanto **final** determina fim de alteração de valor ou lógica comportamental, **abstract** em métodos exige que sub-classes precisarão definir comportamento é um método abstrato. NOTA: Se uma classe contém um único método abstrato, toda classe precisa ser.       |
+| throws  | throw      | Esta é uma das situações mais complicadas de compreensão destas duas palavras. Enquanto a **throws** determina que um método pode lançar uma exceção, **throw** é a implementação que dispara a exceção**. Vamos conhecer mais sobre este conceito no assunto Exceções.** |
 
 #### Referência
 
