@@ -8,14 +8,14 @@ A escrita de códigos de um programa é a composição de palavras pré definida
 
 É muito comum mesclarmos expressões no idioma americano com os nosso vocabulário, existem projetos que recomendam que toda a implementação do seu programa seja escrita na língua inglesa.
 
-![](<../.gitbook/assets/image (8).png>)
+![](<../.gitbook/assets/image (8) (1).png>)
 
 * 99,9% das nossas classes iniciarão com `public class;`
 * Toda classe precisa de nome, exemplo `MinhaClasse;`
 * O nome do arquivo deve idêntico ao nome da classe publica;
 * Após o nome definir o corpo `{ }` aonde iremos compor nossas classes com atributos e métodos.
 
-![](<../.gitbook/assets/image (12) (1).png>)
+![](<../.gitbook/assets/image (12) (1) (1).png>)
 
 * É de suma importância que agora você consiga se localizar dentro do conjunto de chaves `{ }` existentes em sua classe.
 * Dentro de uma aplicação recomenda-se que somente uma classe possua o método `main`, responsável por iniciar todo o nosso programa.
@@ -118,7 +118,7 @@ Como parte da estrutura de declaração de variáveis e métodos também temos o
 
 Basicamente **indentar** é um termo utilizado para escrever o código do programa de forma hierárquica, facilitando assim a visualização e o entendimento do programa.
 
-![](<../.gitbook/assets/image (5) (1).png>)
+![](<../.gitbook/assets/image (5) (1) (1).png>)
 
 Abaixo veja um exemplo de um algoritmo de validação de aprovação de estudante de forma sem e com identação:
 

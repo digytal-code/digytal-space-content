@@ -8,7 +8,7 @@ Isso graças a distribuição dos recursos da linguagem através de plataformas 
 
 A linguagem Java conta com quatro ambientes de desenvolvimento.
 
-![](<../.gitbook/assets/image (9).png>)
+![](<../.gitbook/assets/image (10).png>)
 
 * **JSE (Java Standard Edition):** É a base da plataforma. Inclui o ambiente de execução e as bibliotecas comuns, sendo direcionado a aplicações para PCs e servidores. O toolkit Swing, por exemplo, é usado para desenvolver softwares com interface gráfica para desktop.
 * **JEE (Java Enterprise Edition):** A edição voltada para o desenvolvimento de aplicações corporativas e para a Web. Possui diversos frameworks, como JPA (Java Persistence API), JSP (Java Server Pages), etc.
@@ -39,7 +39,7 @@ O Java se subdivide em componentes de desenvolvimento (JDK) e de execução (JRE
 * Este arquivo é compilado com o javac gerando o arquivo .class.
 * O arquivo .class não contém código de máquina nativo, e sim o `bytecodes`.
 
-![](<../.gitbook/assets/image (3).png>)
+![](<../.gitbook/assets/image (4).png>)
 
 ### JVM - Java Virtual Machine
 
@@ -47,7 +47,7 @@ O Java se subdivide em componentes de desenvolvimento (JDK) e de execução (JRE
 
 Graças à máquina virtual Java, os programas escritos em Java podem funcionar em qualquer plataforma de hardware e software que possua uma versão da JVM, tornando assim essas aplicações independentes da plataforma onde funcionam.
 
-![Wikipedia - Camada responsável por interpretar os bytecodes para cada sistema operacional](<../.gitbook/assets/image (10) (1).png>)
+![Wikipedia - Camada responsável por interpretar os bytecodes para cada sistema operacional](<../.gitbook/assets/image (11).png>)
 
 #### Referências
 
