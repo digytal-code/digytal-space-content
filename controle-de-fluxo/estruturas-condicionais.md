@@ -8,10 +8,21 @@ Quando ocorre uma validação de execução de fluxo somente quando a condição
 
 ![](<../.gitbook/assets/image (6).png>)
 
-```
-// Pseudocódigo
+```java
+// CaixaEletronico.java
+public class CaixaEletronico {
+    public static void main(String[] args) {
 
-public class CalculadoraCientifica {
+       double saldo = 25.0;
+       double valorSolicitado = 17.0;
 
+       if(valorSolicitado < saldo)
+        saldo = saldo - valorSolicitado;
+
+        System.out.println(saldo);
+
+    }
 }
+
+
 ```
