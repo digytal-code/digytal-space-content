@@ -29,7 +29,7 @@ public class CaixaEletronico {
 
 Algumas vezes o nosso programa deverá seguir mais de uma jornada de execução condionado a uma regra de negócio, este cenário é demoninado **Estrutura Composto**. Vejamos o exemplo abaixo:
 
-![](<../.gitbook/assets/if-else.png>)
+![](../.gitbook/assets/if-else.png)
 
 ```java
 // ResultadoEscolar.java
@@ -46,3 +46,7 @@ public class ResultadoEscolar {
     }
 }
 ```
+
+{% hint style="success" %}
+Vale ressaltar aqui que no Java um bloco **`if/else`** as vezes necessita de adicionar um bloco de **`{ }`**se a lógica conter mais de uma linha.
+{% endhint %}
