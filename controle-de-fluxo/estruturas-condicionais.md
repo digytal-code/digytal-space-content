@@ -50,3 +50,9 @@ public class ResultadoEscolar {
 {% hint style="success" %}
 Vale ressaltar aqui que no Java um bloco **`if/else`** as vezes necessita de adicionar um bloco de **`{ }`**se a lógica conter mais de uma linha.
 {% endhint %}
+
+#### Referências
+
+{% embed url="https://rockcontent.com/br/talent-blog/estruturas-condicionais-2" %}
+
+{% embed url="http://fabrica.ms.senac.br/2013/06/algoritmo-estruturas-condicionais" %}
