@@ -1,7 +1,6 @@
 # Table of contents
 
 * [Java Básico](README.md)
-* [Java Básico](<README (1).md>)
 
 ## Fundamentos
 
