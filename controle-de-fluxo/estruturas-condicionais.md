@@ -165,6 +165,10 @@ public class SistemaMedida {
 
 ```
 
+{% hint style="danger" %}
+Observe que a nível de sintaxe não tivemos nenhum ganho quanto a redução de códigos e ainda tivemos mais uma preocupação em informar a palavra `break` em cada alternativa.
+{% endhint %}
+
 
 
 
