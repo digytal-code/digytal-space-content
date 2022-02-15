@@ -53,7 +53,7 @@ Vale ressaltar aqui que no Java um bloco **`if/else`** as vezes necessita de adi
 
 ## Condicionais encadeadas
 
-Em um controle de fluxo condicional, nem sempre nos limitados ao **se** (`if`) e **senão** (`else`), poderemos ter uma terceiroa, quarta e ou inúmeras condições.
+Em um controle de fluxo condicional, nem sempre nos limitamos ao **se** (`if`) e **senão** (`else`), poderemos ter uma terceira, quarta e ou inúmeras condições.
 
 #### Referências
 
