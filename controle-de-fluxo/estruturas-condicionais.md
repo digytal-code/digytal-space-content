@@ -100,8 +100,26 @@ public class ResultadoEscolar {
 
 ```
 
+## Switch Case
+
+A estrutura **switch** compara o valor de cada caso com o da variável sequencialmente, e sempre que encontra um valor correspondente, executa o código associado ao caso. Para evitar que as comparações continuem a ser executadas após um caso correspondente ter sido encontrado, acrescentamos o comando _**break**_ no final de cada bloco de códigos. O comando **break**, quando executado, encerra a execução da estrutura onde ele se encontra.&#x20;
+
+Vamos imaginar que precisaremos imprimir uma medida com base em mapa de valores, exemplo:
+
+| Sigla | Tamanho |
+| ----- | ------- |
+| P     | PEQUENO |
+| M     | MEDIO   |
+| G     | GRANDE  |
+
+
+
+
+
 #### Referências
 
 {% embed url="https://rockcontent.com/br/talent-blog/estruturas-condicionais-2" %}
 
 {% embed url="http://fabrica.ms.senac.br/2013/06/algoritmo-estruturas-condicionais" %}
+
+{% embed url="http://www.bosontreinamentos.com.br/java/estrutura-de-decisao-condicional-switch-em-java#:~:text=O%20condicional%20switch%20testa%20o,representados%20pela%20palavra%20reservada%20case.&text=A%20estrutura%20switch%20compara%20o,o%20c%C3%B3digo%20associado%20ao%20caso." %}
