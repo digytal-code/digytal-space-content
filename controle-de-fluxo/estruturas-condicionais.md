@@ -171,6 +171,10 @@ Observe que a nível de sintaxe não tivemos nenhum ganho quanto a redução de 
 
 Porém um cenário que poderíamos adequar o uso do switch/case para melhorar nosso algorítimo seria conforme ilustração abaixo:
 
+Imagina que fomos requisitados a criar um sistema de plano telefônico onde:
+
+&#x20;
+
 
 
 
