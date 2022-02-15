@@ -51,6 +51,10 @@ public class ResultadoEscolar {
 Vale ressaltar aqui que no Java um bloco **`if/else`** as vezes necessita de adicionar um bloco de **`{ }`**se a lógica conter mais de uma linha.
 {% endhint %}
 
+## Condicionais encadeadas
+
+Em um controle de fluxo condicional, nem sempre nos limitados ao **se** (`if`) e **senão** (`else`), poderemos ter uma terceiroa, quarta e ou inúmeras condições.
+
 #### Referências
 
 {% embed url="https://rockcontent.com/br/talent-blog/estruturas-condicionais-2" %}
