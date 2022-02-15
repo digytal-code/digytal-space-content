@@ -47,7 +47,7 @@ O Java se subdivide em componentes de desenvolvimento (JDK) e de execução (JRE
 
 Graças à máquina virtual Java, os programas escritos em Java podem funcionar em qualquer plataforma de hardware e software que possua uma versão da JVM, tornando assim essas aplicações independentes da plataforma onde funcionam.
 
-![Wikipedia - Camada responsável por interpretar os bytecodes para cada sistema operacional](<../.gitbook/assets/image (11).png>)
+![Wikipedia - Camada responsável por interpretar os bytecodes para cada sistema operacional](<../.gitbook/assets/image (11) (1).png>)
 
 #### Referências
 
