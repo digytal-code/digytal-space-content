@@ -173,6 +173,11 @@ Porém um cenário que poderíamos adequar o uso do switch/case para melhorar no
 
 Imagina que fomos requisitados a criar um sistema de plano telefônico onde:
 
+* O sistema terá 03 planos: BASIC, MIDIA , TURBO
+* BASIC: 100 minutos de ligação
+* MIDIA: 100 minutos de ligação + Whats e Intagram grátis
+* TURBO: 100 minutos de ligação + Whats e Intagram grátis + 5Gb Youtube
+
 &#x20;
 
 
