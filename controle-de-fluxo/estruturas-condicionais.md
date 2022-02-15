@@ -178,6 +178,54 @@ Imagina que fomos requisitados a criar um sistema de plano telefônico onde:
 * MIDIA: 100 minutos de ligação + Whats e Intagram grátis
 * TURBO: 100 minutos de ligação + Whats e Intagram grátis + 5Gb Youtube
 
+```java
+// Modo condicional convencional
+public class PlanoOperadora {
+	public static void main(String[] args) {
+		String plano = "M"; //M / T
+		
+		if(plano == "B") {
+			System.out.println("100 minutos de ligação");
+		}else if(plano == "M") {
+			System.out.println("100 minutos de ligação");
+			System.out.println("Whats e Intagram grátis");	
+		}else if(plano == "T") {
+			System.out.println("100 minutos de ligação");
+			System.out.println("Whats e Intagram grátis");	
+			System.out.println("5Gb Youtube");	
+		}
+			
+		
+	}
+}
+
+```
+
+```java
+// Modo condicional switch/case
+public class PlanoOperadora {
+	public static void main(String[] args) {
+		String plano = "M"; // M / T
+
+		switch (plano) {
+			case "T": {
+				System.out.println("5Gb Youtube");
+			}
+			case "M": {
+				System.out.println("Whats e Intagram grátis");
+			}
+			case "B": {
+				System.out.println("100 minutos de ligação");
+			}
+		}
+	}
+}
+```
+
+{% hint style="warning" %}
+Se optarem por usar **`switch`** / **`case`**, estudem um  pouco mais sobre os conceitos de **`break`** e **`default`**
+{% endhint %}
+
 &#x20;
 
 
