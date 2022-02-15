@@ -73,6 +73,10 @@ public class ResultadoEscolar {
 }
 ```
 
+## Condição ternária
+
+Como vimos em operadores, podemos abreviar nosso algorítmico condicional refatorando com o conceito de operador ternário. Vamos refatorar os exemplos acima para ilustrar o poder deste recurso:&#x20;
+
 #### Referências
 
 {% embed url="https://rockcontent.com/br/talent-blog/estruturas-condicionais-2" %}
