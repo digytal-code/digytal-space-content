@@ -18,7 +18,7 @@ O comando **`for`** (na tradução literal para a língua portuguesa “para”)
 
 ![](<../.gitbook/assets/image (14).png>)
 
-
+### For Each
 
 
 
