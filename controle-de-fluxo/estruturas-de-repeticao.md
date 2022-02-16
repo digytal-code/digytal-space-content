@@ -32,6 +32,16 @@ public class ExemploFor {
 
 ```
 
+Vamos explicar a estrutura do código acima:
+
+**For position**
+
+1. int carneirinhos = 1`;` -> O programa entende que a variável carneirinhos começa com o valor igual a 1 e isso acontece somente uma vez;
+2. carneirinhos `< = 20;` -> O programa verifica se a variável carneirinhos ainda é menor que 20;
+3. O programa começa a executar o algorítimo, no nosso caso imprimir a quantidade de carneirinhos em contagem;
+4. carneirinhos `++` -> O programa aumenta em mais 1 o valor da variável carneirinhos;
+5. O fluxo é finalizado quando a variável carneirinhos for igual a 20.
+
 ### For Each
 
 
