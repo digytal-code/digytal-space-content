@@ -27,3 +27,4 @@
 ## Programação Orientada a Objetos
 
 * [Conceito de POO](programacao-orientada-a-objetos/conceito-de-poo.md)
+* [Classes](programacao-orientada-a-objetos/classes.md)
