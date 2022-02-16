@@ -18,3 +18,5 @@ Toda as classes existentes em nosso projeto será composta por:&#x20;
 * **Características** _(states)_**:** Também conhecido como **atributos** ou **propriedades**, é toda informação que representa o estado do objeto.
 * **Comportamentos** _(behavior)_**:** Também conhecido como **ações** ou **métodos**, é toda parte comportamental que um objeto dispõe.
 * **Instanciar** _(new)_**:** É o ato de criar um objeto a partir de estrutura definida em uma classe. &#x20;
+
+![Ilustração de uma classe Estudente e 03 objetos criados](<../.gitbook/assets/image (9).png>)
