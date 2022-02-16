@@ -61,6 +61,10 @@ for( ; carneirinhos <=20; ) {
 //for( somente 1x ; deve ser uma expresão boolean; acontecerá a cada final da execução ) { }
 ```
 
+{% hint style="info" %}
+Fala a verdade: Depois desta explicação deu até sono em? 😴😴
+{% endhint %}
+
 ### For Each
 
 
