@@ -1,4 +1,4 @@
-# Configurando o ambiente de desenvolvimento
+# Configuração do ambiente
 
 Para começar a desenvolver em Java é necessário que tenhamos o JDK instalado.
 
@@ -15,11 +15,11 @@ Para começar a desenvolver em Java é necessário que tenhamos o JDK instalado.
 
 * Depois você precisará realizar um login no site da [Oracle](https://login.oracle.com/mysso/signon.jsp).
 
-![](<../.gitbook/assets/image (9).png>)
+![](<../.gitbook/assets/image (9) (1).png>)
 
 * Após realizar o download, executar o instalador para instalar o Java no Windows. Este processo instalará tanto o **JDK** quanto a **JRE**.
 
-![](<../.gitbook/assets/image (12).png>)
+![](<../.gitbook/assets/image (12) (1).png>)
 
 {% hint style="warning" %}
 Evite mudar o diretório de instalação

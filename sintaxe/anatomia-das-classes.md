@@ -17,7 +17,7 @@ A escrita de códigos de um programa é feito através da composição de palavr
 * O nome do arquivo deve ser idêntico ao nome da classe pública;
 * Após o nome, definir o corpo `{ }` , onde iremos compor nossas classes com atributos e métodos.
 
-![](<../.gitbook/assets/image (12) (1) (1).png>)
+![](<../.gitbook/assets/image (12) (1) (1) (1).png>)
 
 * É de suma importância que agora você consiga se localizar dentro do conjunto de chaves `{ }` existentes em sua classe.
 * Dentro de uma aplicação, **recomenda-se que somente uma classe possua o método** `main`, responsável por iniciar todo o nosso programa.

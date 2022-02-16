@@ -18,10 +18,16 @@ O comando **`for`** (na tradução literal para a língua portuguesa “para”)
 
 
 
+
+
 ## While
 
 O laço **`while`** (na tradução literal para a língua portuguesa “enquanto”) determina que enquanto uma condição for válida, o bloco de código será executado. O laço **`while`** testa a condição antes de executar o código, logo, caso a condição seja inválida no primeiro teste o bloco nem será executado.
 
+![](<../.gitbook/assets/image (12).png>)
+
 ## Do While
 
 O laço **`do / while`** (na tradução literal para a língua portuguesa “faça…enquanto”), assim como o laço while, determina que enquanto uma determinada condição for válida o bloco de código será executado. Entretanto, **`do / while`** testa a condição após executar o código, assim sendo, mesmo que a condição seja considerada inválida no primeiro teste o bloco será executado pelo menos uma vez.
+
+![](<../.gitbook/assets/image (9).png>)

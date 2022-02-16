@@ -55,7 +55,7 @@ Vale ressaltar aqui que no Java um bloco **`if/else`** as vezes necessita de adi
 
 Em um controle de fluxo condicional, nem sempre nos limitamos ao **se** (`if`) e **senão** (`else`), poderemos ter uma terceira, quarta e ou inúmeras condições.
 
-![](<../.gitbook/assets/image (11).png>)
+![](<../.gitbook/assets/image (11) (1).png>)
 
 ```java
 // ResultadoEscolar.java
