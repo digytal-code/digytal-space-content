@@ -22,3 +22,4 @@
 
 * [Conceito](controle-de-fluxo/conceito.md)
 * [Estruturas condicionais](controle-de-fluxo/estruturas-condicionais.md)
+* [Estruturas de repetição](controle-de-fluxo/estruturas-de-repeticao.md)
