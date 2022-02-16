@@ -89,6 +89,10 @@ public static void main(String[] args) {
 1. `String aluno : alunos` -> De forma abreviada é criada uma variável `nome` obtendo um elemento do vetor a cada ocorrência.
 2. A impressão de cada aluno é realizada.
 
+### break e continue
+
+**Break** significa quebrar, parar, frear, interromper. E é isso que se faz quando o Java encontra esse comando pela frente. **Continue**, como o nome diz, ele 'continua' o laço. O comando **`break`** interrompe o laço, já o **`continue`** interrompe somente a iteração atual.
+
 
 
 
