@@ -1,12 +1,17 @@
 ---
-description: Todas as ações da aplicações são consideradas métodos
+description: Todas as ações da aplicações são consideradas métodos.
 ---
 
 # Métodos
 
-Na programação orientada a objetos, métodos correspondem a funções ou sub-rotinas disponíveis em nossas classes.
+Uma classe é definida por atributos e métodos. Já vimos que atributos são, em sua grande maioria, variáveis de diferentes tipos e valores. Os métodos, por sua vez, correspondem a **funções** ou **sub-rotinas** disponíveis dentro de nossas classes.
 
-Os métodos deverão ser nomeados com verbos, através de uma mistura de letras minúsculas e maiúsculas. Em princípio todas as letras que compõem o nome devem ser mantidas em minúsculo, com exceção da primeira letra de cada palavra composta a partir da segunda palavra.
+### Critério de nomeação de Métodos
+
+Esses critérios não são obrigatórios, mas é recomendável que sejam seguidos, pois essas convenções facilitam a vida dos programadores ao trabalharem em códigos de forma colaborativa. Ao seguir estas convenções, tornamos o código mais legível para nós e também para outras pessoas. Para métodos, os critérios são:&#x20;
+
+* Devem ser nomeados com verbos
+* Seguir o padrão camelCase (Todas as letras minúsculas com a exceção da primeira letra da segunda palavra).
 
 Exemplos sugeridos para nomenclatura de métodos:
 
@@ -24,17 +29,19 @@ calcularImprimir(){} // há algo de errado neste método, ele deveria ter uma ú
 ```
 
 {% hint style="info" %}
-ATENÇÃO! Não existe em **Java** o conceito de **métodos** globais. Todos os **métodos** devem sempre ser definidos dentro de uma classe.
+ATENÇÃO! Não existe em **Java** o conceito de **métodos** globais. Todos os **métodos** devem SEMPRE ser definidos dentro de uma classe.
 {% endhint %}
 
-Existe uma convenção estrutural para todos os métodos que é determinada pelos aspectos abaixo:
+### Critério de definição de métodos
 
-#### Critério de definição de métodos
+Mas, como sabemos a melhor forma de definir os métodos das nossas classes? Para chegar à essa conclusão, somos auxiliados por uma convenção estrutural para todos os métodos. Essa convenção é determinada pelos aspectos abaixo:
 
-1. **Qual a proposta principal do método?** Você se perguntar constantemente até compreender a real finalidade do mesmo.
+1. **Qual a proposta principal do método?** Você deve se perguntar constantemente até compreender a real finalidade do mesmo.
 2. **Qual o tipo de retorno esperado após executar o método?** Você deve analisar se o método será responsável por retornar algum valor ou não.
 
-OBS: Caso o método não retorne nenhum valor, ele será representado pela palavra-chave `void`.&#x20;
+{% hint style="info" %}
+&#x20;Caso o método não retorne nenhum valor, ele será representado pela palavra-chave `void`.&#x20;
+{% endhint %}
 
 1. **Quais os parâmetros serão necessários para execução do método?** Os métodos as vezes precisão de argumentos como critérios para a execução.
 2. **O método possui o risco de apresentar alguma exceção?** Exceções são comuns na execução de métodos, as vezes é necessário prever e tratar a possível existência de uma exceção.
