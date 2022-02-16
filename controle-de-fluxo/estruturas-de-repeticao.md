@@ -42,6 +42,25 @@ Vamos explicar a estrutura do código acima:
 4. carneirinhos `++` -> O programa aumenta em mais 1 o valor da variável carneirinhos;
 5. O fluxo é finalizado quando a variável carneirinhos for igual a 20.
 
+```java
+// Outras estruturas
+
+//estrutura 1
+for(int carneirinhos = 1 ; carneirinhos <=20; carneirinhos ++) {
+     System.out.println(carneirinhos + " - Carneirinho(s)");
+}
+
+//estrutura 2
+//o que importa é somente o bloco condicional
+int carneirinhos = 1;
+for( ; carneirinhos <=20; ) {
+     System.out.println(carneirinhos + " - Carneirinho(s)");
+     carneirinhos ++;
+}
+
+//for( somente 1x ; deve ser uma expresão boolean; acontecerá a cada final da execução ) { }
+```
+
 ### For Each
 
 
