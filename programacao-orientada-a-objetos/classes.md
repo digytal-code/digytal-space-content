@@ -7,11 +7,12 @@ Seguindo algumas convenções, as nossas classes são classificadas como:
 * **Classe de modelo**: classes que representem estrutura de domínio da aplicação, exemplo: Cliente, Pedido, Nota Fiscal e etc.
 * **Classe de serviço**: classes que contém regras de negócio e validação de nosso sistema.
 * **Classe de repositório**: classes que contém uma integração com banco de dados.
-* &#x20;
+* **Classe de controladora**: classes que possuem a finalidade de disponibilizar alguma comunicação externa à nossa aplicação, tipo http web ou webservices.
+* **Classe utilitária**:  classe que contém recursos comuns à toda nossa aplicação.
 
+Toda as classes existentes em nosso projeto será composta por:&#x20;
 
-
-Primeiramente devemos compreender que o conceito orientado a objetos recomenda que toda estrutura de nosso código baseada a objeto seja  um **Identificador**, **Características** e **Comportamentos**.
+**Identificador**, **Características** e **Comportamentos**.
 
 * **Classe** _(class)_: A estrutura e ou representação que direciona a criação dos objetos de mesmo tipo.
 * **Características** _(states)_**:** Também conhecido como **atributos** ou **propriedades**, é toda informação que representa o estado do objeto.
