@@ -18,6 +18,20 @@ O comando **`for`** (na tradução literal para a língua portuguesa “para”)
 
 ![](<../.gitbook/assets/image (14).png>)
 
+Vamos imaginar que Joãozinho precisa conter até 20 carneirinhos para pegar no sono:
+
+```java
+// ExemploFor.java
+public class ExemploFor {
+	public static void main(String[] args) {
+		for(int carneirinhos = 1 ; carneirinhos <=20; carneirinhos ++) {
+			System.out.println(carneirinhos + " - Carneirinho(s)");
+		}
+	}
+}
+
+```
+
 ### For Each
 
 
