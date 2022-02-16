@@ -23,15 +23,22 @@ calcularImprimir(){} // há algo de errado neste método, ele deveria ter uma ú
 
 ```
 
+{% hint style="info" %}
+ATENÇÃO! Não existe em **Java** o conceito de **métodos** globais. Todos os **métodos** devem sempre ser definidos dentro de uma classe.
+{% endhint %}
+
 Existe uma convenção estrutural para todos os métodos que é determinada pelos aspectos abaixo:
 
 #### Critério de definição de métodos
 
 1. **Qual a proposta principal do método?** Você se perguntar constantemente até compreender a real finalidade do mesmo.
-2. **Qual o tipo de retorno esperado após executar o método?** Você analisar se o método será responsável por retornar algum valor ou não.
-3. **Quais os parâmetros serão necessários para execução do método?** Os métodos as vezes precisão de argumentos como critérios para a execução.
-4. **O método possui o risco de apresentar alguma exceção?** Exceções são comuns na execução de métodos, as vezes é necessário prever e tratar a possível existência de uma exceção.
-5. **Qual a visibilidade do método?** Será necessário que o método seja visível a toda aplicação, somente em mesmo pacotes, através de herança ou somente a nível a própria classe.
+2. **Qual o tipo de retorno esperado após executar o método?** Você deve analisar se o método será responsável por retornar algum valor ou não.
+
+OBS: Caso o método não retorne nenhum valor, ele será representado pela palavra-chave `void`.&#x20;
+
+1. **Quais os parâmetros serão necessários para execução do método?** Os métodos as vezes precisão de argumentos como critérios para a execução.
+2. **O método possui o risco de apresentar alguma exceção?** Exceções são comuns na execução de métodos, as vezes é necessário prever e tratar a possível existência de uma exceção.
+3. **Qual a visibilidade do método?** Será necessário que o método seja visível a toda aplicação, somente em mesmo pacotes, através de herança ou somente a nível a própria classe.
 
 Abaixo temos um exemplo de uma classe com dois métodos e suas respectivas considerações:
 
