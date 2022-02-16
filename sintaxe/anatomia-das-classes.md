@@ -4,28 +4,30 @@ description: Uma classe bem estruturada não quer guerra com ninguém
 
 # Anatomia das classes
 
-A escrita de códigos de um programa é a composição de palavras pré definidas pela linguagem mais as expressões que utilizamos para determinar o nome do nossos arquivos, classes, atributos e métodos.
+A escrita de códigos de um programa é feito através da composição de palavras pré-definidas pela linguagem com as expressões que utilizamos para determinar o nome do nossos arquivos, classes, atributos e métodos.
 
-É muito comum mesclarmos expressões no idioma americano com os nosso vocabulário, existem projetos que recomendam que toda a implementação do seu programa seja escrita na língua inglesa.
+É muito comum mesclarmos expressões no idioma americano com os nosso vocabulário. Existem projetos que recomendam que toda a implementação do seu programa seja escrita na língua inglesa.
+
+**Sintaxe de declaração de uma nova classe:**
 
 ![](<../.gitbook/assets/image (8) (1).png>)
 
 * 99,9% das nossas classes iniciarão com `public class;`
 * Toda classe precisa de nome, exemplo `MinhaClasse;`
-* O nome do arquivo deve idêntico ao nome da classe publica;
-* Após o nome definir o corpo `{ }` aonde iremos compor nossas classes com atributos e métodos.
+* O nome do arquivo deve ser idêntico ao nome da classe pública;
+* Após o nome, definir o corpo `{ }` , onde iremos compor nossas classes com atributos e métodos.
 
 ![](<../.gitbook/assets/image (12) (1) (1).png>)
 
 * É de suma importância que agora você consiga se localizar dentro do conjunto de chaves `{ }` existentes em sua classe.
-* Dentro de uma aplicação recomenda-se que somente uma classe possua o método `main`, responsável por iniciar todo o nosso programa.
+* Dentro de uma aplicação, **recomenda-se que somente uma classe possua o método** `main`, responsável por iniciar todo o nosso programa.
 * O método main recebe seu nome `main`, sempre terá a visibilidade `public`, será difinido como `static`, não retornará nenhum valor com `void` e receberá um parâmetro do tipo array de caracteres `String[]`.
 
 ## Padrão de nomenclatura
 
-Quando se trata de escrever códigos na linguagem Java é recomendado seguir algumas convenções de escrita diante dos itens abaixo:
+Quando se trata de escrever códigos na linguagem Java, é recomendado seguir algumas convenções de escrita. Esses padrões estão expressos nos itens abaixo:
 
-*   **Arquivo .java**: Todo arquivo .java deve começar com letra MAIÚSCULA e se palavra for composta, a segunda palavra deve também ser maiúscula, exemplo:
+*   **Arquivo .java**: Todo arquivo .java deve começar com letra MAIÚSCULA. Se a palavra for composta, a segunda palavra deve também ser maiúscula, exemplo:
 
     `Calculadora.java`, `CalculadoraCientifica.java`
 * **Nome da classe no arquivo**: A classe deve possuir o mesmo nome do arquivo.java, exemplo:
@@ -38,7 +40,7 @@ public class CalculadoraCientifica {
 }
 ```
 
-* **Nome de variável**: toda variável deve ser escrita com letra minúscula, porém se a palavra for composta, a primeira letra da segunda palavra deverá ser MAIÚSCULA, exemplo: `ano` e `ano`**`F`**`abricacao.`
+* **Nome de variável**: toda variável deve ser escrita com letra minúscula, porém se a palavra for composta, a primeira letra da segunda palavra deverá ser MAIÚSCULA, exemplo: `ano` e `anoFabricacao`. O nome dessa prática para nomear variáveis dessa forma se chama "camelCase".&#x20;
 
 {% hint style="info" %}
 Existe uma regra adicional para variáveis quando na mesma queremos identificar que ela não sofrerá alteração de valor, exemplo: queremos determinar que uma variável de nome **br** sempre representará **"Brasil"** e nunca mudará seu valor, logo, determinamos como escrita o código abaixo:
@@ -82,7 +84,7 @@ int longo = 1;
 
 Como identificar que entre declaração de variáveis e métodos em nossa programa? Existe uma estrutura comum para ambas as finalidades, exemplo:
 
-* Declarar uma variável em Java é sempre a seguinte estrutura
+* Declarar uma variável em Java segue sempre a seguinte estrutura:
 
 ```java
 // Estrutura
@@ -120,7 +122,7 @@ Basicamente **indentar** é um termo utilizado para escrever o código do progra
 
 ![](<../.gitbook/assets/image (5) (1) (1).png>)
 
-Abaixo veja um exemplo de um algoritmo de validação de aprovação de estudante de forma sem e com identação:
+Abaixo, veja um exemplo de um algoritmo de validação de aprovação de estudante. Em uma aba, temos um código sem identação nenhuma, e na outra aba, temos o mesmo código seguindo um padrão de identação. Observe como é muito mais fácil entender a hierarquia do código na segunda aba.&#x20;
 
 {% tabs %}
 {% tab title="Sem Identação" %}
@@ -160,7 +162,7 @@ public class BoletimEstudantil {
 
 ## Organizando arquivos
 
-À medida que nosso sistema vai sendo evoluído, surgem novos arquivos (código fonte) em nossa estrutura de arquivos do projeto. Isso exige que seja realizado uma organização destes arquivos através de pacotes (packages).
+À medida que nosso sistema vai evoluindo, surgem novos arquivos (código fonte) em nossa estrutura de arquivos do projeto. Isso exige que seja realizado uma organização destes arquivos através de pacotes (packages).
 
 ![Ilustração de uso de pacotes](<../.gitbook/assets/image (2).png>)
 
@@ -171,20 +173,20 @@ Com o uso de pacotes as nossas classes (.java) passam a possuir duas identifica�
 
 ## Java Beans
 
-Umas das maiores dificuldades na programação é escrever algoritmos legíveis a níveis que sejam compreendidos por todo seu time ou por você mesmo no futuro. Para isso a linguagem Java sugere através de convenções formas de escrita universal para nossas classes, atributos, métodos e pacotes.
+Umas das maiores dificuldades na programação é escrever algoritmos legíveis a níveis que sejam compreendidos por todo seu time ou por você mesmo no futuro. Para isso a linguagem Java sugere, através de convenções, formas de escrita universal para nossas classes, atributos, métodos e pacotes.
 
 #### Variáveis
 
 Mais cedo já aprendemos algumas regras de declaração de variáveis, mas agora iremos conhecer algumas sugestões de de nomenclatura:
 
 * Uma variável deve ser clara, sem abreviações ou definição sem sentido;
-* Uma variável é sempre no singular, exceto quando se referir a um array ou coleção.
-* Defina um idioma única para suas variáveis.
+* Uma variável é sempre no singular, **exceto quando se referir a um array ou coleção**.
+* Defina um idioma único para suas variáveis. Se você for declarar variáveis em inglês, defina todas em inglês.&#x20;
 
 #### Não recomendado
 
 ```java
-double salMedio = 1500.23  //variável abreviada
+double salMedio = 1500.23  //variável abreviada, o que dificulta a compreensão
 String emails = "aluno@escola.com" //confuso se a variável seria um array ou único e-mail
 String myName = "JOSEPH" //se idioma pt-BR, o valor poder ser de outro idioma mas o nome da variável não 
 ```
@@ -200,7 +202,7 @@ String meuNome = "JOSEPH"
 
 #### Métodos
 
-Os métodos deverão ser nomeados com verbos, através de uma mistura de letras minúsculas e maiúsculas. Em princípio todas as letras que compõem o nome devem ser mantidas em minúsculo, com exceção da primeira letra de cada palavra composta a partir da segunda palavra.
+Os métodos deverão ser nomeados como verbos, através de uma mistura de letras minúsculas e maiúsculas. Em princípio todas as letras que compõem o nome devem ser mantidas em minúsculo, com exceção da primeira letra de cada palavra composta a partir da segunda palavra.
 
 Exemplos sugeridos para nomenclatura de métodos:
 
@@ -218,9 +220,13 @@ calcularImprimir(){} // há algo de errado neste método, ele deveria ter uma ú
 
 ## Getters e Setters
 
-É comum  nossos objetos terem atributos ou características que podem ser definido ou obtido os seus valores/estado através da instância de um objeto.
+Os métodos "Getters" e "Setters" são utilizados para buscar valores de atributos ou definir novos valores de atributos de instâncias de classes.
 
-Vamos o código abaixo da criação de um objeto Aluno com nome e idade:
+O método "Getter" retorna o valor do atributo especificado.
+
+O método "Setter" define outro novo valor para o atributo especificado.&#x20;
+
+Vemos o código abaixo da criação de um objeto Aluno com nome e idade:
 
 ```java
 //arquivo Aluno.java
@@ -250,7 +256,7 @@ Seguindo a convenção Java Beans, uma classe que contém esta estrutura de esta
 * Os atributos precisam ter o modificador de acesso `private`. Ex.: private String nome;
 * Como agora os atributos estarão somente a nível de classe, precisaremos dos métodos **get**X e **set**X, Ex.: getNome() e setNome(String novoNome);
 * O método **get** é responsável por obter o valor atual do atributo, logo ele precisa ser `public` retornar um tipo correspondente ao valor, Ex.: `public String getNome() {}`;
-* O método **set** é responsável por definir ou modificador o valor de um atributo em um objeto, logo também ele precisa ser `public`, receber um parâmetro do mesmo tipo da variável mas não retorna nenhum valor void. Ex.: `public void setNome(String newNome)`;
+* O método **set** é responsável por definir ou modificador o valor de um atributo em um objeto, logo ele também precisa ser `public`, receber um parâmetro do mesmo tipo da variável mas não retorna nenhum valor void. Ex.: `public void setNome(String newNome)`;
 
 ```
 //arquivo Aluno.java
