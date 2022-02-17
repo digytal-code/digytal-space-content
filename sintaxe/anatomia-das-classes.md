@@ -258,7 +258,7 @@ Seguindo a convenção Java Beans, uma classe que contém esta estrutura de esta
 * O método **get** é responsável por obter o valor atual do atributo, logo ele precisa ser `public` retornar um tipo correspondente ao valor, Ex.: `public String getNome() {}`;
 * O método **set** é responsável por definir ou modificador o valor de um atributo em um objeto, logo ele também precisa ser `public`, receber um parâmetro do mesmo tipo da variável mas não retorna nenhum valor void. Ex.: `public void setNome(String newNome)`;
 
-```
+```java
 //arquivo Aluno.java
 public class Aluno {
 	private String nome;
@@ -295,7 +295,7 @@ A proposta do código acima é a mesma que o código anterior, a diferença é q
 
 Uso do `this` no método set. É muito comum vermos nossos metodos de definição ter a seguinte sintaxe:
 
-```
+```java
 //arquivo Aluno.java
 private String nome;
 
