@@ -24,4 +24,4 @@ Seguindo algumas convenções, as nossas classes são classificadas como:
 * **Classe de controladora**: classes que possuem a finalidade de disponibilizar alguma comunicação externa à nossa aplicação, tipo http web ou webservices.
 * **Classe utilitária**:  classe que contém recursos comuns à toda nossa aplicação.
 
-![](<../.gitbook/assets/image (7).png>)
+![Modelo aplicado em grande parte dos projetos atuais](<../.gitbook/assets/image (7).png>)
