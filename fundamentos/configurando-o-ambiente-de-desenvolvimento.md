@@ -1,4 +1,4 @@
-# Configuração do ambiente
+# Configurando o ambiente
 
 Para começar a desenvolver em Java é necessário que tenhamos o JDK instalado.
 
@@ -7,6 +7,10 @@ Para começar a desenvolver em Java é necessário que tenhamos o JDK instalado.
 {% endhint %}
 
 ### Instalando o JDK no Windows
+
+{% hint style="info" %}
+Algumas IDEs como o [VSCode](https://code.visualstudio.com/docs/java/java-tutorial) já consegue baixar e instalar o JDK e configurá de forma fácil.
+{% endhint %}
 
 * Busque no Google por Java [JDK xxx](https://www.oracle.com/br/java/technologies/javase/javase8-archive-downloads.html) (versão desejada)
 * Selecione a opção **.exe** de acordo com o seu sistema operacional. No meu exemplo eu baixei a versão: [jdk-8u202-windows-x64.exe](https://www.oracle.com/br/java/technologies/javase/javase8-archive-downloads.html#license-lightbox)

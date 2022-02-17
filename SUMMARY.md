@@ -6,7 +6,7 @@
 
 * [Java e sua história](fundamentos/java-e-sua-historia.md)
 * [Plataformas](fundamentos/plataformas.md)
-* [Configuração do ambiente](fundamentos/configurando-o-ambiente-de-desenvolvimento.md)
+* [Configurando o ambiente](fundamentos/configurando-o-ambiente-de-desenvolvimento.md)
 * [Escolha sua IDE](fundamentos/escolha-sua-ide.md)
 
 ## Sintaxe
