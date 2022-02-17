@@ -7,7 +7,7 @@ As classes existentes em nosso projeto serão composta por:&#x20;
 **Identificador**, **Características** e **Comportamentos**.
 
 * **Classe** _(class)_: A estrutura e ou representação que direciona a criação dos objetos de mesmo tipo.
-* **Identificador** (propósito):&#x20;
+* **Identificador** (identity): Propósito existencial aos objetos que serão criados.&#x20;
 * **Características** _(states)_**:** Também conhecido como **atributos** ou **propriedades**, é toda informação que representa o estado do objeto.
 * **Comportamentos** _(behavior)_**:** Também conhecido como **ações** ou **métodos**, é toda parte comportamental que um objeto dispõe.
 * **Instanciar** _(new)_**:** É o ato de criar um objeto a partir de estrutura definida em uma classe. &#x20;
