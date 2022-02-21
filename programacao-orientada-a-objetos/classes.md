@@ -25,3 +25,7 @@ Seguindo algumas convenções, as nossas classes são classificadas como:
 * **Classe utilitária**:  classe que contém recursos comuns à toda nossa aplicação.
 
 ![Modelo aplicado em grande parte dos projetos atuais](<../.gitbook/assets/image (7).png>)
+
+{% hint style="success" %}
+Exercite a distribuição de classes por papéis dentro da sua aplicação para que se possa determinar a estrutura mais conveniente em cada arquivo do seu projeto.
+{% endhint %}
