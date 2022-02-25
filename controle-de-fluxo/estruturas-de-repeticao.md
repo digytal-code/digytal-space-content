@@ -214,4 +214,4 @@ public static void main(String[] args) {
 
 O laço **`do / while`** (na tradução literal para a língua portuguesa “faça…enquanto”), assim como o laço while, considera que enquanto uma determinada condição for válida o bloco de código será executado. Entretanto, **`do / while`** testa a condição após executar o código,sendo assim, mesmo que a condição seja considerada inválida no primeiro teste o bloco será executado pelo menos uma vez.
 
-![](<../.gitbook/assets/image (13).png>)
+![](<../.gitbook/assets/image (5).png>)

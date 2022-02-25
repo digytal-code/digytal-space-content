@@ -120,7 +120,7 @@ Como parte da estrutura de declaração de variáveis e métodos também temos o
 
 Basicamente **indentar** é um termo utilizado para escrever o código do programa de forma hierárquica, facilitando assim a visualização e o entendimento do programa.
 
-![](<../.gitbook/assets/image (5) (1) (1).png>)
+![](<../.gitbook/assets/image (5) (1) (1) (1).png>)
 
 Abaixo, veja um exemplo de um algoritmo de validação de aprovação de estudante. Em uma aba, temos um código sem identação nenhuma, e na outra aba, temos o mesmo código seguindo um padrão de identação. Observe como é muito mais fácil entender a hierarquia do código na segunda aba.&#x20;
 
