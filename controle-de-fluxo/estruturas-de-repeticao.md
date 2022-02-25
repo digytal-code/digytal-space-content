@@ -195,7 +195,7 @@ public static void main(String[] args) {
 		//if(valorDoce > mesada)
 			//valorDoce = mesada;
 		
-		System.out.println("Doce de valor: " + valorDoce + " Adicionado no carrinho");
+		System.out.println("Doce do valor: " + valorDoce + " Adicionado no carrinho");
 		mesada = mesada - valorDoce;
 	}
 	System.out.println(mesada);
