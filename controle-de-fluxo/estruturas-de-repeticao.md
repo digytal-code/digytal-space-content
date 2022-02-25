@@ -16,7 +16,7 @@ Laços ou repetições são representados pelas seguintes estruturas:
 
 O comando **`for`** (na tradução literal para a língua portuguesa “para”) permite que uma variável contadora seja testada e incrementada a cada iteração, sendo essas informações definidas na chamada do comando. O comando for recebe como entrada uma variável contadora, a condição e o valor de incrementarão.
 
-![](<../.gitbook/assets/image (14).png>)
+![](<../.gitbook/assets/image (14) (1).png>)
 
 A estrutura de sintaxe do controle de repetição **`for`** é exibida abaixo:
 
@@ -167,16 +167,14 @@ Observem que sempre o **`break`** e **`continue`** está condicinado a um crité
 
 O laço **`while`** (na tradução literal para a língua portuguesa “enquanto”) determina que enquanto uma condição for válida, o bloco de código será executado. O laço **`while`** testa a condição antes de executar o código, logo, caso a condição seja inválida no primeiro teste o bloco nem será executado.
 
-![](<../.gitbook/assets/image (12).png>)
-
-
+![](<../.gitbook/assets/image (14).png>)
 
 A estrutura de sintaxe do controle de repetição **`while`** é exibida abaixo:
 
 ```
 //estrutura do controle de fluxo while
 
-for (expressão booleana de validação)
+while (expressão booleana de validação)
 {
      // comando que será executado até que a 
      // expressão de validação torne-se falsa 
