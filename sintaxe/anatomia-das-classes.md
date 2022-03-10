@@ -82,7 +82,7 @@ int longo = 1;
 
 ## Declarando variáveis e métodos
 
-Como identificar que entre declaração de variáveis e métodos em nossa programa? Existe uma estrutura comum para ambas as finalidades, exemplo:
+Como identificar entre declaração de variáveis e métodos em nossa programa? Existe uma estrutura comum para ambas as finalidades, exemplo:
 
 * Declarar uma variável em Java segue sempre a seguinte estrutura:
 
