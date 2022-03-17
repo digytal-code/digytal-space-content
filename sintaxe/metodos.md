@@ -10,7 +10,7 @@ Uma classe é definida por atributos e métodos. Já vimos que atributos são, e
 
 Esses critérios não são obrigatórios, mas é recomendável que sejam seguidos, pois essas convenções facilitam a vida dos programadores ao trabalharem em códigos de forma colaborativa. Ao seguir estas convenções, tornamos o código mais legível para nós e também para outras pessoas. Para métodos, os critérios são:&#x20;
 
-* Devem ser nomeados com verbos
+* Deve ser nomeado como verbo
 * Seguir o padrão camelCase (Todas as letras minúsculas com a exceção da primeira letra da segunda palavra).
 
 Exemplos sugeridos para nomenclatura de métodos:
