@@ -18,6 +18,7 @@
 * [Escopo](sintaxe/escopo.md)
 * [Palavras reservadas](sintaxe/palavras-reservadas.md)
 * [Documentação](sintaxe/documentacao.md)
+* [Terminal e Argumentos](sintaxe/terminal-e-argumentos.md)
 
 ## Controle de fluxo
 
