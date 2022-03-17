@@ -17,6 +17,7 @@
 * [Métodos](sintaxe/metodos.md)
 * [Escopo](sintaxe/escopo.md)
 * [Palavras reservadas](sintaxe/palavras-reservadas.md)
+* [Documentação](sintaxe/documentacao.md)
 
 ## Controle de fluxo
 
