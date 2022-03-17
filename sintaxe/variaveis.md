@@ -1,4 +1,4 @@
-# Variáveis
+# Tipos e Variáveis
 
 ## Tipos de dados
 
@@ -73,6 +73,26 @@ public class TipoDados {
 
 {% hint style="warning" %}
 Observe que o tipo long precisa terminar com L, o tipo float precisa terminar com F e alguns cenários do dia-a-dia podem estimular uma alteração de tipos de dados convencional.
+{% endhint %}
+
+Muitas das vezes criamos uma variável, definimos um valor correspondente, manipulamos esta variável e temos consciência de seu valor na aplicação. Mas cuidado !!
+
+{% hint style="warning" %}
+Java é fortemente "tipado"
+{% endhint %}
+
+Veja o cenário abaixo:
+
+```java
+// TiposEVariaveis.java
+
+short numeroCurto = 1;
+int numeroNormal = numeroCurto;
+short numeroCurto2 = numeroNormal;
+```
+
+{% hint style="info" %}
+Por mais que temos ciência que valor de `numeroNormal` cabe é um short, o **Java** não permite correr o risco.
 {% endhint %}
 
 ## Variáveis e Constantes
