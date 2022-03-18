@@ -44,6 +44,8 @@ _O ponto mais relevante em compreender a definição dos tipos de dados é o mom
 
 ## Declaração de Variáveis
 
+Variável é uma identificação de um espaço em memória utilizado pelo nosso programa. Seguindo as convenções em linguagem de programação, toda variável é composta por: tipo de dados + identificação + valor atribuído.
+
 A estrutura padrão para se declarar uma variável sempre é:
 
 `<Tipo> <nomeVariavel> <atribuicaoDeValorOpcional>`
