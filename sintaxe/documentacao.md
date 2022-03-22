@@ -61,6 +61,14 @@ public class Calculadora {
 {% endtab %}
 {% endtabs %}
 
+Criando nossa documentação no formato html para disponibilizar via web.
+
+```
+// No terminal execute o comando abaixo
+
+javadoc  -d ../docs  src/*.java
+```
+
 
 
 ## Comentários
