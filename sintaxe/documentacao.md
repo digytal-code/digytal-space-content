@@ -45,7 +45,7 @@ public class Calculadora {
     /**
    * Este método é utilizado para somar dois números inteiros
    * @param numeroUm este é o primeiro parâmetro do método
-   * @param numeroUm este é o segundo parâmetro do método
+   * @param numeroDois este é o segundo parâmetro do método
    * @return int o resultado deste método é a soma dos dois números.
    */
     public int somar(int numeroUm, int numeroDois) {
@@ -56,8 +56,8 @@ public class Calculadora {
 ```
 {% endtab %}
 
-{% tab title="Second Tab" %}
-
+{% tab title="Guia" %}
+![](<../.gitbook/assets/image (15).png>)
 {% endtab %}
 {% endtabs %}
 
