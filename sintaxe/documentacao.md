@@ -25,6 +25,42 @@ Mas e quais as informações que obtemos através de classes documentadas na lin
 | @return  | Definição do tipo de retorno de um método              |
 | @throws  | Se o método lança alguma exceção                       |
 
+Abaixo iremos ilustrar a classe Calculadora com um exemplo de documentação destacando as **tags** mais utilizadas.
+
+{% tabs %}
+{% tab title="Código" %}
+```java
+/**
+* <h1>Calculadora</h1>
+* A Calculadora realiza operações matemáticas entre números inteiros
+* <p>
+* <b>Note:</b> Leia atentamente a documentação desta classes
+* para desfrutar dos recursos oferecidos pelo autor
+*
+* @author  Gleyson Sampaio
+* @version 1.0
+* @since   01/01/2022
+*/
+public class Calculadora {
+    /**
+   * Este método é utilizado para somar dois números inteiros
+   * @param numeroUm este é o primeiro parâmetro do método
+   * @param numeroUm este é o segundo parâmetro do método
+   * @return int o resultado deste método é a soma dos dois números.
+   */
+    public int somar(int numeroUm, int numeroDois) {
+        return  numeroUm + numeroDois;
+    }
+}
+
+```
+{% endtab %}
+
+{% tab title="Second Tab" %}
+
+{% endtab %}
+{% endtabs %}
+
 
 
 ## Comentários
