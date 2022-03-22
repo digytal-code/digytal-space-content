@@ -12,6 +12,21 @@ Aqui temos o link da documentação de uma das principais classes da linguagem J
 Documentação da classe String na versão 7 da linguagem
 {% endembed %}
 
+## Tags
+
+Mas e quais as informações que obtemos através de classes documentadas na linguagem ? Java Documentation é composto por tags que representam dados relevantes para a compreensão da proposta de uma classe e os conjunto de seus métodos e atributos conforme tabela abaixo:
+
+| Tag      | Descrição                                       |
+| -------- | ----------------------------------------------- |
+| @autor   | Autor / Criador                                 |
+| @version | Versão do recurso disponibilizado               |
+| @since   | Versão de início da disponibilização do recurso |
+| @param   | Descrição dos parâmetros dos métodos criados    |
+| @return  | Definição do tipo de retorno de um método       |
+| @throws  | Se o método lança alguma exceção                |
+
+
+
 ## Comentários
 
 a
