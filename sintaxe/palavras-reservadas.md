@@ -53,7 +53,7 @@ A linguagem Java possui 52 palavras reservadas. Todas essas palavras são classi
 | Método   | public ou protected ou private + static ou final ou abstract + void e return | **void** em caso de não ter retorno ou **return** se houver          |
 | Atributo | public ou protected ou private + static ou final + tipo primitivo            | ****                                                                 |
 
-#### Palavras opostas
+#### Palavras "opostas"
 
 Assim como nas classificações gramaticais da língua portuguesa, existem algumas palavras que são completamente opostas (antônimas) na linguagem Java conforme tabela abaixo:
 
