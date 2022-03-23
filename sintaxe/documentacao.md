@@ -93,6 +93,27 @@ public class Calculadora {
 {% endtab %}
 {% endtabs %}
 
+{% hint style="danger" %}
+Um comentário não possui a finalidade de **amenizar** um algoritmo não estruturado conforme as convenções da linguagem.&#x20;
+{% endhint %}
+
+```java
+/*
+ * Este método foi elaborado as pressas
+ * por isso eu abrevei o nome das variáveis
+ * /
+public int somas (int n, String m, int x){
+    int r = 0; // r é igual ao resultado
+    if (m == "M"){ // M= multiplicação
+        r= n * x;
+    }else{
+        // se não soma mesmo
+        r = n + x
+    }
+    return r;
+}
+```
+
 Criando nossa documentação no formato html para disponibilizar via web.
 
 ```
@@ -103,6 +124,4 @@ javadoc -encoding UTF-8 -docencoding ISO-8859-1  -d ../docs  src/*.java
 
 
 
-## Comentários
-
-a
+##
