@@ -1,5 +1,5 @@
 ---
-description: Todas as ações da aplicações são consideradas métodos.
+description: Todas as ações das aplicações são consideradas métodos.
 ---
 
 # Métodos
