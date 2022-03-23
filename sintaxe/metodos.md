@@ -62,6 +62,12 @@ public class MyClass {
 		//AQUI NÃO PRECISA DO RETURN
 		//POIS NÃO SERÁ RETORNADO NENHUM RESULTADO
 	}
+	// throws Exception : indica que o método ao ser utilizado
+	// poderá gerar uma exceção
+	public double dividir(int dividendo, int divisor) throws Exception{}
+	
+	// este método não pode ser visto por outras classes no projeto
+	private void metodoPrivado(){}
 	
 	//alguns equívocos estruturais
 	public void validar(){
