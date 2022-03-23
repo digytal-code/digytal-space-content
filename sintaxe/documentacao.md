@@ -61,6 +61,38 @@ public class Calculadora {
 {% endtab %}
 {% endtabs %}
 
+### Tipos de comentários
+
+{% tabs %}
+{% tab title="One Line" %}
+```
+// Olá, eu sou um comentário em uma única linha
+```
+{% endtab %}
+
+{% tab title="Mult Line" %}
+```
+/* Olá,
+ * Eu sou um comentario
+ * que posso ser mais detalhadod
+ * quando necessário
+ */
+```
+{% endtab %}
+
+{% tab title="Documentation" %}
+```
+/** 
+ * Estas duas estrelinhas acima
+ * é para identificar que você
+ * pretende elaborar um comentário
+ * a nível de documentação.
+ * Que incrível !!!
+ */
+```
+{% endtab %}
+{% endtabs %}
+
 Criando nossa documentação no formato html para disponibilizar via web.
 
 ```
