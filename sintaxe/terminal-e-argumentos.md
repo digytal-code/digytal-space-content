@@ -38,3 +38,9 @@ Vamos ilustrar como executar uma classe, depois de compilada, sem precisar usar 
 ![](<../.gitbook/assets/image (14).png>)
 
 ## Argumentos
+
+Quando executamos uma classe que contenha o método main, o mesmo permite que passemos um array `[]` de argumentos do tipo String. Logo podemos após a definição da classe a ser executada informar estes parâmetros, exemplo:
+
+```
+java MinhaClasse agumentoUm argumentoDois
+```
