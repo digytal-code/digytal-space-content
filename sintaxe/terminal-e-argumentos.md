@@ -26,7 +26,7 @@ Mesmo usando uma IDE, nós sempre precisaremos identificar aonde se encontram as
 
 ![](<../.gitbook/assets/image (6).png>)
 
-## MS-DOS
+## Terminal
 
 Vamos ilustrar como executar uma classe, depois de compilada, sem precisar usar a IDE.
 
@@ -36,3 +36,5 @@ Vamos ilustrar como executar uma classe, depois de compilada, sem precisar usar 
 4. Agora digite o comando:**`java MinhaClasse` ** _(nome da sua classe sem a extensão .**class**)_&#x20;
 
 ![](<../.gitbook/assets/image (14).png>)
+
+## Argumentos
