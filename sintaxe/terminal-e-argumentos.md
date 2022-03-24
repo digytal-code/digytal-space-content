@@ -15,3 +15,7 @@ public class MinhaClasse {
     }
 }
 ```
+
+{% hint style="info" %}
+Observe que nosso projeto Java criado por um IDE, ele terá uma pasta chamada **bin**. É nesta pasta que ficarão os arquivos **.class**, o nosso `bytecode`.
+{% endhint %}
