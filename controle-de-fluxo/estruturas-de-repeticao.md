@@ -28,7 +28,7 @@ for (bloco de inicialização; expressão booleana de validação; bloco de atua
 }
 ```
 
-![](<../.gitbook/assets/image (14) (1).png>)
+![](<../.gitbook/assets/image (14) (1) (1).png>)
 
 Vamos imaginar que Joãozinho precisa contar até 20 carneirinhos para pegar no sono:
 
@@ -179,7 +179,7 @@ while (expressão booleana de validação)
 }
 ```
 
-![](<../.gitbook/assets/image (14).png>)
+![](<../.gitbook/assets/image (14) (1).png>)
 
 Joãozinho recebeu R$ 50,00 de mesada e foi em uma loja de doces gastar toda mesada, logo, enquanto o valor dos doces não igualar a R$ 50,00 ele foi adicionando itens no carrinho.
 

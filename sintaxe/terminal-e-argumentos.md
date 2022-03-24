@@ -19,3 +19,9 @@ public class MinhaClasse {
 {% hint style="info" %}
 Observe que nosso projeto Java criado por um IDE, ele terá uma pasta chamada **bin**. É nesta pasta que ficarão os arquivos **.class**, o nosso `bytecode`.
 {% endhint %}
+
+![](<../.gitbook/assets/image (14).png>)
+
+Mesmo usando uma IDE, nós sempre precisaremos identificar aonde se encontram as classes do nosso projeto, no meu caso está em: **C:\estudos\dio-trilha-java-basico\java-terminal.**
+
+****
