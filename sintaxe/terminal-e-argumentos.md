@@ -25,3 +25,12 @@ Observe que nosso projeto Java criado por um IDE, ele terá uma pasta chamada **
 Mesmo usando uma IDE, nós sempre precisaremos identificar aonde se encontram as classes do nosso projeto, no meu caso está em: **C:\estudos\dio-trilha-java-basico\java-terminal.**
 
 ![](<../.gitbook/assets/image (6).png>)
+
+## MS-DOS
+
+Vamos ilustrar como executar uma classe, depois de compilada, sem precisar usar a IDE.
+
+1. Abra o MS-DOS ou Power Shell
+2. Localize o diretório do seu projeto: **`cd C:\estudos\dio-trilha-java-basico\java-terminal`**
+3. Acesse a pasta **** _bin_: ** `cd bin`**
+4. Agora digite o comando ``` `**`java MinhaClasse` ** _(nome da sua classe sem a extensão .**class**)_&#x20;
