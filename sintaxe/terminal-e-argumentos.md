@@ -5,3 +5,13 @@ Nem sempre executamos nosso programa Java pelo terminal, já pensou nossos clien
 Com a JVM devidamente configurada, nós podemos criar um executável do nosso programa e disponibilizar o instalador para qualquer sistema operacional.
 
 No nosso caso iremos aprender como executar um programa Java via terminal como MS - DOS ou terminal do VsCode.
+
+Vamos criar uma classe chamada `MinhaClasse.java` com o código abaixo:
+
+```java
+public class MinhaClasse {
+    public static void main(String[] args) {
+        System.out.println("Oi, fui executado pelo Terminal");
+    }
+}
+```
