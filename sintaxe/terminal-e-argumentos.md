@@ -64,7 +64,7 @@ public class AboutMe {
 
 ```
 
-Passando valores aos argumentos pelo VsCode.
+**Passando valores aos argumentos pelo VsCode.**
 
 ![](<../.gitbook/assets/image (12).png>)
 
@@ -82,6 +82,16 @@ Passando valores aos argumentos pelo VsCode.
         }
     ]
 }
+```
+
+Executando o programa agora no terminal
+
+```
+cd C:\estudos\dio-trilha-java-basico\java-terminal
+cd bin
+
+java AboutMe GLEYSON SAMPAIO 28 1.58
+
 ```
 
 
