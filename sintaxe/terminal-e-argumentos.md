@@ -44,3 +44,7 @@ Quando executamos uma classe que contenha o método main, o mesmo permite que pa
 ```
 java MinhaClasse agumentoUm argumentoDois
 ```
+
+{% embed url="https://code.visualstudio.com/docs/java/java-debugging" %}
+
+{% embed url="https://linuxtut.com/pass-parameters-when-debugging-vscode-java.-note-462e0" %}
