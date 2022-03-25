@@ -23,7 +23,7 @@ Algumas IDEs como o [VSCode](https://code.visualstudio.com/docs/java/java-tutori
 
 * Após realizar o download, executar o instalador para instalar o Java no Windows. Este processo instalará tanto o **JDK** quanto a **JRE**.
 
-![](<../.gitbook/assets/image (12) (1).png>)
+![](<../.gitbook/assets/image (12) (1) (1).png>)
 
 {% hint style="warning" %}
 Evite mudar o diretório de instalação

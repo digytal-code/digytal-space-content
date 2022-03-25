@@ -59,12 +59,32 @@ public class AboutMe {
         System.out.println("Ola, me chamo " + nome + " " + sobrenome);
         System.out.println("Tenho " + idade + " anos ");
         System.out.println("Minha altura é " + altura + "cm ");
-        
-        
     }
 }
-jav
+
 ```
+
+Passando valores aos argumentos pelo VsCode.
+
+![](<../.gitbook/assets/image (12).png>)
+
+![](<../.gitbook/assets/image (8).png>)
+
+```json
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "request": "launch",
+            "mainClass": "AboutMe",
+            "args": ["GLEYSON", "SAMPAIO", "28", "1.58"]
+        }
+    ]
+}
+```
+
+
 
 {% embed url="https://code.visualstudio.com/docs/java/java-debugging" %}
 
