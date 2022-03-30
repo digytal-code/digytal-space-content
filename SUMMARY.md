@@ -31,3 +31,4 @@
 * [Conceito de POO](programacao-orientada-a-objetos/conceito-de-poo.md)
 * [Classes](programacao-orientada-a-objetos/classes.md)
 * [Getters e Setters](programacao-orientada-a-objetos/getters-e-setters.md)
+* [Instânciação](programacao-orientada-a-objetos/instanciacao.md)
