@@ -233,6 +233,8 @@ Joãozinho resolveu ligar para o seu amigo dizendo que hoje se entupiu de comer 
 
 ```java
 // ExemploDoWhile.java
+
+import java.util.Random;
 public class ExemploDovWhile {
 public static void main(String[] args) {
 	public static void main(String[] args) {
