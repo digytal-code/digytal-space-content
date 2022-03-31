@@ -19,3 +19,15 @@ A instrução`catch` permite definir um bloco de código a ser executado, caso o
 A instrução`finally` permite definir um bloco de código a ser executado independente de ocorrer um erro ou não.
 
 As palavras-chave `try`e `catch`vêm em pares:&#x20;
+
+Estrutura de um bloco com try e catch
+
+```java
+try {
+  //  bloco de código conforme esperado
+}
+catch(Exception e) {
+  // bloco de código que captura as exceções que podem acontecer
+  // em caso de um fluxo não previsto
+}
+```
