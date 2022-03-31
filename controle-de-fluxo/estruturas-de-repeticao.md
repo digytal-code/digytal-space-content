@@ -191,7 +191,7 @@ public static void main(String[] args) {
 	while(mesada>0) {
 		Double valorDoce = valorAleatorio();
 		if(valorDoce > mesada){
-			System.out.println("Este doce é mais caro que o valor restante");
+			System.out.println("Xiii muito caro, selecione outro doce !!");
 			continue;
 		}
 
