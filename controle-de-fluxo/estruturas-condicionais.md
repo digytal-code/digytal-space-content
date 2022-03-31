@@ -223,7 +223,7 @@ public class PlanoOperadora {
 ```
 
 {% hint style="warning" %}
-Se optarem por usar **`switch`** / **`case`**, estudem um  pouco mais sobre os conceitos de **`break`** e **`default`**
+Se optarem por usar **`switch`** / **`case`**, estudem um  pouco mais sobre os conceitos de **`continue`**, **`break`** e **`default`**
 {% endhint %}
 
 &#x20;
