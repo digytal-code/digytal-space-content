@@ -31,3 +31,15 @@ catch(Exception e) {
   // em caso de um fluxo não previsto
 }
 ```
+
+{% hint style="warning" %}
+O bloco **`try`** / **`catch`** pode conter um conjunto de **catchs** correspondentes a cada exceção que **prevista** em uma funcionalidade do programa.
+{% endhint %}
+
+### Mão na massa
+
+
+
+#### Referências
+
+{% embed url="https://www.w3schools.com/java/java_try_catch.asp" %}
