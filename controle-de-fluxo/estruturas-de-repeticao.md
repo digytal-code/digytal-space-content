@@ -190,9 +190,11 @@ public static void main(String[] args) {
 	double mesada = 50.0;
 	while(mesada>0) {
 		Double valorDoce = valorAleatorio();
-		//if(valorDoce > mesada)
-			//valorDoce = mesada;
-		
+		if(valorDoce > mesada){
+			System.out.println("Este doce é mais caro que o valor restante");
+			continue;
+		}
+
 		System.out.println("Doce do valor: " + valorDoce + " Adicionado no carrinho");
 		mesada = mesada - valorDoce;
 	}
