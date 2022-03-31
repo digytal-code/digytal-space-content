@@ -73,6 +73,10 @@ public class AboutMe {
 
 Aparentemente é um programa simples, mas vamos listar alguns possíveis exceções que podem acontencer.
 
+* Não informar o nome e sobrenome
+* O valor da idade ter um caractere NÃO numérico
+* O valor da altura ter uma vírgula ou invês de ser um ponto _**(conforme padrão americano)**_
+
 
 
 
