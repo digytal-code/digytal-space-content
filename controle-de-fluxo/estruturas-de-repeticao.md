@@ -185,6 +185,7 @@ Joãozinho recebeu R$ 50,00 de mesada e foi em uma loja de doces gastar todo o s
 
 ```java
 // ExemploWhile.java
+import java.util.concurrent.ThreadLocalRandom;
 public class ExemploWhile {
 public static void main(String[] args) {
 	double mesada = 50.0;
