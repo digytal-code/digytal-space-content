@@ -48,7 +48,7 @@ public class ResultadoEscolar {
 ```
 
 {% hint style="success" %}
-Vale ressaltar aqui que no Java um bloco **`if/else`** as vezes necessita de adicionar um bloco de **`{ }`**se a lógica conter mais de uma linha.
+Vale ressaltar aqui que no Java uma condição **`if/else`** as vezes necessita de adicionar um bloco de **`{ }`**se a lógica conter mais de uma linha.
 {% endhint %}
 
 ## Condicionais encadeadas
