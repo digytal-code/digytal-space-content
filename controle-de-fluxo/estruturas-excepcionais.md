@@ -8,33 +8,7 @@ Quando ocorre um erro, o Java normalmente para e gera uma mensagem de erro. O te
 
 De forma interpretativa em Java, um erro é algo irreparável, a aplicação trava ou é encerrada drasticamente. Já exceções é um fluxo inesperado da nossa aplicação, exemplo: Querer dividir um valor por zero, querer abrir um arquivo que não existe, abrir uma conexão de banco com usuário ou senha inválida. Todos estes cenários e os demais não são erros mas sim fluxos não previstos pela aplicação.
 
-É ai que entra mais uma responsabilidade do desenvolvedor, prever situações iguais a estas e realizar o que denominas de _**Tratamento de Exceções**_.
-
-### Java tente e pegue
-
-A instrução `try` permite que você defina um bloco de código para ser testado quanto a erros enquanto está sendo executado.
-
-A instrução`catch` permite definir um bloco de código a ser executado, caso ocorra um erro no bloco try.
-
-A instrução`finally` permite definir um bloco de código a ser executado independente de ocorrer um erro ou não.
-
-As palavras-chave `try`e `catch`vêm em pares:&#x20;
-
-Estrutura de um bloco com try e catch
-
-```java
-try {
-  //  bloco de código conforme esperado
-}
-catch(Exception e) {
-  // bloco de código que captura as exceções que podem acontecer
-  // em caso de um fluxo não previsto
-}
-```
-
-{% hint style="warning" %}
-O bloco **`try`** / **`catch`** pode conter um conjunto de **catchs** correspondentes a cada exceção que **prevista** em uma funcionalidade do programa.
-{% endhint %}
+É ai que entra mais uma responsabilidade do desenvolvedor, prever situações iguais a estas e realizar o que denominamos de _**Tratamento de Exceções**_.
 
 ### Mão na massa
 
