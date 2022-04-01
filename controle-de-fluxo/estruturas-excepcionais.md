@@ -91,6 +91,16 @@ A melhor forma de prever que pode ocorrer uma exceção, é pensar que ela pode 
 _**Lei de Murphy**_
 {% endhint %}
 
+### Conhecendo algumas exceções já mapeadas
+
+A linguagem Java dispõe de uma vasta lista de classes que representam exceções, abaixo iremos apresentar as mais comuns:
+
+| Nome | Causa |
+| ---- | ----- |
+|      |       |
+|      |       |
+|      |       |
+
 
 
 
