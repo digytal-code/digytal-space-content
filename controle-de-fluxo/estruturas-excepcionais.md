@@ -106,9 +106,13 @@ A linguagem Java dispõe de uma vasta lista de classes que representam exceçõe
 
 E quando inevitavelmente ocorrer uma exceção? Como nós desenvolvedores podemos ajustar o nosso algoritmo para amenizar o ocorrido?
 
-{% hint style="warning" %}
-O bloco **`try`** / **`catch`** pode conter um conjunto de **catchs** correspondentes a cada exceção que **prevista** em uma funcionalidade do programa.
-{% endhint %}
+A instrução **`try`** permite que você defina um bloco de código para ser testado quanto a erros enquanto está sendo executado.&#x20;
+
+A instrução **`catch`** permite definir um bloco de código a ser executado, caso ocorra um erro no bloco try.&#x20;
+
+A instrução **`finally`** permite definir um bloco de código a ser executado independente de ocorrer um erro ou não. As palavras-chave `try` e `catch` vêm em pares:&#x20;
+
+Estrutura de um bloco com try e catch
 
 ```java
 try {
@@ -120,17 +124,11 @@ catch(Exception e) {
 }
 ```
 
-Estrutura de um bloco com try e catch
+{% hint style="warning" %}
+O bloco **`try`** / **`catch`** pode conter um conjunto de **catchs** correspondentes a cada exceção que **prevista** em uma funcionalidade do programa.
+{% endhint %}
 
-As palavras-chave `try`e `catch`vêm em pares:&#x20;
 
-A instrução`finally` permite definir um bloco de código a ser executado independente de ocorrer um erro ou não.
-
-A instrução`catch` permite definir um bloco de código a ser executado, caso ocorra um erro no bloco try.
-
-A instrução `try` permite que você defina um bloco de código para ser testado quanto a erros enquanto está sendo executado.
-
-### Java tente e pe
 
 &#x20;
 
