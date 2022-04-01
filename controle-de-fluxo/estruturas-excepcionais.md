@@ -102,7 +102,9 @@ catch(Exception e) {// precisamos saber qual exceção
 O bloco **`try`** / **`catch`** pode conter um conjunto de **catchs** correspondentes a cada exceção que **prevista** em uma funcionalidade do programa.
 {% endhint %}
 
+### Hierarquia das exceções
 
+asd
 
 &#x20;
 
