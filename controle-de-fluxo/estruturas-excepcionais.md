@@ -102,10 +102,42 @@ A linguagem Java dispõe de uma vasta lista de classes que representam exceçõe
 | java.sql.SQLException          | Quando existe algum erro relacionado a interação com banco de dados. |
 | java.io.FileNotFoundException  | Quando tentamos ler ou escrever em um arquivo que não existe.        |
 
+### Tratamento de exceções
 
+E quando inevitavelmente ocorrer uma exceção? Como nós desenvolvedores podemos ajustar o nosso algoritmo para amenizar o ocorrido?
+
+{% hint style="warning" %}
+O bloco **`try`** / **`catch`** pode conter um conjunto de **catchs** correspondentes a cada exceção que **prevista** em uma funcionalidade do programa.
+{% endhint %}
+
+```java
+try {
+  //  bloco de código conforme esperado
+}
+catch(Exception e) {
+  // bloco de código que captura as exceções que podem acontecer
+  // em caso de um fluxo não previsto
+}
+```
+
+Estrutura de um bloco com try e catch
+
+As palavras-chave `try`e `catch`vêm em pares:&#x20;
+
+A instrução`finally` permite definir um bloco de código a ser executado independente de ocorrer um erro ou não.
+
+A instrução`catch` permite definir um bloco de código a ser executado, caso ocorra um erro no bloco try.
+
+A instrução `try` permite que você defina um bloco de código para ser testado quanto a erros enquanto está sendo executado.
+
+### Java tente e pe
+
+&#x20;
 
 
 
 #### Referências
 
 {% embed url="https://www.w3schools.com/java/java_try_catch.asp" %}
+
+{% embed url="https://www.oracle.com/br/technical-resources/article/java/erros-java-exceptions.html" %}
