@@ -79,12 +79,12 @@ Aparentemente é um programa simples, mas vamos listar alguns possíveis exceç�
 
 Executando o nosso programa com os valores abaixo, vamos entender qual exceção acontecerá:
 
-| Entrada               | Valor       | Exceção | Causa |
-| --------------------- | ----------- | ------- | ----- |
-| Digite seu nome:      | **Marcelo** |         |       |
-| Digite seu sobrenome: | **Azevedo** |         |       |
-| Digite sua idade:     | **QUINZE**  |         |       |
-| Digite sua altura:    | **1,65**    |         |       |
+| Entrada               | Valor           | Exceção                          | Causa                                                  |
+| --------------------- | --------------- | -------------------------------- | ------------------------------------------------------ |
+| Digite seu nome:      | **Marcelo**     |                                  |                                                        |
+| Digite seu sobrenome: | **Azevedo**     |                                  |                                                        |
+| Digite sua idade:     | **quinze (15)** | java.util.InputMismatchException | O programa esperava o valor do tipo numérico  inteiro. |
+| Digite sua altura:    | **1,65**        |                                  |                                                        |
 
 
 
