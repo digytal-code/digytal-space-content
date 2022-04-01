@@ -77,7 +77,13 @@ Aparentemente é um programa simples, mas vamos listar alguns possíveis exceç�
 * O valor da idade ter um caractere NÃO numérico
 * O valor da altura ter uma vírgula ou invês de ser um ponto _**(conforme padrão americano)**_
 
-Executando o nosso programa com os valores abaixo:
+Executando o nosso programa com os valores abaixo, vamos entender qual exceção acontecerá:
+
+| Entrada          | Valor   | Exceção | Causa |
+| ---------------- | ------- | ------- | ----- |
+| Digite seu nome: | Marcelo | a       | a     |
+|                  |         |         |       |
+|                  |         |         |       |
 
 Digite seu nome : **MARCELO**
 
