@@ -95,11 +95,12 @@ _**Lei de Murphy**_
 
 A linguagem Java dispõe de uma vasta lista de classes que representam exceções, abaixo iremos apresentar as mais comuns:
 
-| Nome | Causa |
-| ---- | ----- |
-|      |       |
-|      |       |
-|      |       |
+| Nome                           | Causa                                                                |
+| ------------------------------ | -------------------------------------------------------------------- |
+| java.lang.NullPointerException | Quando tentamos obter alguma informação de uma variável nula.        |
+| java.lang.ArithmeticException  | Quando tentamos dividir um valor por zero.                           |
+| java.sql.SQLException          | Quando existe algum erro relacionado a interação com banco de dados. |
+| java.io.FileNotFoundException  | Quando tentamos ler ou escrever em um arquivo que não existe.        |
 
 
 
