@@ -106,7 +106,7 @@ O bloco **`try`** / **`catch`** pode conter um conjunto de **catchs** correspond
 
 asd
 
-&#x20;
+### &#x20;Throw versus Throws
 
 
 
