@@ -27,7 +27,7 @@ public class CaixaEletronico {
 
 ## Condicionais Composta
 
-Algumas vezes o nosso programa deverá seguir mais de uma jornada de execução condionado a uma regra de negócio, este cenário é demoninado **Estrutura Composto**. Vejamos o exemplo abaixo:
+Algumas vezes o nosso programa deverá seguir mais de uma jornada de execução condionado a uma regra de negócio, este cenário é demoninado **Estrutura Condicional Composta**. Vejamos o exemplo abaixo:
 
 ![](../.gitbook/assets/if-else.png)
 
