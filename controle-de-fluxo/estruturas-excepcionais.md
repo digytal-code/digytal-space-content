@@ -155,12 +155,6 @@ static String formatarCep(String cep) throws CepInvalidoException{
     }
 ```
 
-
-
-### &#x20;Throw versus Throws
-
-
-
 #### Referências
 
 {% embed url="https://www.w3schools.com/java/java_try_catch.asp" %}
