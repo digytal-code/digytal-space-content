@@ -40,12 +40,11 @@ public class AboutMe {
         System.out.println("Ola, me chamo " + nome.toUpperCase() + " " + sobrenome.toUpperCase());
         System.out.println("Tenho " + idade + " anos ");
         System.out.println("Minha altura é " + altura + "cm ");
-        scanner.close();
-        
-    }j
+        scanner.close();   
+    }
 ```
 
-Aparentemente é um programa simples, mas vamos listar alguns possíveis exceções que podem acontencer.
+Aparentemente é um programa simples, mas vamos listar algumas possíveis exceções que podem acontencer.
 
 * Não informar o nome e sobrenome
 * O valor da idade ter um caractere NÃO numérico
