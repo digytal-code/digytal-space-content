@@ -129,7 +129,7 @@ public class ExemploExcecao {
 ```
 
 {% hint style="info" %}
-As linhas 3 e 5 apresentarão uma exceção ao serem executadas, e a linha 5 contém um método que pode disparar uma exceção checada, logo nós programadores que iremos usar este método teremos que tratá-la explicitamente.
+As linhas 3 e 5 apresentarão uma exceção ao serem executadas, e a linha 5 contém um método que pode disparar uma exceção checada, logo nós programadores que iremos usar este método teremos que tratá-la explicitamente com **`try \ catch`**.
 {% endhint %}
 
 
