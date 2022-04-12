@@ -104,7 +104,7 @@ O bloco **`try`** / **`catch`** pode conter um conjunto de **catchs** correspond
 
 ### Hierarquia das exceções
 
-asd
+A linguagem Java dispõe de uma variedade de classes que representam exceções, e estas classes são organizadas em uma hierarquia denominadas **Checked and Unchecked Exceptions** ou _Exceções Checadas e Não Checadas_.&#x20;
 
 ### &#x20;Throw versus Throws
 
