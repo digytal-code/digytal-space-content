@@ -6,7 +6,7 @@ A Estrutura Condicional possibilita a escolha de um grupo de ações e comportam
 
 Quando ocorre uma validação de execução de fluxo somente quando a condição for positiva, consideramos como uma estrutura **Simples**, exemplo:
 
-![](<../.gitbook/assets/image (6) (1).png>)
+![](<../.gitbook/assets/image (6) (1) (1).png>)
 
 ```java
 // CaixaEletronico.java
