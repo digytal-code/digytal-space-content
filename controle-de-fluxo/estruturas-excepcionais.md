@@ -113,6 +113,25 @@ O que determina uma exceção ser classificado como **checada** ou **não checad
 É o risco dela ser disparada logo você precisa tratá-la, exemplo:
 {% endhint %}
 
+Vamos imaginar que precisamos realizar de duas maneiras a conversão de uma String para um número, porém o texto contém Alfanuméricos.
+
+```java
+public class ExemploExcecao {
+    public static void main(String[] args) {
+        Number valor = Double.valueOf("a1.75");
+
+        valor = NumberFormat.getInstance().parse("a1.75");
+        
+        System.out.println(valor);
+       
+    }
+}
+```
+
+{% hint style="info" %}
+As linhas 3 e 5 apresentarão uma exceção ao serem executadas, e a linha 5 contém um método que pode disparar uma exceção checada, logo nós programadores que iremos usar este método teremos que tratá-la explicitamente.
+{% endhint %}
+
 
 
 ### &#x20;Throw versus Throws
