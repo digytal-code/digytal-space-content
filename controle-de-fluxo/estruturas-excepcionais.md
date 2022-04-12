@@ -48,7 +48,7 @@ Aparentemente é um programa simples, mas vamos listar algumas possíveis exceç
 
 * Não informar o nome e sobrenome
 * O valor da idade ter um caractere NÃO numérico
-* O valor da altura ter uma vírgula ou invês de ser um ponto _**(conforme padrão americano)**_
+* O valor da altura ter uma vírgula ao invês de ser um ponto _**(conforme padrão americano)**_
 
 Executando o nosso programa com os valores abaixo, vamos entender qual exceção acontecerá:
 
