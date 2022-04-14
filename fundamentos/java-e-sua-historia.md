@@ -11,7 +11,7 @@ Mas o projeto Green atravessava algumas dificuldades. O mercado para dispositivo
 Em maio de 1995, a Sun anunciou Java formalmente em uma conferência importante. Normalmente, um evento como esse não teria gerado muita atenção. Entretanto, Java gerou interesse imediato na comunidade comercial por causa do fenomenal interesse pela World Wide Web.
 
 {% hint style="info" %}
-Um pouco mais da história sobre a Linguagem Java no canal do [Guanabara Curso em Vídeo](https://www.youtube.com/watch?v=sTX0UEplF54\&list=PLHz\_AreHm4dkI2ZdjTwZA4mPMxWTfNSpR)
+Um pouco mais da história sobre Java no canal do [Guanabara Curso em Vídeo](https://www.youtube.com/watch?v=sTX0UEplF54\&list=PLHz\_AreHm4dkI2ZdjTwZA4mPMxWTfNSpR)
 {% endhint %}
 
 ### Java é agora utilizada praticamente em todo lugar:
