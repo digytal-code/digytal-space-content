@@ -66,9 +66,9 @@ public class School {
 j
 ```
 
-
-
-
+{% hint style="warning" %}
+No exemplo acima, **NÃO** estruturamos a classe `Student` com o padrão Java Beans **getters** e **setters**.
+{% endhint %}
 
 Seguindo algumas convenções, as nossas classes são classificadas como:
 
