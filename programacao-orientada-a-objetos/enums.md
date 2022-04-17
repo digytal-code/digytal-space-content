@@ -12,3 +12,7 @@ Usamos Enum quando o nosso modelo de negócio contém objetos de mesmo contexto 
 
 **Estados Brasileiros**: São Paulo, Rio de Janeiro, Piauí, Maranhão.
 
+{% hint style="warning" %}
+Não confunda uma lista de constantes com enum.
+{% endhint %}
+
