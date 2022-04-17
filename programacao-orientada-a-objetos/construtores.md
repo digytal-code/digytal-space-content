@@ -54,3 +54,24 @@ public class SistemaCadastro {
 }
 
 ```
+
+Entrando em cena o construtor para criar nossos objetos já com valores requeridos na momento da criação\instanciação (`new`).
+
+```java
+public class Pessoa {
+	private String nome;
+	private String cpf;
+	private String endereco;
+	
+	// método construtor
+	// o nome deverá ser igual ao nome da classe
+	public Pessoa (String cpf, String nome) {
+		this.cpf = cpf;
+		this.nome = nome;
+	}
+	
+	//...
+	//getters
+	//setters
+}
+```
