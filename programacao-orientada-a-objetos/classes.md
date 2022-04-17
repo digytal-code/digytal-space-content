@@ -14,6 +14,60 @@ As classes existentes em nosso projeto serão composta por:&#x20;
 
 ![Ilustração de uma classe Estudente e 03 objetos criados](<../.gitbook/assets/image (9).png>)
 
+Para ilustrar as etapas de desenvolvimento orientada a objetos em Java, iremos reproduzir a imagem acima em forma de código para explicar que primeiro criamos a estrutura correspondente para assim podermos cria-los com as características e possibilidade de realização de ações (comportamentos) como se fosse no "mundo real".
+
+```java
+// Criando a classe Student
+// Com todas as características e compartamentos aplicados
+
+public class Student {
+    String name;
+    int age;
+    Color color;
+    Sex sex;
+
+    void eating(Food food){
+      //NOSSO CÓDIGO AQUI
+    }
+    void drinking(Eat eat){
+      //NOSSO CÓDIGO AQUI
+    }
+    void running(){
+      //NOSSO CÓDIGO AQUI
+    }
+}
+
+```
+
+```java
+// Criando objetos a partir da classe Student
+
+public class School {
+    public static void main(String[] args) throws Exception {
+      Student student1 = new Student();
+      student1.name= "John";
+      student1.age= 12;
+      student1.color= Color.FAIR;
+      student1.sex= Sex.MALE;
+
+      Student student2 = new Student();
+      student2.name= "Sophia";
+      student2.age= 10;
+      student2.color= Color.FAIR;
+      student2.sex= Sex.FEMALE;
+
+      Student student3 = new Student();
+      student3.name= "Lily";
+      student3.age= 11;
+      student3.color= Color.DARK;
+      student3.sex= Sex.FEMALE;
+    }
+}
+j
+```
+
+
+
 
 
 Seguindo algumas convenções, as nossas classes são classificadas como:
