@@ -54,9 +54,8 @@ public enum EstadoBrasileiro {
 * As opções (objetos) devem ser descritos em caixa alta separados por underline (**\_**_),_ ex.: OPCAO\_UM, OPCAO\_DOIS
 * Após as opções deve-se encerrar com ponto e vírgula (**;**)
 * Um enum é como uma classe, logo poderá ter atributos e métodos tranquilamente
+* Os valores dos atributos devem já ser definidos após cada opção dentro de parênteses como se fosse um `new`
 * O construtor deve ser privado
-
-
 
 Agora **NÃO** precisaremos criar objetos que representam cada estado toda vez que precisarmos destas informações, basta usar o **enum** acima e escolher a opção (objeto) já pré-definido em qualquer parte do nosso sistema.
 
