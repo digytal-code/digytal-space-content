@@ -49,7 +49,16 @@ public enum EstadoBrasileiro {
 
 ```
 
-Agora **NÃO** precisaremos criar objetos que representam cada estado toda vez que formos precisarmos destas informações, basta usar o **enum** acima e escolher a opção (objeto) já pré-definido em qualquer parte do nosso sistema.
+#### Boas práticas para criar objetos Enum
+
+* As opções (objetos) devem ser descritos em caixa alta separados por underline (**\_**_),_ ex.: OPCAO\_UM, OPCAO\_DOIS
+* Após as opções deve-se encerrar com ponto e vírgula (**;**)
+* Um enum é como uma classe, logo poderá ter atributos e métodos tranquilamente
+* O construtor deve ser privado
+
+
+
+Agora **NÃO** precisaremos criar objetos que representam cada estado toda vez que precisarmos destas informações, basta usar o **enum** acima e escolher a opção (objeto) já pré-definido em qualquer parte do nosso sistema.
 
 ```java
 // qualquer classe do sistema poderá obter os objetos de EstadoBrasileiro
