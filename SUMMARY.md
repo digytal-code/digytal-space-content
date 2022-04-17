@@ -33,6 +33,7 @@
 * [Classes](programacao-orientada-a-objetos/classes.md)
 * [Getters e Setters](programacao-orientada-a-objetos/getters-e-setters.md)
 * [Instânciação](programacao-orientada-a-objetos/instanciacao.md)
+* [Enums](programacao-orientada-a-objetos/enums.md)
 * [UML](programacao-orientada-a-objetos/uml.md)
 * [Pilares do POO](programacao-orientada-a-objetos/pilares-do-poo/README.md)
   * [Encapsulamento](programacao-orientada-a-objetos/pilares-do-poo/encapsulamento.md)
