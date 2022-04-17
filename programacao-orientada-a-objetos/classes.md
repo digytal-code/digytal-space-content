@@ -72,11 +72,11 @@ j
 
 Seguindo algumas convenções, as nossas classes são classificadas como:
 
-* **Classe de modelo**: classes que representem estrutura de domínio da aplicação, exemplo: Cliente, Pedido, Nota Fiscal e etc.
-* **Classe de serviço**: classes que contém regras de negócio e validação de nosso sistema.
-* **Classe de repositório**: classes que contém uma integração com banco de dados.
-* **Classe de controladora**: classes que possuem a finalidade de disponibilizar alguma comunicação externa à nossa aplicação, tipo http web ou webservices.
-* **Classe utilitária**:  classe que contém recursos comuns à toda nossa aplicação.
+* **Classe de modelo (model)**: classes que representem estrutura de domínio da aplicação, exemplo: Cliente, Pedido, Nota Fiscal e etc.
+* **Classe de serviço (service)**: classes que contém regras de negócio e validação de nosso sistema.
+* **Classe de repositório (repository)**: classes que contém uma integração com banco de dados.
+* **Classe de controle (controller)**: classes que possuem a finalidade de disponibilizar alguma comunicação externa à nossa aplicação, tipo http web ou webservices.
+* **Classe utilitária (util)**:  classe que contém recursos comuns à toda nossa aplicação.
 
 ![Modelo aplicado em grande parte dos projetos atuais](<../.gitbook/assets/image (7).png>)
 
