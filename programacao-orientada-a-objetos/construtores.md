@@ -75,3 +75,17 @@ public class Pessoa {
 	//setters
 }
 ```
+
+Alterando o nosso sistema para agora criar o objeto com informações já requeridas conforme definição da ordem dos parâmetros do construtor.
+
+```java
+public class SistemaCadastro {
+	public static void main(String[] args) {
+		//criamos uma pessoa no sistema
+		Pessoa marcos = new Pessoa("06724506716","MARCOS SILVA");
+		
+		//continua ...
+		
+	}
+}
+```
