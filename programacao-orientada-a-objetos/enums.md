@@ -56,6 +56,7 @@ public enum EstadoBrasileiro {
 * Um enum é como uma classe, logo poderá ter atributos e métodos tranquilamente
 * Os valores dos atributos devem já ser definidos após cada opção dentro de parênteses como se fosse um `new`
 * O construtor deve ser privado
+* Não é comum um enum possuir o recurso `setter` (alteração de propriedade), somente os métodos `getters` correspondentes.
 
 Agora **NÃO** precisaremos criar objetos que representam cada estado toda vez que precisarmos destas informações, basta usar o **enum** acima e escolher a opção (objeto) já pré-definido em qualquer parte do nosso sistema.
 
