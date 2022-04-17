@@ -34,3 +34,23 @@ public class Pessoa {
 
 ```
 
+Criaremos uma Pessoa mas como não temos o setter para nome e cpf, este objeto não tem como receber estes valores.
+
+```java
+public class SistemaCadastro {
+	public static void main(String[] args) {
+		//criamos uma pessoa no sistema
+		Pessoa marcos = new Pessoa();
+		
+		//definimos o endereço de marcos
+		marcos.setEndereco("RUA DAS MARIAS");
+		
+		//e como definir o nome e cpf do marcos ?
+		
+		//imprimindo o marcos sem o nome e cpf
+		
+		System.out.println(marcos.getNome() + "-" + marcos.getCpf());
+	}
+}
+
+```
