@@ -50,3 +50,21 @@ public enum EstadoBrasileiro {
 ```
 
 Agora **NÃO** precisaremos criar objetos que representam cada estado toda vez que formos precisarmos destas informações, basta usar o **enum** acima e escolher a opção (objeto) já pré-definido em qualquer parte do nosso sistema.
+
+```java
+// qualquer classe do sistema poderá obter os objetos de EstadoBrasileiro
+public class SistemaIbge {
+	public static void main(String[] args) {
+		//imprimindo os estados existentes no enum
+		for(EstadoBrasileiro uf: EstadoBrasileiro.values() ) {
+		   System.out.println(uf.getSigla() + "-" + uf.getNomeMaiusculo());
+		}
+		
+		//selecionando um estado a partir das opções disponíveis
+		EstadoBrasileiro ufSelecionado = EstadoBrasileiro.PIAUI;
+		
+		System.out.println("O estado selecionado foi: " + ufSelecionado.getNome());
+	}
+}
+
+```
