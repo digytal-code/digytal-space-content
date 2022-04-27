@@ -26,6 +26,7 @@
 * [Estruturas condicionais](controle-de-fluxo/estruturas-condicionais.md)
 * [Estruturas de repetição](controle-de-fluxo/estruturas-de-repeticao.md)
 * [Estruturas excepcionais](controle-de-fluxo/estruturas-excepcionais.md)
+* [Cases](controle-de-fluxo/cases.md)
 
 ## Programação Orientada a Objetos
 
