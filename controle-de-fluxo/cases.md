@@ -36,7 +36,7 @@ static double valorPretendido() {
 
 {% tabs %}
 {% tab title="Soluções" %}
-Hora de aplicar os conceitos apresentados, implementando as soluções para cada case apresentado
+Hora de aplicar os conceitos apresentados, implementando as soluções para cada case apresentado.
 {% endtab %}
 
 {% tab title="Case 1" %}
