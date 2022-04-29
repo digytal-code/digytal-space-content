@@ -30,4 +30,42 @@ String [] candidatos = {"FELIPE","MARCIA","JULIA","PAULO","AUGUSTO","MONICA","FA
 **Case 4**: O RH deverá realizar uma ligação com no máximo 03 tentativas para candidato selecionado e caso o candidato atenda, deve-se imprimir:&#x20;
 
 * **"CONSEGUIMOS CONTATO COM **_**`[CANDIDATO]`**_**` ``` APÓS **_**`[TENTATIVA]`**_** TENTATIVA(S)"**
-* do contrário imprima: **"NÃO CONSEGUIMOS CONTATO COM O **_**`[CANDIDATO]`**_**"** &#x20;
+* do contrário imprima: **"NÃO CONSEGUIMOS CONTATO COM O **_**`[CANDIDATO]`**_**"**
+
+****
+
+{% tabs %}
+{% tab title="Soluções" %}
+Hora de aplicar os conceitos apresentados, implementando as soluções para cada case apresentado
+{% endtab %}
+
+{% tab title="Case 1" %}
+```java
+public class ProcessoSeletivo {
+	public static void main(String[] args) {
+		//salario base maior que salario pretendido
+		case1(2000.0, 1900.0);
+		
+		//salario base igual que salario pretendido
+		case1(2000.0, 2000.0);
+		
+		//salario base igual que salario pretendido
+		case1(1900.0, 2000.0);V
+	}
+	static void case1(double salarioBase, double salarioPretendido) {
+		
+		if(salarioBase > salarioPretendido) {
+			System.out.println("LIGAR PARA O CANDIDATO");
+		}
+		else if(salarioBase == salarioPretendido) {
+			System.out.println("LIGAR PARA O CANDIDATO COM CONTRA PROPOSTA");
+		}
+		else {
+			System.out.println("AGUARDANDO RESULTADO DEMAIS CANDIDATOS");
+		}
+	}
+}
+
+```
+{% endtab %}
+{% endtabs %}
