@@ -27,7 +27,7 @@ static double valorPretendido() {
 
 **Case 3**: Agora é hora imprimir a lista dos candidatos selecionados para disponibilizar para o RH entrar em contato.
 
-**Case 4**: O RH deverá realizar uma ligação com no máximo 03 tentativas para candidato selecionado e caso o candidato atenda, deve-se imprimir:&#x20;
+**Case 4**: O RH deverá realizar uma ligação com no máximo 03 tentativas para cada candidato selecionado e caso o candidato atenda, deve-se imprimir:&#x20;
 
 * **"CONSEGUIMOS CONTATO COM **_**`[CANDIDATO]`**_**` ``` APÓS **_**`[TENTATIVA]`**_** TENTATIVA(S)"**
 * do contrário imprima: **"NÃO CONSEGUIMOS CONTATO COM O **_**`[CANDIDATO]`**_**"**
