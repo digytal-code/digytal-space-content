@@ -15,6 +15,12 @@ As notações UML são distribuídas em duas categorias de diagramas, a estrutur
 Existem outras categorias de diagramas estruturais e comportamentais, porém iremos focar nos citados acima.
 {% endhint %}
 
+### Diagrama de classe
+
+O diagrama de classes ilustra **graficamente ** como classes serão estruturadas e interligadas entre si diante da proposta do nosso software.
+
+
+
 #### Referência
 
 {% embed url="https://micreiros.com/uml-e-os-diagramas-estruturais" %}
