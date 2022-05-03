@@ -19,8 +19,12 @@ Existem outras categorias de diagramas estruturais e comportamentais, porém ire
 
 O diagrama de classes ilustra **graficamente ** como classes serão estruturadas e interligadas entre si diante da proposta do nosso software.
 
+No diagrama de classe pode
+
 
 
 #### Referência
 
 {% embed url="https://micreiros.com/uml-e-os-diagramas-estruturais" %}
+
+{% embed url="https://www.ateomomento.com.br/uml-diagrama-de-classes" %}
