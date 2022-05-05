@@ -29,6 +29,12 @@ Em diagrama a estrutura das classes é constituída por:
 
 **Operações:** Ações e/ou métodos
 
+### Relacionamentos
+
+Em um diagrama as classes podem existir de forma independente, mas obviamente haverá em alguma etapa da aplicação e necessidade de algumas se relacionarem, o que devemos compreender é o nível de dependência entre elas:
+
+
+
 
 
 #### Referência
@@ -36,3 +42,5 @@ Em diagrama a estrutura das classes é constituída por:
 {% embed url="https://micreiros.com/uml-e-os-diagramas-estruturais" %}
 
 {% embed url="https://www.ateomomento.com.br/uml-diagrama-de-classes" %}
+
+{% embed url="https://www.macoratti.net/vb_uml2.htm" %}
