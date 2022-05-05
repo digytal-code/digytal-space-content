@@ -19,7 +19,13 @@ Existem outras categorias de diagramas estruturais e comportamentais, porém ire
 
 O diagrama de classes ilustra **graficamente ** como classes serão estruturadas e interligadas entre si diante da proposta do nosso software.
 
-No diagrama de classe pode
+Em diagrama a estrutura das classes é constituída por:
+
+**Identificação:** Nome e/ou finalidade da classe
+
+**Atributos:** Propriedades e/ou características
+
+**Operações:** Ações e/ou métodos
 
 
 
