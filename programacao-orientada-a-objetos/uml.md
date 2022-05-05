@@ -4,7 +4,7 @@ Linguagem de Modelagem Unificada ou UML é uma notação que possibilita a repre
 
 Na UML temos três conceitos necessários de entender: **diagramas**, **elementos** e **relacionamentos**.
 
-![](<../.gitbook/assets/image (7).png>)
+![](<../.gitbook/assets/image (7) (1).png>)
 
 As notações UML são distribuídas em duas categorias de diagramas, a estrutural e comportamental conforme listagem abaixo:
 
@@ -33,7 +33,14 @@ Em diagrama a estrutura das classes é constituída por:
 
 Em um diagrama as classes podem existir de forma independente, mas obviamente haverá em alguma etapa da aplicação e necessidade de algumas se relacionarem, o que devemos compreender é o nível de dependência entre elas:
 
+#### Associação
 
+Uma associação define um relacionamento entre duas classes, permitindo que um objeto tenha acesso a estrutura de um outro objeto.
+
+![](<../.gitbook/assets/image (7).png>)
+
+* **Composição:** a
+* **Agregação:** A
 
 
 

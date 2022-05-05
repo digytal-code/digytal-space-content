@@ -78,7 +78,7 @@ Seguindo algumas convenções, as nossas classes são classificadas como:
 * **Classe de controle (controller)**: classes que possuem a finalidade de disponibilizar alguma comunicação externa à nossa aplicação, tipo http web ou webservices.
 * **Classe utilitária (util)**:  classe que contém recursos comuns à toda nossa aplicação.
 
-![Modelo aplicado em grande parte dos projetos atuais](<../.gitbook/assets/image (7) (1).png>)
+![Modelo aplicado em grande parte dos projetos atuais](<../.gitbook/assets/image (7) (1) (1).png>)
 
 {% hint style="success" %}
 Exercite a distribuição de classes por papéis dentro da sua aplicação para que se possa determinar a estrutura mais conveniente em cada arquivo do seu projeto.
