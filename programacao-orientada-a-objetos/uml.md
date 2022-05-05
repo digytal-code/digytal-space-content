@@ -39,8 +39,13 @@ Uma associação define um relacionamento entre duas classes, permitindo que um 
 
 ![](<../.gitbook/assets/image (7).png>)
 
+* **Agregação:** Em uma agregação a classe principal contém uma relação com outra classe mas ela pode existir sem a classe agregadora. Imagina em um cadastro de candidatos, podemos encontrar candidatos que ainda não possuem uma profissão.
+
+
+
 * **Composição:** a
-* **Agregação:** A
+
+****
 
 
 
