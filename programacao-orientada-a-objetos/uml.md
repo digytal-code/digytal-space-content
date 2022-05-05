@@ -47,6 +47,15 @@ Uma associação define um relacionamento entre duas classes, permitindo que um 
 
 ![Admissao é a classe principal e Candidato compõe a Admissão](<../.gitbook/assets/image (1).png>)
 
+#### Multiplicidade
+
+Nem sempre o relacionamento entre as classes será de **um para um**, um determinado cenário poderá exigir multiplicidades específicos conforme opções abaixo:
+
+* 1\. -> Representa uma associação **contendo um elemento**.&#x20;
+* \*. -> Representa uma associação **contendo uma lista de elementos**.
+* 0..\* -> Representa uma associação **contendo zero ou uma lista de elementos**.&#x20;
+* 1..\* -> Representa uma associação **contendo um ou uma lista de elementos**.&#x20;
+
 ****
 
 
