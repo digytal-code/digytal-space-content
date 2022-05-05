@@ -53,6 +53,7 @@ Nem sempre o relacionamento entre as classes será de **um para um**, um determi
 
 * 1\. -> Representa uma associação **contendo um elemento**.&#x20;
 * \*. -> Representa uma associação **contendo uma lista de elementos**.
+* 0..1 -> Representa uma associação **contendo zero ou um elemento**.&#x20;
 * 0..\* -> Representa uma associação **contendo zero ou uma lista de elementos**.&#x20;
 * 1..\* -> Representa uma associação **contendo um ou uma lista de elementos**.&#x20;
 
