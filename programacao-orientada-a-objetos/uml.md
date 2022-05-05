@@ -2,7 +2,7 @@
 
 Linguagem de Modelagem Unificada ou UML é uma notação que possibilita a representação gráfica do projeto.
 
-![](<../.gitbook/assets/image (17).png>)
+![](<../.gitbook/assets/image (17) (1).png>)
 
 Na UML temos três conceitos necessários de entender: **diagramas**, **elementos** e **relacionamentos**.
 
@@ -60,6 +60,14 @@ Nem sempre o relacionamento entre as classes será de **um para um**, um determi
 * 1..\* -> Representa uma associação **contendo um ou uma lista de elementos**.&#x20;
 
 ![](<../.gitbook/assets/image (13).png>)
+
+### Ferramentas
+
+Existem inúmeras ferramentas de diagramação tanto online, pagas e gratuitas.
+
+![](<../.gitbook/assets/image (17).png>)
+
+{% embed url="https://www.saashub.com/staruml-alternatives" %}
 
 #### Referência
 
