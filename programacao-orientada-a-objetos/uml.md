@@ -2,6 +2,8 @@
 
 Linguagem de Modelagem Unificada ou UML é uma notação que possibilita a representação gráfica do projeto.
 
+Na UML temos três conceitos necessários de entender: **diagramas**, **elementos** e **relacionamentos**.
+
 ![](<../.gitbook/assets/image (7).png>)
 
 As notações UML são distribuídas em duas categorias de diagramas, a estrutural e comportamental conforme listagem abaixo:
