@@ -32,6 +32,8 @@
 
 * [Conceito de POO](programacao-orientada-a-objetos/conceito-de-poo.md)
 * [Classes](programacao-orientada-a-objetos/classes.md)
+* [Pacotes](programacao-orientada-a-objetos/pacotes.md)
+* [Acesso a membros](programacao-orientada-a-objetos/acesso-a-membros.md)
 * [Getters e Setters](programacao-orientada-a-objetos/getters-e-setters.md)
 * [Construtores](programacao-orientada-a-objetos/construtores.md)
 * [Enums](programacao-orientada-a-objetos/enums.md)
@@ -41,3 +43,4 @@
   * [Herança](programacao-orientada-a-objetos/pilares-do-poo/heranca.md)
   * [Abstração](programacao-orientada-a-objetos/pilares-do-poo/abstracao.md)
   * [Polimorfimo](programacao-orientada-a-objetos/pilares-do-poo/polimorfimo.md)
+* [Interface](programacao-orientada-a-objetos/interface.md)
