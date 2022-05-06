@@ -101,7 +101,7 @@ Um comentário não possui a finalidade de **amenizar** um algoritmo não estrut
 /*
  * Este método foi elaborado as pressas
  * por isso eu abrevei o nome das variáveis
- * mas olha, ele tem a finalidade somar ou  multiplicar
+ * mas olha, ele tem a finalidade de somar ou  multiplicar
  * dois números
  * /
 public int somaMultiplica (int n, int x, String m){
