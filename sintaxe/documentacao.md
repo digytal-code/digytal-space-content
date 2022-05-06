@@ -56,7 +56,7 @@ public class Calculadora {
 ```
 {% endtab %}
 
-{% tab title="Guia" %}
+{% tab title="Ilustração" %}
 ![](<../.gitbook/assets/image (15) (1).png>)
 {% endtab %}
 {% endtabs %}
