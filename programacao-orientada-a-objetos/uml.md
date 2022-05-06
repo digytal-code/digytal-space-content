@@ -4,7 +4,9 @@ Linguagem de Modelagem Unificada ou UML é uma notação que possibilita a repre
 
 ![](<../.gitbook/assets/image (17) (1).png>)
 
-Na UML temos três conceitos necessários de entender: **diagramas**, **elementos** e **relacionamentos**.
+Na UML temos três conceitos necessários para compreendermos inicialmente:&#x20;
+
+**diagramas**, **elementos** e **relacionamentos**.
 
 ![](<../.gitbook/assets/image (7) (1).png>)
 
@@ -41,17 +43,17 @@ Uma associação define um relacionamento entre duas classes, permitindo que um 
 
 ![](<../.gitbook/assets/image (7).png>)
 
-* **Agregação:** Em uma agregação a classe principal contém uma relação com outra classe mas ela pode existir sem a classe agregadora. Imagina em um cadastro de Candidatos, podemos encontrar candidatos que ainda não possuem uma Profissão.
+* **Agregação:** Em uma agregação a classe principal contém uma relação com outra classe mas ela pode existir sem a classe agregadora. Imagina em um cadastro de Candidatos, podemos encontrar candidatos que ainda não possuam uma Profissão.
 
 ![Candidato é classe principal e a Profissao agregação](<../.gitbook/assets/image (10).png>)
 
-* **Composição:** A composição já caracteriza uma dependência existencial entre a classe principal e classe associada. Imaginamos que uma Admissão só poderá existir contendo suas informações básicos e a composição do Candidato selecionado.
+* **Composição:** A composição já caracteriza uma dependência existencial entre a classe principal e a classe associada. Imaginamos que uma Admissão só poderá existir contendo suas informações básicas e a composição do Candidato selecionado.
 
 ![Admissao é a classe principal e Candidato compõe a Admissão](<../.gitbook/assets/image (1).png>)
 
 #### Multiplicidade
 
-Nem sempre o relacionamento entre as classes será de **um para um**, um determinado cenário poderá exigir multiplicidades específicos conforme opções abaixo:
+Nem sempre o relacionamento entre as classes será de **um para um**, um determinado cenário poderá exigir multiplicidades específicas conforme opções abaixo:
 
 * 1\. -> Representa uma associação **contendo um elemento**.&#x20;
 * \*. -> Representa uma associação **contendo uma lista de elementos**.
