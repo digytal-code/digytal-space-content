@@ -16,7 +16,14 @@ Vamos imaginar que sua empresa se chama **Power Soft** e ela está desenvolvendo
 
 Bem, acima já podemos perceber que existe uma definição para o uso do nome dos pacotes, porém podemos organizar ainda mais um pouco as nossas classes mediante a proposta de sua existência:
 
-model : Classes que representam a camada e modelo da aplicação : Cliente, Pedido, NotaFiscal, Usuario repository: Classes ou interfaces que possuem a finalidade de interagir com tabelas no banco de dados: ClienteRepository service: Classes que contém regras de negócio do sistema : ClienteService possui o método validar o CPF do cliente cadastrado controller: Classes que possuem a finalidade de disponibilizar os nossos recursos da aplicação para outras aplicações via padrão HTTP view: Classes que possuem alguma interação com a interface gráfica acessada pelo usuário. util: Pacote que contém classes utilitárias do sistema: FormatadorNumeroUtil, ValidadorUtil.
+* **model** : Classes que representam a camada e modelo da aplicação : Cliente, Pedido, NotaFiscal, Usuario
+* &#x20;**repository**: Classes ou interfaces que possuem a finalidade de interagir com tabelas no banco de dados: ClienteRepository
+* **service**: Classes que contém regras de negócio do sistema : ClienteService possui o método validar o CPF do cliente cadastrado
+* **controller**: Classes que possuem a finalidade de disponibilizar os nossos recursos da aplicação para outras aplicações via padrão HTTP
+* **view**: Classes que possuem alguma interação com a interface gráfica acessada pelo usuário
+* **util**: Pacote que contém classes utilitárias do sistema: FormatadorNumeroUtil, ValidadorUtil.
+
+&#x20; &#x20;
 
 Nomenclatura
 
