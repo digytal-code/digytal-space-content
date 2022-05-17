@@ -8,9 +8,11 @@ Para prevenir este acontecimento, a linguagem dispõe de um recurso que organiza
 
 ![](<../.gitbook/assets/image (18).png>)
 
-Vamos imaginar que sua empresa se chama Power Soft e ela está desenvolvendo softwares comercial, governamental e um software livre ou de código aberto. Abaixo teríamos os pacotes sugeridos conforme tabela abaixo:
+Vamos imaginar que sua empresa se chama **Power Soft** e ela está desenvolvendo softwares comercial, governamental e um software livre ou de código aberto. Abaixo teríamos os pacotes sugeridos conforme tabela abaixo:
 
-Comercial : com.powersoft Governamental : gov.powersoft Códgo aberto: org.powersoft
+* **Comercial** : com.powersoft
+* **Governamental** : gov.powersoft
+* **Código aberto**: org.powersoft
 
 Bem, acima já podemos perceber que existe uma definição para o uso do nome dos pacotes, porém podemos organizar ainda mais um pouco as nossas classes mediante a proposta de sua existência:
 
