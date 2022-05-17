@@ -8,6 +8,8 @@ Para prevenir este acontecimento, a linguagem dispõe de um recurso que organiza
 
 ![](<../.gitbook/assets/image (18).png>)
 
+### Nomenclatura
+
 Vamos imaginar que sua empresa se chama **Power Soft** e ela está desenvolvendo softwares comercial, governamental e um software livre ou de código aberto. Abaixo teríamos os pacotes sugeridos conforme tabela abaixo:
 
 * **Comercial** : com.powersoft
@@ -25,18 +27,26 @@ Bem, acima já podemos perceber que existe uma definição para o uso do nome do
 
 &#x20; &#x20;
 
-Nomenclatura
+### Identificação
 
-Uma das caraterísticas de uma classe é a sua identificação, Cliente, NotaFiscal, TituloPagar, porém quando esta classe é organizada por pacotes, ela passa a ter duas identificações. O nome simples (próprio nome) e agora o nome qualificado (endereçamento do pacote + nome), exemplo: Considere a classe Usuario que está endereçado no pacote com.controle.acesso.model, o nome qualificado desta classe é com.controle.acesso.model.Usuario
+Uma das características de uma classe é a sua identificação, Cliente, NotaFiscal, TituloPagar, porém quando esta classe é organizada por pacotes, ela passa a ter duas identificações. O nome simples (**próprio nome**) e agora o nome qualificado (**endereçamento do pacote + nome**), exemplo: Considere a classe `Usuario`que está endereçada no pacote `com.controle.acesso.model`, o nome qualificado desta classe é **`com.controle.acesso.model.Usuario`**
 
-Package versus Import
+### Package versus Import
 
 A localização de uma classe é definida pela palavra reservada package, logo, uma classe só contém uma definição de package no arquivo, sempre na primeira linha do código. Para a utilização de uma classe existentes em outros pacotes, necessitamos realizar a importação das mesmas, seguindo a recomendação abaixo:
 
+```java
 package
 
-import ... import ...
+import ... 
+import ...
 
-public class
+public class MinhaClassea {
+}
+```
 
-Por que é tão importante compreender de pacotes? A linguagem Java é composta por milhões de classes internas, classes desenvolvidas em projetos disponíveis através de bibliotecas e as classes do nosso projeto. Logo, existe uma enorme possibilidade da existência de classes de mesmo nome. É nesta hora, que nós desenvolvedores precisamos detectar qual classe iremos importar em nosso projeto.
+### Por que é tão importante compreender de pacotes?&#x20;
+
+A linguagem Java é composta por milhões de classes internas, classes desenvolvidas em projetos disponíveis através de bibliotecas e as classes do nosso projeto. Logo, existe uma enorme possibilidade da existência de classes de mesmo nome.&#x20;
+
+É nesta hora, que nós desenvolvedores precisamos detectar qual classe iremos importar em nosso projeto.
