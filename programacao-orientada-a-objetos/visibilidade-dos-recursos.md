@@ -1,4 +1,4 @@
-# Visibilidade dos recurso
+# Visibilidade dos recursos
 
 ## Modificadores
 
@@ -121,3 +121,7 @@ public class Cliente {
 {% hint style="info" %}
 **Acredite!** Nem tudo preciso ser visto por todos :rolling\_eyes:
 {% endhint %}
+
+### **Modificador default**
+
+****
