@@ -50,5 +50,3 @@ public class MinhaClassea {
 A linguagem Java é composta por milhões de classes internas, classes desenvolvidas em projetos disponíveis através de bibliotecas e as classes do nosso projeto. Logo, existe uma enorme possibilidade da existência de classes de mesmo nome.&#x20;
 
 É nesta hora, que nós desenvolvedores precisamos detectar qual classe iremos importar em nosso projeto.
-
-Um exemplo clássico é a existência das classes **`java.sql.Date`** e **`java.util.Date`** da própria linguagem, recomendo você leitor pesquisar sobre a diferença das duas classes.
