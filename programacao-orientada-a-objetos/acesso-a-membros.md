@@ -117,3 +117,7 @@ public class Cliente {
 ```
 {% endtab %}
 {% endtabs %}
+
+{% hint style="info" %}
+**Acredite!** Nem tudo preciso ser visto por todos :rolling\_eyes:
+{% endhint %}
