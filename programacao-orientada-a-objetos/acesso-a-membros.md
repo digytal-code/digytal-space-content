@@ -6,4 +6,8 @@ Em Java, utilizamos três palavras reservadas e um conceito default (sem nehuma 
 
 Para uma melhor ilustração, iremos representar os conceitos de visibilidade de recursos através do contexto em uma lanchonete que vende lanche natural e suco.
 
-Modificador public Como o próprio nome representa, quando nossa classe, método e atributo é definido como public, qualquer outra classe em qualquer outro pacote pode visualizar tais recursos.
+### **Modificador public**&#x20;
+
+Como o próprio nome representa, quando nossa classe, método e atributo é definido como public, qualquer outra classe em qualquer outro pacote pode visualizar tais recursos.
+
+![](../.gitbook/assets/lanchonete\_1.png)
