@@ -124,4 +124,6 @@ public class Cliente {
 
 ### **Modificador default**
 
+O modificador **`default`** está fortemente associado a organização das classes por pacotes, algumas implementações não precisam estar disponíveis por todo o projeto, e e este modificador de acesso restringe a visibilidade por pacotes.&#x20;
+
 ****
