@@ -33,7 +33,7 @@
 * [Conceito de POO](programacao-orientada-a-objetos/conceito-de-poo.md)
 * [Classes](programacao-orientada-a-objetos/classes.md)
 * [Pacotes](programacao-orientada-a-objetos/pacotes.md)
-* [Visibilidade dos recurso](programacao-orientada-a-objetos/visibilidade-dos-recurso.md)
+* [Visibilidade dos recurso](programacao-orientada-a-objetos/acesso-a-membros.md)
 * [Getters e Setters](programacao-orientada-a-objetos/getters-e-setters.md)
 * [Construtores](programacao-orientada-a-objetos/construtores.md)
 * [Enums](programacao-orientada-a-objetos/enums.md)
