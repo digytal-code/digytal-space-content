@@ -53,6 +53,9 @@ public class Cozinheiro {
 	public void fritarIngredientesLancheNatural() {
 		System.out.println("FRITANDO A CARNE E OVO PARA O HAMBURGER");
 	}
+	public void pedirParaTrocarGas(Atendente meuAmigo) {
+		meuAmigo.trocarGas();
+	}
 }
 
 ```
@@ -92,6 +95,10 @@ public class Atendente {
 	public void receberPagamento() {
 		System.out.println("RECEBENDO PAGAMENTO");
 	}
+	public void trocarGas() {
+		System.out.println("TROCANDO O GAS");
+	}
+}
 
 ```
 {% endtab %}
