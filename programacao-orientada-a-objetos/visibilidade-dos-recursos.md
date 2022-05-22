@@ -56,6 +56,9 @@ public class Cozinheiro {
 	public void pedirParaTrocarGas(Atendente meuAmigo) {
 		meuAmigo.trocarGas();
 	}
+	public void pedirParaTrocarGas(Almoxarife meuAmigo) {
+		meuAmigo.trocarGas();
+	}
 }
 
 ```
@@ -77,7 +80,7 @@ public class Almoxarife {
 		//...?
 	}
 	public void trocarGas() {
-		System.out.println("TROCANDO O GAS");
+		System.out.println("ALMOXARIFE TROCANDO O GAS");
 	}
 }
 ```
@@ -99,7 +102,7 @@ public class Atendente {
 		System.out.println("RECEBENDO PAGAMENTO");
 	}
 	public void trocarGas() {
-		System.out.println("TROCANDO O GAS");
+		System.out.println("ATENDENTE TROCANDO O GAS");
 	}
 }
 
