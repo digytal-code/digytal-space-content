@@ -124,6 +124,11 @@ public class Cliente {
 
 ### **Modificador default**
 
-O modificador **`default`** está fortemente associado a organização das classes por pacotes, algumas implementações não precisam estar disponíveis por todo o projeto, e e este modificador de acesso restringe a visibilidade por pacotes.&#x20;
+O modificador **`default`** está fortemente associado a organização das classes por pacotes, algumas implementações não precisam estar disponíveis por todo o projeto, e e este modificador de acesso restringe a visibilidade por pacotes.
+
+Dentro do pacote **`lanchonete`**, iremos criar dois sub-pacotes para representar a divisão do estabelecimento.&#x20;
+
+* **lanchonete.cozinha**: Pacote que contém classes da parte da cozinha da lanchonete.
+* **lanchonete.area.cliente**: Pacote que contém classes relacionadas ao espaço do cliente.
 
 ****
