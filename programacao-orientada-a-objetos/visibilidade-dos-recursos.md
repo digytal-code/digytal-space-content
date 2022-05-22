@@ -110,8 +110,8 @@ public class Atendente {
 	public void trocarGas() {
 		System.out.println("ATENDENTE TROCANDO O GAS");
 	}
-	public void pegarLancheBalcao() {
-		System.out.println("PEGANDO O LANCHE NO BALCAO");
+	public void pegarPedidoBalcao() {
+		System.out.println("PEGANDO O PEDIDO NO BALCAO");
 	}
 }
 
@@ -135,10 +135,8 @@ public class Cliente {
 	public void consultarSaldoAplicativo() {
 		System.out.println("CONSULTANDO SALDO NO APLICATIVO");
 	}
-	//não deveria, mas o estabelecimento
-	//ainda não definiu normas de atendimento
-	public void pegarLancheBalcao() {
-		System.out.println("PEGANDO O LANCHE NO BALCAO");
+	public void pegarPedidoBalcao() {
+		System.out.println("PEGANDO O PEDIDO NO BALCAO");
 	}
 }
 ```
@@ -183,6 +181,11 @@ public class Estabelecimento {
 		cliente.escolherLanche();
 		cliente.fazerPedido();
 		cliente.pagarConta();
+		
+		//não deveria, mas o estabelecimento
+		//ainda não definiu normas de atendimento
+		cliente.pegarPedidoBalcao();
+		
 		//esta ação é muito sigilosa, qua tal ser privada ?
 		cliente.consultarSaldoAplicativo();
 		
