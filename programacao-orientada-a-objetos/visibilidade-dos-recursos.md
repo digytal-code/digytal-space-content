@@ -50,7 +50,7 @@ public class Cozinheiro {
 	public void baterVitaminaLiquidificador() {
 		System.out.println("BATENDO VITAMINA LIQUIDIFICADOR");
 	}
-	public void fritarIngredientesLancheNatural() {
+	public void fritarIngredientesLanche() {
 		System.out.println("FRITANDO A CARNE E OVO PARA O HAMBURGER");
 	}
 	public void pedirParaTrocarGas(Atendente meuAmigo) {
@@ -144,6 +144,9 @@ public class Estabelecimento {
 		cozinheiro.lavarIngredientes();
 		cozinheiro.baterVitaminaLiquidificador();
 		cozinheiro.selecionarIngredientesVitamina();
+		cozinheiro.prepararLanche();
+		cozinheiro.prepararVitamina();
+		cozinheiro.prepararVitamina();
 		
 		//ações que estabelecimento precisa ter ciência
 		cozinheiro.adicionarSucoNoBalcao();;
@@ -171,6 +174,10 @@ public class Estabelecimento {
 		cliente.pagarConta();
 		//esta ação é muito sigilosa, qua tal ser privada ?
 		cliente.consultarSaldoAplicativo();
+		
+		//já pensou os clientes ouvindo que o gás acabou ?
+		cozinheiro.pedirParaTrocarGas(atendente);
+		cozinheiro.pedirParaTrocarGas(almoxarife);
 		
 	}
 }
