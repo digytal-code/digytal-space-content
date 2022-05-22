@@ -59,6 +59,9 @@ public class Cozinheiro {
 	public void pedirParaTrocarGas(Almoxarife meuAmigo) {
 		meuAmigo.trocarGas();
 	}
+	public void pedirIngredientes(Almoxarife almoxarife) {
+		almoxarife.entregarIngredientes();
+	}
 }
 
 ```
