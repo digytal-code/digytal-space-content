@@ -212,4 +212,6 @@ Dentro do pacote **`lanchonete`**, iremos criar dois sub-pacotes para representa
 * **lanchonete.atendimento.cozinha**: Pacote que contém classes da parte da cozinha da lanchonete e atendimentos.
 * **lanchonete.area.cliente**: Pacote que contém classes relacionadas ao espaço do cliente.
 
+![](../.gitbook/assets/pacotes.png)
+
 ****
