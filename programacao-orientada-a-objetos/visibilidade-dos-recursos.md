@@ -141,7 +141,7 @@ O modificador **`default`** está fortemente associado a organização das class
 
 Dentro do pacote **`lanchonete`**, iremos criar dois sub-pacotes para representar a divisão do estabelecimento.&#x20;
 
-* **lanchonete.cozinha**: Pacote que contém classes da parte da cozinha da lanchonete.
+* **lanchonete.atendimento.cozinha**: Pacote que contém classes da parte da cozinha da lanchonete e atendimentos.
 * **lanchonete.area.cliente**: Pacote que contém classes relacionadas ao espaço do cliente.
 
 ****
