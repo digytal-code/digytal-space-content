@@ -18,12 +18,15 @@ Como o próprio nome representa, quando nossa classe, método e atributo é defi
 package lanchonete;
 
 public class Cozinheiro {
+	//pode ser default
 	public void adicionarLancheNoBalcao() {
 		System.out.println("ADICIONANDO LANCHE NATURAL HAMBURGER NO BALCAO");
 	}
+	//pode ser default
 	public void adicionarSucoNoBalcao() {
 		System.out.println("ADICIONANDO SUCO NO BALCAO");
 	}
+	//pode ser default
 	public void adicionarComboNoBalcao() {
 		adicionarLancheNoBalcao();
 		adicionarSucoNoBalcao();
@@ -107,6 +110,9 @@ public class Atendente {
 	public void trocarGas() {
 		System.out.println("ATENDENTE TROCANDO O GAS");
 	}
+	public void pegarLancheBalcao() {
+		System.out.println("PEGANDO O LANCHE NO BALCAO");
+	}
 }
 
 ```
@@ -128,6 +134,11 @@ public class Cliente {
 	}
 	public void consultarSaldoAplicativo() {
 		System.out.println("CONSULTANDO SALDO NO APLICATIVO");
+	}
+	//não deveria, mas o estabelecimento
+	//ainda não definiu normas de atendimento
+	public void pegarLancheBalcao() {
+		System.out.println("PEGANDO O LANCHE NO BALCAO");
 	}
 }
 ```
