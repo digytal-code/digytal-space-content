@@ -76,6 +76,9 @@ public class Almoxarife {
 		System.out.println("ENTREGANDO INGREDIENTES");
 		//...?
 	}
+	public void trocarGas() {
+		System.out.println("TROCANDO O GAS");
+	}
 }
 ```
 {% endtab %}
