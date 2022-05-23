@@ -229,3 +229,9 @@ Diante destes questionamentos é que nossas classes precisam continuar mantendo 
 {% hint style="info" %}
 A visibilidade de recursos da linguagem não está associada a ~~**interface gráfica**~~, mas sim, o que as classes conseguem **acessar** das outras classes 😏
 {% endhint %}
+
+### Modificador protected
+
+{% hint style="success" %}
+Iremos explorar mais sobre este tipo de modificador de acesso quando formos abordar a competência Pilares de POO com ênfase em Herança, OK!
+{% endhint %}
