@@ -225,3 +225,7 @@ Conhecemos as ações disponíveis nas classes `Cozinheiro, Almoxarife, Atendent
 * Que o `Atendente` precisa saber que antes de pagar o Cliente consulta o saldo no App ?
 
 Diante destes questionamentos é que nossas classes precisam continuar mantendo suas ações (métodos) mas nem todas precisam ser vistas por ninguém.
+
+{% hint style="info" %}
+A visibilidade de recursos da linguagem não está associada a ~~**interface gráfica**~~, mas sim, o que as classes conseguem **acessar** das outras classes 😏
+{% endhint %}
