@@ -214,20 +214,37 @@ Dentro do pacote **`lanchonete`**, iremos criar dois sub-pacotes para representa
 
 ![](../.gitbook/assets/pacotes.png)
 
+Para definir um método visível a nível de pacote basta NÃO declarar nenhum modificador, exemplo:
+
+```java
+// Cozinheiro.java
+
+//público
+public void lavarIngredientes() {
+   System.out.println("LAVANDO INGREDIENTES");
+}
+
+//nível de pacote
+//sem nenhuma palavra reservada de acesso
+void lavarIngredientes() {
+   System.out.println("LAVANDO INGREDIENTES");
+}
+```
+
 ### **Modificador private**
 
 Depois de reestruturar nosso estabelecimento (projeto), onde, temos as divisões (pacotes) espaço do cliente e atendimento, chegou a hora de uma reflexão sobre visibilidade ou modificadores de acesso.
 
-Conhecemos as ações disponíveis nas classes `Cozinheiro, Almoxarife, Atendente e Cliente`, mesmo com a organização da visibildiade por pacote, será se realmente estas classes precisam ser tão explicitas?
+Conhecemos as ações disponíveis nas classes `Cozinheiro, Almoxarife, Atendente e Cliente`, mesmo com a organização da visibilidade por pacote, será se realmente estas classes precisam ser tão explicitas?
 
-* Será se o `Cozinheiro` precisar saber que\como o `Almoxarife` controle as entradas e saídas ?
-* Que o `Cliente` precisar saber como `Atendente` recebe o pedido para servir sua mesa ?
-* Que o `Atendente` precisa saber que antes de pagar o Cliente consulta o saldo no App ?
+* Será se o `Cozinheiro` precisa saber que\como o `Almoxarife` controle as entradas e saídas ?
+* Que o `Cliente` precisa saber como o `Atendente` recebe o pedido para servir sua mesa ?
+* Que o `Atendente` precisa saber que antes de pagar o `Cliente` consulta o saldo no App ?
 
 Diante destes questionamentos é que nossas classes precisam continuar mantendo suas ações (métodos) mas nem todas precisam ser vistas por ninguém.
 
 {% hint style="info" %}
-A visibilidade de recursos da linguagem não está associada a ~~**interface gráfica**~~, mas sim, o que as classes conseguem **acessar** das outras classes 😏
+A visibilidade de recursos da linguagem não está associada a ~~**interface gráfica**~~, mas sim, o que as classes conseguem **acessar** umas das outras😏
 {% endhint %}
 
 ### Modificador protected
