@@ -214,4 +214,7 @@ Dentro do pacote **`lanchonete`**, iremos criar dois sub-pacotes para representa
 
 ![](../.gitbook/assets/pacotes.png)
 
-****
+### **Modificador private**
+
+Depois de reestruturar nosso estabelecimento (projeto), onde, temos as divisões (pacotes) espaço do cliente e atendimento, chegou a hora de uma reflexão sobre visibilidade ou modificadores de acesso.
+
