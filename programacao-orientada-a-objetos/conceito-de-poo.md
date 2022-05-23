@@ -48,5 +48,13 @@ print('Hello, world!')
 {% endtab %}
 {% endtabs %}
 
+> É bem notória a diferença entre as duas perspectivas de linguagem.
+
+### Programação estruturada
+
+**A programação estruturada** é um [paradigma de programação que](https://stringfixer.com/pt/Programming\_paradigm) visa melhorar a clareza, a qualidade e o tempo de desenvolvimento de um [programa de computador,](https://stringfixer.com/pt/Computer\_program) fazendo uso extensivo das construções de fluxo de controle estruturado de seleção ( [if / then / else](https://stringfixer.com/pt/Conditional\_\(computer\_programming\)) ) e repetição (while e [for](https://stringfixer.com/pt/For\_loop) ), [estruturas de bloco](https://stringfixer.com/pt/Block\_\(programming\)) e [sub](https://stringfixer.com/pt/Subroutines) - [rotinas](https://stringfixer.com/pt/Subroutines) .
+
+O que devemos ter em mente, é que na programação estruturada implementamos algoritimos com estruturas sequenciais denominados de procedimentos lineares, podendo afetar o valor das variáveis de escopo local ou global em uma aplicação.&#x20;
+
 
 
