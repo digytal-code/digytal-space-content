@@ -35,7 +35,7 @@ Vamos ilustrar como executar uma classe, depois de compilada, sem precisar usar 
 3. Acesse a pasta **** _bin_: ** `cd bin`**
 4. Agora digite o comando:**`java MinhaClasse` ** _(nome da sua classe sem a extensão .**class**)_&#x20;
 
-![](<../.gitbook/assets/image (14).png>)
+![](<../.gitbook/assets/image (14) (1).png>)
 
 ## Argumentos
 

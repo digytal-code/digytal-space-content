@@ -29,4 +29,29 @@ Para ilustrar a proposta dos Princípios de POO no nosso quotidiano, vamos simul
 
 ![](<../../.gitbook/assets/image (8).png>)
 
-&#x20;&#x20;
+Vamos descrever em UML e depois em código  algumas das principais funcionalidades de qualquer serviço de comunicação instantânea pela internet, inicialmente pelo MSN Messenger e depois inserindo os demais, considerando os princípios de POO.
+
+{% tabs %}
+{% tab title="UML" %}
+![](<../../.gitbook/assets/image (14).png>)
+{% endtab %}
+
+{% tab title="Code" %}
+```java
+public class MSNMessenger {
+	public void enviarMensagem() {
+		System.out.println("Enviando mensagem");
+	}
+	public void receberMensagem() {
+		System.out.println("Receber mensagem");
+	}
+	public void validarConectadoInternet() {
+		System.out.println("Validando se está conectado a internet");
+	}
+	public void slvarHistoricoMensagem() {
+		System.out.println("Salvando o histórico da mensagem");
+	}
+}jav
+```
+{% endtab %}
+{% endtabs %}
