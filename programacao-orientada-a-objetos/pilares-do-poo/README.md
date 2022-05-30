@@ -21,6 +21,12 @@ Para uma linguagem ser considerada orientada a objetos, esta deve seguir o que d
 
     Exemplo: Veículo determina duas ações como acelerar e frear, primeiramente precisamos identificar se estaremos nos referindo a **Carro** ou **Motocicleta** para determinar a lógica de aceleração e frenagem dos respectivos veículos.&#x20;
 
-Para ilustrar a proposta dos Princípios de POO no nosso quotidiano, vamos simular a proposta de aplicativos de mensagem instantâneas pela internet.
+#### Em prática
+
+Para ilustrar a proposta dos Princípios de POO no nosso quotidiano, vamos simular algumas funcionalidades dos aplicativos de mensagens instantâneas pela internet.
+
+**MSN Messenger** foi um programa de mensagens instantâneas criado pela Microsoft Corporation. O serviço nasceu a 22 de julho de 1999, anunciando-se como um serviço que permitia falar com uma pessoa através de conversas instantâneas pela internet. Ao longo dos anos surgiram novos serviços de mensagens pela internet como Facebook Messenger e o VKontakte Telegram.
+
+![](<../../.gitbook/assets/image (8).png>)
 
 &#x20;&#x20;
