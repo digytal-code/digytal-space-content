@@ -47,7 +47,7 @@ public class MinhaClassea {
 
 ### Por que é tão importante compreender de pacotes?&#x20;
 
-A linguagem Java é composta por milhões de classes internas, classes desenvolvidas em projetos disponíveis através de bibliotecas e as classes do nosso projeto. Logo, existe uma enorme possibilidade da existência de classes de mesmo nome.&#x20;
+A linguagem Java é composta por milhares de classes internas, classes desenvolvidas em projetos disponíveis através de bibliotecas e as classes do nosso projeto. Logo, existe uma enorme possibilidade da existência de classes de mesmo nome.&#x20;
 
 É nesta hora, que nós desenvolvedores precisamos detectar qual classe iremos importar em nosso projeto.
 
