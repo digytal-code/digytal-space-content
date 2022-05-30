@@ -34,6 +34,11 @@ Vamos descrever em UML e depois em código  algumas das principais funcionalidad
 {% tabs %}
 {% tab title="UML" %}
 ![](<../../.gitbook/assets/image (14).png>)
+
+Pontos de atenção
+
+* Todos os métodos da classe são **public** (tudo realmente precisa estar visível ?)
+* Só existe uma única forma de se comunicar via internet (como ter novas formas de se comunicar mantendo a proposta central ? )
 {% endtab %}
 
 {% tab title="Code" %}
@@ -51,7 +56,7 @@ public class MSNMessenger {
 	public void slvarHistoricoMensagem() {
 		System.out.println("Salvando o histórico da mensagem");
 	}
-}jav
+}
 ```
 {% endtab %}
 {% endtabs %}
