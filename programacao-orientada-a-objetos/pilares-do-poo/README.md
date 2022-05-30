@@ -19,4 +19,8 @@ Para uma linguagem ser considerada orientada a objetos, esta deve seguir o que d
     Exemplo: **Veículo** determina duas ações como acelerar e frear, logo estes comportamentos deverão ser _abstratos_ pois existem mais de uma maneira de se realizar a mesma operação.   ver _Polimorfismo_.
 *   **Polimorfismo:** São as inúmeras maneiras de se realizar uma mesma ação.
 
-    Exemplo: Veículo determina duas ações como acelerar e frear, primeiramente precisamos identificar se estaremos nos referindo a **Carro** ou **Motocicleta** para determinar a lógica de aceleração e frenagem dos respectivos veículos.  &#x20;
+    Exemplo: Veículo determina duas ações como acelerar e frear, primeiramente precisamos identificar se estaremos nos referindo a **Carro** ou **Motocicleta** para determinar a lógica de aceleração e frenagem dos respectivos veículos.&#x20;
+
+Para ilustrar a proposta dos Princípios de POO no nosso quotidiano, vamos simular a proposta de aplicativos de mensagem instantâneas pela internet.
+
+&#x20;&#x20;
