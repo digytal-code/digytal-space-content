@@ -6,7 +6,7 @@ A Estrutura Condicional possibilita a escolha de um grupo de ações e comportam
 
 Quando ocorre uma validação de execução de fluxo somente quando a condição for positiva, consideramos como uma estrutura **Simples**, exemplo:
 
-![](<../.gitbook/assets/image (6) (1) (1).png>)
+![](<../.gitbook/assets/image (6) (1) (1) (1).png>)
 
 ```java
 // CaixaEletronico.java
@@ -226,15 +226,7 @@ public class PlanoOperadora {
 Se optarem por usar **`switch`** / **`case`**, estudem um  pouco mais sobre os conceitos de **`continue`**, **`break`** e **`default`**
 {% endhint %}
 
-&#x20;
-
-
-
-
-
-
-
-#### Referências
+#### &#x20;Referências
 
 {% embed url="https://rockcontent.com/br/talent-blog/estruturas-condicionais-2" %}
 

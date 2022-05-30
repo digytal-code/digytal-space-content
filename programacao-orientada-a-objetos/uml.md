@@ -63,7 +63,19 @@ Nem sempre o relacionamento entre as classes será de **um para um**, um determi
 
 **Visibilidade**
 
+Os atributos e métodos de uma classe podem receber níveis de visibilidade, e na UML existem símbolos que representam cada um deles.
 
+* (+) Visibilidade pública
+* (#) Visibilidade protegida (muita associada com herança)
+* (-) Visibilidade privada
+
+#### Representação
+
+![Ilustração utilizando a ferramenta Astah Community](<../.gitbook/assets/image (6).png>)
+
+
+
+#### Que tal praticar ?
 
 ![](<../.gitbook/assets/image (13).png>)
 
