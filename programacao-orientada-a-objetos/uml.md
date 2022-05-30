@@ -61,6 +61,10 @@ Nem sempre o relacionamento entre as classes será de **um para um**, um determi
 * 0..\* -> Representa uma associação **contendo zero ou uma lista de elementos**.&#x20;
 * 1..\* -> Representa uma associação **contendo um ou uma lista de elementos**.&#x20;
 
+**Visibilidade**
+
+
+
 ![](<../.gitbook/assets/image (13).png>)
 
 ### Ferramentas
