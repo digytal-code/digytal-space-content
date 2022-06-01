@@ -19,3 +19,7 @@ Agora é escrever o código das classes acima e esperar pela contratação !!
 {% hint style="danger" %}
 Lamentamos dizer, mas esta não seria a melhor alternativa para a proposta citada acima
 {% endhint %}
+
+Além de uma compreensão do desafio, é necessário, que tenhamos domínio dos pilares de POO e aplicá-los em situações iguais a esta.
+
+**NOTE:** Todas as três classes possuem a mesma estrutura comportamental, e diante deste contexto se encaixa perfeitamente o segundo pilar da POO, a Herança.
