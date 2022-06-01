@@ -42,5 +42,5 @@
   * [Encapsulamento](programacao-orientada-a-objetos/pilares-do-poo/encapsulamento.md)
   * [Herança](programacao-orientada-a-objetos/pilares-do-poo/heranca.md)
   * [Abstração](programacao-orientada-a-objetos/pilares-do-poo/abstracao.md)
-  * [Polimorfimo](programacao-orientada-a-objetos/pilares-do-poo/polimorfimo.md)
+  * [Polimorfismo](programacao-orientada-a-objetos/pilares-do-poo/polimorfismo.md)
 * [Interface](programacao-orientada-a-objetos/interface.md)
