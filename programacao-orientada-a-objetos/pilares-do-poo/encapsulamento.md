@@ -10,9 +10,9 @@ Acredito que não seria uma experiência tão agradável de ser executada recorr
 
 Mesmo ainda sendo necessária algumas etapas nos processos citados, não é um requisito uma visibilidade pública, isso quer dizer que, além da própria classe que possui a responsabilidade de uma determinada ação.
 
-Quanto o MSN Messenger, para nós, só é relevante saber que podemos e como devemos enviar a mensagem, logo, as demais funcionalidades poderão ser consideradas privadas (private). E é ai que se caracteriza a necessidade do pilar de Encapsulamento, o que esconder ?
+Quanto ao MSN Messenger, para nós, só é relevante saber que podemos e como devemos enviar e receber a mensagem, logo, as demais funcionalidades poderão ser consideradas privadas (private). E é ai que se caracteriza a necessidade do pilar de Encapsulamento, o que esconder ?
 
-Vejamos a refatoração abaixo na nossa classe MSN Messenger
+Vejamos a refatoração abaixo da nossa classe MSN Messenger
 
 {% tabs %}
 {% tab title="UML" %}
