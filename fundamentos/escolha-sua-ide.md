@@ -10,7 +10,7 @@ Para aumentar nossa produtividade, nós podemos escolher algumas ferramentas den
 
 Cada IDE dispõe de recursos comuns ou plugins específicos para te auxiliar na agilidade de desenvolvimento.
 
-![](<../.gitbook/assets/image (8) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (8) (1) (1) (1) (1).png>)
 
 {% hint style="success" %}
 Antes de escolhar sua IDE super recomendamos realizar uma pesquisa e ter uma experiência em cada uma delas.

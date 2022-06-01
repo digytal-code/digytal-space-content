@@ -68,7 +68,7 @@ public class AboutMe {
 
 ![](<../.gitbook/assets/image (12).png>)
 
-![](<../.gitbook/assets/image (8) (1) (1).png>)
+![](<../.gitbook/assets/image (8) (1) (1) (1).png>)
 
 ```json
 {

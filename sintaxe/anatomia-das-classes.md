@@ -10,7 +10,7 @@ A escrita de códigos de um programa é feito através da composição de palavr
 
 **Sintaxe de declaração de uma nova classe:**
 
-![](<../.gitbook/assets/image (8) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (8) (1) (1) (1) (1) (1).png>)
 
 * 99,9% das nossas classes iniciarão com `public class;`
 * Toda classe precisa de nome, exemplo `MinhaClasse;`

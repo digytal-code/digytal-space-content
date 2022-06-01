@@ -16,7 +16,7 @@ Vejamos a refatoração abaixo na nossa classe MSN Messenger
 
 {% tabs %}
 {% tab title="UML" %}
-![](<../../.gitbook/assets/image (8).png>)
+![](<../../.gitbook/assets/image (8) (1).png>)
 {% endtab %}
 
 {% tab title="Antes" %}
