@@ -66,3 +66,7 @@ public class Telegram extends ServicoMensagemInstantanea {
 ```
 {% endtab %}
 {% endtabs %}
+
+{% hint style="info" %}
+Em Java o conceito de abstração é representado pela palavra reservada **`abstract`** e métodos que  **NÃO** possuem corpo.
+{% endhint %}
