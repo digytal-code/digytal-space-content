@@ -25,3 +25,55 @@ Além de uma compreensão do desafio, é necessário, que tenhamos domínio dos 
 **NOTE:** Todas as três classes possuem a mesma estrutura comportamental, e diante deste contexto se encaixa perfeitamente o segundo pilar da POO, a Herança.
 
 ![Representação UML do sistema de mensagens insntantâneas](<../../.gitbook/assets/image (11).png>)
+
+{% tabs %}
+{% tab title="Classe Pai" %}
+```java
+//a classe MSNMessenger é ou representa
+public class ServicoMensagemInstantanea {
+	public void enviarMensagem() {
+		//primeiro confirmar se esta conectado a internet
+		validarConectadoInternet();
+		System.out.println("Enviando mensagem");
+		//depois de enviada, salva o histórico da mensagem
+		salvarHistoricoMensagem();
+	}
+	public void receberMensagem() {
+		System.out.println("Recebendo mensagem");
+	}
+	
+	//métodos privadas, visíveis somente na classe
+	private void validarConectadoInternet() {
+		System.out.println("Validando se está conectado a internet");
+	}
+	private void salvarHistoricoMensagem() {
+		System.out.println("Salvando o histórico da mensagem");
+	}
+}
+```
+{% endtab %}
+
+{% tab title="MSNMessenger" %}
+```java
+public class MSNMessenger extends ServicoMensagemInstantanea{
+
+}
+```
+{% endtab %}
+
+{% tab title="FacebookMessenger" %}
+```java
+public class FacebookMessenger extends ServicoMensagemInstantanea {
+
+}
+```
+{% endtab %}
+
+{% tab title="Telegram" %}
+```java
+public class Telegram extends ServicoMensagemInstantanea {
+
+}
+```
+{% endtab %}
+{% endtabs %}
