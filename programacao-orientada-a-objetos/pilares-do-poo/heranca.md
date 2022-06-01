@@ -53,7 +53,7 @@ public class ServicoMensagemInstantanea {
 ```
 {% endtab %}
 
-{% tab title="MSNMessenger" %}
+{% tab title="MSN" %}
 ```java
 public class MSNMessenger extends ServicoMensagemInstantanea{
 
@@ -61,7 +61,7 @@ public class MSNMessenger extends ServicoMensagemInstantanea{
 ```
 {% endtab %}
 
-{% tab title="FacebookMessenger" %}
+{% tab title="Facebook" %}
 ```java
 public class FacebookMessenger extends ServicoMensagemInstantanea {
 
@@ -73,6 +73,28 @@ public class FacebookMessenger extends ServicoMensagemInstantanea {
 ```java
 public class Telegram extends ServicoMensagemInstantanea {
 
+}
+```
+{% endtab %}
+
+{% tab title="ComputadorPedrinho" %}
+```java
+public class ComputadorPedrinho {
+	public static void main(String[] args) {
+		
+		MSNMessenger msn = new MSNMessenger();
+		msn.enviarMensagem();
+		msn.receberMensagem();
+		
+		FacebookMessenger fbm = new FacebookMessenger();
+		fbm.enviarMensagem();
+		fbm.receberMensagem();
+		
+		Telegram tlg = new Telegram();
+		tlg.enviarMensagem();
+		tlg.receberMensagem();
+		
+	}
 }
 ```
 {% endtab %}
