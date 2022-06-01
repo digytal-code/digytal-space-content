@@ -16,3 +16,6 @@ Com base na nossa classe **MsnMessenger**, você já poderia dar os primeiros pa
 
 Agora é escrever o código das classes acima e esperar pela contratação !!
 
+{% hint style="danger" %}
+Lamentamos dizer, mas esta não seria a melhor alternativa para a proposta citada acima
+{% endhint %}
