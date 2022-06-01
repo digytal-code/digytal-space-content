@@ -1,5 +1,5 @@
 ---
-description: Alguns recursos podem ser herdados
+description: Nem tudo se copia, as vezes se herda
 ---
 
 # Herança
