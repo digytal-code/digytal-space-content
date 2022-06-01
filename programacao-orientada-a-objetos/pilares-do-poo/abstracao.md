@@ -15,3 +15,54 @@ Já imaginou a **Microsoft** falar para o **Facebook**: _**"Ei, toma meu código
 O que vale destacar para compreender aqui é que todo e qualquer sistema de mensagem precisa sim no mínimo Enviar e Receber Mensagem, logo, consideramos se firmar um "contrato" para qualquer um que queira se apresentar assim para o mercado.
 
 Observem a nova estruturação dos códigos abaixo com base na implementação apresentada no pilar [Herança](heranca.md).
+
+{% tabs %}
+{% tab title="ServicoPai" %}
+```java
+public abstract class ServicoMensagemInstantanea {
+	public abstract void enviarMensagem();
+	public abstract void receberMensagem();	
+}
+```
+{% endtab %}
+
+{% tab title="MSN" %}
+```java
+public class MSNMessenger extends ServicoMensagemInstantanea{
+	public void enviarMensagem() {
+		System.out.println("Enviando mensagem pelo MSN MEssenger");
+	}
+	public void receberMensagem() {
+		System.out.println("Recebendo mensagem pelo MSN MEssenger");
+	}
+}
+```
+{% endtab %}
+
+{% tab title="Facebook" %}
+```java
+public class FacebookMessenger extends ServicoMensagemInstantanea {
+	public void enviarMensagem() {
+		System.out.println("Enviando mensagem pelo Facebook Messenger");
+	}
+	public void receberMensagem() {
+		System.out.println("Recebendo mensagem pelo Facebook Messenger");
+	}
+}
+```
+{% endtab %}
+
+{% tab title="Telegram" %}
+```java
+public class Telegram extends ServicoMensagemInstantanea {
+	public void enviarMensagem() {
+		System.out.println("Enviando mensagem pelo Telegram");
+	}
+	public void receberMensagem() {
+		System.out.println("Recebendo mensagem pelo Telegram");
+	}
+}
+
+```
+{% endtab %}
+{% endtabs %}
