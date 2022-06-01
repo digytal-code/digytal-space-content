@@ -9,5 +9,10 @@ Já imaginou você ter sido classificado para a vaga de emprego de seus sonhos e
 ![](<../../.gitbook/assets/image (8).png>)
 
 {% hint style="success" %}
-Com base na nossa classe **MsnMessenger**, você já poderia dar os primeiros para se dar bem no processo seletivo, simplemente, copiar e colar a estrutura para novas classes **FacebookMessenger** e **Telegram** e **BINGO 😁😁😁!!!**
+Com base na nossa classe **MsnMessenger**, você já poderia dar os primeiros passo para se dar bem no processo seletivo, simplemente, copiar e colar a estrutura para as novas classes **FacebookMessenger, Telegram** e **BINGO 😁😁😁!!!**
 {% endhint %}
+
+![](<../../.gitbook/assets/image (19).png>)
+
+Agora é escrever o código das classes acima e esperar pela contratação !!
+
