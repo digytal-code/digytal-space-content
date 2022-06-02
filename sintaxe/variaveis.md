@@ -42,7 +42,7 @@ _O ponto mais relevante em compreender a definição dos tipos de dados é o mom
 
 {% endhint %}
 
-![Tabela criada pela minha aluna Priscilla Aniboleti - Github - Pripii](<../.gitbook/assets/image (10) (1).png>)
+![Tabela criada pela minha aluna Priscilla Aniboleti - Github - Pripii](<../.gitbook/assets/image (10) (1) (1).png>)
 
 ## Declaração de Variáveis
 

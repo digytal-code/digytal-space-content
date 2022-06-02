@@ -45,7 +45,7 @@ Uma associação define um relacionamento entre duas classes, permitindo que um 
 
 * **Agregação:** Em uma agregação a classe principal contém uma relação com outra classe mas ela pode existir sem a classe agregadora. Imagina em um cadastro de Candidatos, podemos encontrar candidatos que ainda não possuam uma Profissão.
 
-![Candidato é classe principal e a Profissao agregação](<../.gitbook/assets/image (10).png>)
+![Candidato é classe principal e a Profissao agregação](<../.gitbook/assets/image (10) (1).png>)
 
 * **Composição:** A composição já caracteriza uma dependência existencial entre a classe principal e a classe associada. Imaginamos que uma Admissão só poderá existir contendo suas informações básicas e a composição do Candidato selecionado.
 
