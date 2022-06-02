@@ -16,4 +16,8 @@ Ilustração de interfaces dos equipamentos citados acima.
 
 Representação de objetos reais com base nas interfaces citadas acima.
 
-![](<../.gitbook/assets/image (16).png>)
+![](<../.gitbook/assets/image (20).png>)
+
+> Então o que você está dizendo é que **interfaces** é o mesmo que **classes**? Um molde para representação dos objetos reais ?
+
+Este é um dos maiores questionamentos dos desenvolvedores no que se refere a modelo de classes da aplicação.
