@@ -12,7 +12,7 @@ As classes existentes em nosso projeto serão composta por:&#x20;
 * **Comportamentos** _(behavior)_**:** Também conhecido como **ações** ou **métodos**, é toda parte comportamental que um objeto dispõe.
 * **Instanciar** _(new)_**:** É o ato de criar um objeto a partir de estrutura definida em uma classe. &#x20;
 
-![Ilustração de uma classe Estudente e 03 objetos criados](<../.gitbook/assets/image (9) (1) (1).png>)
+![Ilustração de uma classe Estudente e 03 objetos criados](<../.gitbook/assets/image (9) (1) (1) (1).png>)
 
 Para ilustrar as etapas de desenvolvimento orientada a objetos em Java, iremos reproduzir a imagem acima em forma de código para explicar que primeiro criamos a estrutura correspondente para assim podermos cria-los com as características e possibilidade de realização de ações (comportamentos) como se fosse no "mundo real".
 
