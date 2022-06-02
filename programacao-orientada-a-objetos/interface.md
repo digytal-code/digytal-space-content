@@ -13,3 +13,7 @@ Observem que não há uma especificação de marca, modelo e ou capacidades de e
 Ilustração de interfaces dos equipamentos citados acima.
 
 ![](<../.gitbook/assets/image (11).png>)
+
+Representação de objetos reais que representam as interfaces citadas acima.
+
+![](<../.gitbook/assets/image (16).png>)
