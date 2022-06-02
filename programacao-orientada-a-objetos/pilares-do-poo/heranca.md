@@ -24,7 +24,7 @@ Além de uma compreensão do desafio, é necessário, que tenhamos domínio dos 
 
 **NOTE:** Todas as três classes possuem a mesma estrutura comportamental, e diante deste contexto se encaixa perfeitamente o segundo pilar da POO, a Herança.
 
-![Representação UML do sistema de mensagens insntantâneas](<../../.gitbook/assets/image (11) (1) (1).png>)
+![Representação UML do sistema de mensagens insntantâneas](<../../.gitbook/assets/image (11) (1) (1) (1).png>)
 
 {% tabs %}
 {% tab title="ServicoPai" %}

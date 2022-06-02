@@ -12,7 +12,7 @@ Observem que não há uma especificação de marca, modelo e ou capacidades de e
 
 Ilustração de interfaces dos equipamentos citados acima.
 
-![](<../.gitbook/assets/image (11) (1).png>)
+![](<../.gitbook/assets/image (11) (1) (1).png>)
 
 Representação de objetos reais com base nas interfaces citadas acima.
 
@@ -24,7 +24,7 @@ Este é um dos maiores questionamentos dos desenvolvedores no que se refere a mo
 
 Como citado acima Java não permite herança múltipla, logo, vamos imaginar que recebemos o desafio de projetar uma nova classe para criar objetos que representem as três características citadas acima e que iremos denominar de **EquipamentoMultifunional**.
 
-![](<../.gitbook/assets/image (11).png>)
+![](<../.gitbook/assets/image (11) (1).png>)
 
 Para uma melhor compreensão, vamos analisar os diagramas de classes abaixo, comparando o conceito de herança entre classes e interfaces.
 
@@ -40,7 +40,11 @@ Antes de iniciarmos a representação via código, devemos compreender que, assi
 
 E para encerar, um das mais importantes ilustrações quanto ao uso de interfaces para desenvolvimento de componentes revolucionários é apresentado em 2007 por nada mais nada menos que Steve Jobs ao lançar o primeiro **iPhone** da história.
 
-![](<../.gitbook/assets/image (4).png>)
+![](<../.gitbook/assets/image (11).png>)
+
+{% hint style="info" %}
+Um único equipamento que pode ser considerando tanto como um: **Reprodutor Musicial, Telefone e Navagador na Internet.**
+{% endhint %}
 
 **Referências**
 
