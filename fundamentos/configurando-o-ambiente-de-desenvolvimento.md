@@ -19,7 +19,7 @@ Algumas IDEs como o [VSCode](https://code.visualstudio.com/docs/java/java-tutori
 
 * Depois você precisará realizar um login no site da [Oracle](https://login.oracle.com/mysso/signon.jsp).
 
-![](<../.gitbook/assets/image (9) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (9) (1) (1) (1) (1).png>)
 
 * Após realizar o download, executar o instalador para instalar o Java no Windows. Este processo instalará tanto o **JDK** quanto a **JRE**.
 
