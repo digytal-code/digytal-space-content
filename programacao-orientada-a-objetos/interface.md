@@ -14,6 +14,6 @@ Ilustração de interfaces dos equipamentos citados acima.
 
 ![](<../.gitbook/assets/image (11).png>)
 
-Representação de objetos reais que representam as interfaces citadas acima.
+Representação de objetos reais com base nas interfaces citadas acima.
 
 ![](<../.gitbook/assets/image (16).png>)
