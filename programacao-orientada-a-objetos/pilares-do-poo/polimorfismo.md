@@ -44,7 +44,7 @@ Para concluirmos a compreensão, Polimorfismo permite que as classes mais abstra
 
 Vamos para uma retrospectiva quanto ao requisito do nosso sistema de mensagens instantâneas desde a etapa de encapsulamento.&#x20;
 
-O nosso requisito solicita que além de Enviar e Receber Mensagens precisamos &#x20;
+O nosso requisito solicita que além de Enviar e Receber Mensagens precisamos validar se o aplicativo está conectado a internet (**`validarConectadoInternet`**) e salvar o histórico de cada mensagem (**`salvarHistoricoMensagem`**).&#x20;
 
 #### Referências
 
