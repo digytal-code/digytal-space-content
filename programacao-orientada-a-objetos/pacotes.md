@@ -6,7 +6,7 @@ A linguagem Java é composta por milhares de classes com as finalidades de, por 
 
 Para prevenir este acontecimento, a linguagem dispõe de um recurso que organiza as classes padrão e criadas por nós, que conhecemos como pacote (package). Os pacotes são subdiretórios a partir da pasta src do nosso projeto onde estão localizadas as classes da linguagem e novas que forem criadas para o projeto. Existem algumas convenções para criação de pacotes já utilizados no mercado.
 
-![](<../.gitbook/assets/image (18).png>)
+![](<../.gitbook/assets/image (18) (1).png>)
 
 ### Nomenclatura
 

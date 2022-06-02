@@ -28,3 +28,5 @@ Como citado acima Java não permite herança múltipla, logo, vamos imaginar que
 
 Para uma melhor compreensão, vamos analisar os diagramas de classes abaixo, comparando o conceito de herança entre classes e interfaces.
 
+![Exemplo de herança entre classes](<../.gitbook/assets/image (18).png>)
+
