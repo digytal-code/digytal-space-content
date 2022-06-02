@@ -16,7 +16,7 @@ Ilustração de interfaces dos equipamentos citados acima.
 
 Representação de objetos reais com base nas interfaces citadas acima.
 
-![](<../.gitbook/assets/image (20).png>)
+![](<../.gitbook/assets/image (20) (1).png>)
 
 > Então o que você está dizendo é que **interfaces** é o mesmo que **classes**? Um molde para representação dos objetos reais ?
 
@@ -30,9 +30,9 @@ Para uma melhor compreensão, vamos analisar os diagramas de classes abaixo, com
 
 **Cenário 1**
 
-![Exemplo de herança entre classes](<../.gitbook/assets/image (18).png>)
+![Exemplo de aplicação de Herança entre classes](<../.gitbook/assets/image (3).png>)
 
 **Cenário 2**
 
-![Recurso de Herança Múltipla baseada em interfaces](<../.gitbook/assets/image (5).png>)
+![Ilustração do uso de interfaces para aplicar Herança Múltipla](<../.gitbook/assets/image (20).png>)
 

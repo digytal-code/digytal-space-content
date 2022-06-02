@@ -21,7 +21,7 @@ Um pouco mais da história sobre Java no canal do [Guanabara Curso em Vídeo](ht
 * Softwares destinados ao consumidor final.
 * Aplicativos para Smartphones.
 
-![Em 23 de janeiro de 2021 foi celebrado os 25 anos da linguagem Java hoje é mantida pela Oracle Inc.](<../.gitbook/assets/image (3).png>)
+![Em 23 de janeiro de 2021 foi celebrado os 25 anos da linguagem Java hoje é mantida pela Oracle Inc.](<../.gitbook/assets/image (3) (1).png>)
 
 Características de cada versão
 
