@@ -230,7 +230,7 @@ do
 while (expressão booleana de validação);
 ```
 
-![](<../.gitbook/assets/image (5).png>)
+![](<../.gitbook/assets/image (5) (1).png>)
 
 Joãozinho resolveu ligar para o seu amigo dizendo que hoje se entupiu de comer docinhos:
 
