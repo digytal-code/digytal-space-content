@@ -40,6 +40,10 @@ public class ComputadorPedrinho {
 Para concluirmos a compreensão, Polimorfismo permite que as classes mais abstratas determinem ações uniformes para que cada classe filha concreta implementem os comportamentos de forma específica.
 {% endhint %}
 
+#### Modificador protected
+
+asd
+
 #### Referências
 
 {% embed url="https://pt.wikipedia.org/wiki/Polimorfismo_(ci%C3%AAncia_da_computa%C3%A7%C3%A3o)" %}
