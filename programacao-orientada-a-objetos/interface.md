@@ -12,7 +12,7 @@ Observem que não há uma especificação de marca, modelo e ou capacidades de e
 
 Ilustração de interfaces dos equipamentos citados acima.
 
-![](<../.gitbook/assets/image (11).png>)
+![](<../.gitbook/assets/image (11) (1).png>)
 
 Representação de objetos reais com base nas interfaces citadas acima.
 
@@ -23,3 +23,8 @@ Representação de objetos reais com base nas interfaces citadas acima.
 Este é um dos maiores questionamentos dos desenvolvedores no que se refere a modelo de classes da aplicação.
 
 Como citado acima Java não permite herança múltipla, logo, vamos imaginar que recebemos o desafio de projetar uma nova classe para criar objetos que representem as três características citadas acima e que iremos denominar de **EquipamentoMultifunional**.
+
+![](<../.gitbook/assets/image (11).png>)
+
+Para uma melhor compreensão, vamos analisar os diagramas de classes abaixo, comparando o conceito de herança entre classes e interfaces.
+
