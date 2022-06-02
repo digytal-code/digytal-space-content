@@ -48,6 +48,10 @@ O nosso requisito solicita que além de Enviar e Receber Mensagens precisamos va
 
 Sabemos que cada aplicativo costuma salvar as mensagens em seus respectivos servidores cloud, mas e quanto a validar se está conectado a internet? Não poderia ser um mecanismo comum à todos ? Logo qualquer classe filha de **ServicoMensagemInstantanea** poderia desfrutrar através de herança desta funcionalidade.
 
+{% hint style="info" %}
+Mas fica a reflexão do que já aprendemos sobre visbilidade de recursos: Com o modificador **`private`** somente a classe conhece a implementação quanto que o modificador **`public`**  todos passarão a conhecer. Mas gostaríamos que somente as classes filha soubessem. Bem, é ai que entra o modificador **`protected`**.
+{% endhint %}
+
 &#x20;
 
 #### Referências
