@@ -37,3 +37,11 @@ Para uma melhor compreensão, vamos analisar os diagramas de classes abaixo, com
 ![Ilustração do uso de interfaces para aplicar Herança Múltipla](<../.gitbook/assets/image (20).png>)
 
 Antes de iniciarmos a representação via código, devemos compreender que, assim como em classes e métodos abstratos, quando herdamos de uma interface, precisamos implementar todos os seus métodos, pois os mesmos são implicitamente **`public abstract`**.
+
+E para encerar, um das mais importantes ilustrações quanto ao uso de interfaces para desenvolvimento de componentes revolucionários é apresentado em 2007 por nada mais nada menos que Steve Jobs ao lançar o primeiro **iPhone** da história.
+
+![](<../.gitbook/assets/image (4).png>)
+
+**Referências**
+
+{% embed url="https://www.youtube.com/watch?t=1101s&v=9ou608QQRq8" %}

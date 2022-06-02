@@ -39,7 +39,7 @@ O Java se subdivide em componentes de desenvolvimento (JDK) e de execução (JRE
 * Este arquivo é compilado com o javac gerando o arquivo .class.
 * O arquivo .class não contém código de máquina nativo, e sim o `bytecodes`.
 
-![](<../.gitbook/assets/image (4).png>)
+![](<../.gitbook/assets/image (4) (1).png>)
 
 ### JVM - Java Virtual Machine
 
