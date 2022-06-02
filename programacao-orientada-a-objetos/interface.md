@@ -36,3 +36,4 @@ Para uma melhor compreensão, vamos analisar os diagramas de classes abaixo, com
 
 ![Ilustração do uso de interfaces para aplicar Herança Múltipla](<../.gitbook/assets/image (20).png>)
 
+Antes de iniciarmos a representação via código, devemos compreender que, assim como em classes e métodos abstratos, quando herdamos de uma interface, precisamos implementar todos os seus métodos, pois os mesmos são implicitamente **`public abstract`**.
