@@ -77,3 +77,7 @@ public class SistemaIbge {
 }
 
 ```
+
+### valueOf
+
+asd
