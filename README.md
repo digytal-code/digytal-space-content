@@ -2,7 +2,7 @@
 
 A Linguagem Java é composta por um conjunto bem definido de funcionalidades (features) que são super recomendadas para você entusiasta em programação conhecer o máximo que puder.
 
-Abaixo iremos explorar algumas funcionalidades essenciais para nosso engajamento com a linguagam.
+Abaixo iremos explorar algumas funcionalidades essenciais para nosso engajamento com a linguagem.
 
 ![](<.gitbook/assets/image (5) (1) (1) (1).png>)
 
@@ -24,7 +24,7 @@ Para começar a desenvolver softwares de forma consistente com Java, é necessá
 
 ### Plataforma independente <a href="#platform-independent" id="platform-independent"></a>
 
-O objetivo de design do javasoft people é desenvolver uma linguagem que funcione em qualquer plataforma. Uma plataforma é o ambiente de hardware ou software no qual um programa é executado..&#x20;
+O objetivo de design do javasoft people é desenvolver uma linguagem que funcione em qualquer plataforma. Uma plataforma é o ambiente de hardware ou software no qual um programa é executado.&#x20;
 
 Em Java, o código-fonte Java é compilado para bytecode e esse bytecode não está vinculado a nenhuma plataforma.
 
