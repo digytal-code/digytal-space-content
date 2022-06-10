@@ -169,14 +169,14 @@ public class SistemaMedida {
 Observe que a nível de sintaxe não tivemos nenhum ganho quanto a redução de códigos e ainda tivemos mais uma preocupação em informar a palavra `break` em cada alternativa.
 {% endhint %}
 
-Porém um cenário que poderíamos adequar o uso do switch/case para melhorar nosso algorítimo seria conforme ilustração abaixo:
+Porém um cenário que poderíamos adequar o uso do switch/case para melhorar nosso algoritmo seria conforme ilustração abaixo:
 
 Imagina que fomos requisitados a criar um sistema de plano telefônico onde:
 
 * O sistema terá 03 planos: BASIC, MIDIA , TURBO
 * BASIC: 100 minutos de ligação
-* MIDIA: 100 minutos de ligação + Whats e Intagram grátis
-* TURBO: 100 minutos de ligação + Whats e Intagram grátis + 5Gb Youtube
+* MIDIA: 100 minutos de ligação + WhatsApp e Instagram grátis
+* TURBO: 100 minutos de ligação + WhatsApp e Instagram grátis + 5 GB Youtube
 
 ```java
 // Modo condicional convencional
