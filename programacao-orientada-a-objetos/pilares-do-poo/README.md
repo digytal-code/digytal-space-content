@@ -13,17 +13,17 @@ Para uma linguagem ser considerada orientada a objetos, esta deve seguir o que d
     Exemplo: Ligar um veículo exige muitas etapas para a engenharia, mas o condutor só visualiza  a ignição, dar a partida e a _“magia”_ acontece.
 *   **Herança:** Características e comportamentos comuns podem ser elevados e compartilhados através de uma hierarquia de objetos.
 
-    Exemplo: Um Carro e uma Motocicleta possuem propriedades como placa, chassi, ano de fabricação e métodos como acelerar, frear. Logo para não ser um processo de codificação redundante, podemos desfrutar da herança criando uma classe **Veiculo** para que seja herdada por Carro e Motocicleta.
+    Exemplo: Um Carro e uma Motocicleta possuem propriedades como placa, chassi, ano de fabricação e métodos como acelerar, frear. Logo, para não ser um processo de codificação redundante, podemos desfrutar da herança criando uma classe **Veiculo** para que seja herdada por Carro e Motocicleta.
 *   **Abstração:** É a indisponibilidade para determinar a lógica de um ou vários comportamentos em um objeto.
 
-    Exemplo: **Veículo** determina duas ações como acelerar e frear, logo estes comportamentos deverão ser _abstratos_ pois existem mais de uma maneira de se realizar a mesma operação.   ver _Polimorfismo_.
+    Exemplo: **Veículo** determina duas ações como acelerar e frear, logo, estes comportamentos deverão ser _abstratos,_ pois existem mais de uma maneira de se realizar a mesma operação.   ver _Polimorfismo_.
 *   **Polimorfismo:** São as inúmeras maneiras de se realizar uma mesma ação.
 
     Exemplo: Veículo determina duas ações como acelerar e frear, primeiramente precisamos identificar se estaremos nos referindo a **Carro** ou **Motocicleta** para determinar a lógica de aceleração e frenagem dos respectivos veículos.&#x20;
 
 #### Em prática
 
-Para ilustrar a proposta dos Princípios de POO no nosso quotidiano, vamos simular algumas funcionalidades dos aplicativos de mensagens instantâneas pela internet.
+Para ilustrar a proposta dos Princípios de POO no nosso cotidiano, vamos simular algumas funcionalidades dos aplicativos de mensagens instantâneas pela internet.
 
 **MSN Messenger** foi um programa de mensagens instantâneas criado pela Microsoft Corporation. O serviço nasceu a 22 de julho de 1999, anunciando-se como um serviço que permitia falar com uma pessoa através de conversas instantâneas pela internet. Ao longo dos anos surgiram novos serviços de mensagens pela internet como **Facebook Messenger** e o **VKontakte Telegram**.
 
@@ -35,7 +35,7 @@ Vamos descrever em UML e depois em código  algumas das principais funcionalidad
 {% tab title="UML" %}
 ![](<../../.gitbook/assets/image (14).png>)
 
-Pontos de atenção
+Pontos de atenção:
 
 * Todos os métodos da classe são **public** (tudo realmente precisa estar visível ?)
 * Só existe uma única forma de se comunicar via internet (como ter novas formas de se comunicar mantendo a proposta central ? )
