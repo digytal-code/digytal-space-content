@@ -43,7 +43,7 @@ E para encerar, um das mais importantes ilustrações quanto ao uso de interface
 ![](<../.gitbook/assets/image (11).png>)
 
 {% hint style="info" %}
-Um único equipamento que pode ser considerando tanto como um: **Reprodutor Musicial,  Aparelho Telefônico e Navegador na Internet.**
+Um único equipamento que pode ser considerado tanto como um: **Reprodutor Musical,  Aparelho Telefônico e Navegador na Internet.**
 {% endhint %}
 
 **Referências**
