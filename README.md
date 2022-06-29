@@ -12,15 +12,15 @@ Java é uma linguagem de programação simples e fácil de entender, pois não c
 
 ### Orientada a Objeto <a href="#object-oriented" id="object-oriented"></a>
 
-Java é uma linguagem de Programação Orientada a Objetos. Isso significa que em Java tudo é escrito em termos de CLASSES e OBJETOS.
+Java é uma linguagem de Programação Orientada a Objetos.                                                           Isso significa que em Java tudo é escrito em termos de CLASSES e OBJETOS.
 
 Para começar a desenvolver softwares de forma consistente com Java, é necessário compreender os pilares da Programação Orientada a Objetos (POO). Eles são:
 
-1. Classe e Objeto
-2. Encapsulamento
-3. Abstração
-4. Herança
-5. Polimorfismo
+1. Classe e Objeto;
+2. Encapsulamento;
+3. Abstração;
+4. Herança;
+5. Polimorfismo.
 
 ### Plataforma independente <a href="#platform-independent" id="platform-independent"></a>
 
@@ -36,8 +36,8 @@ O conceito WORA (Write Once Run Anywhere) e o recurso independente de plataforma
 
 A linguagem de programação Java é robusta, o que significa que é capaz de lidar com o encerramento inesperado de um programa.&#x20;
 
-* Ele usa um gerenciamento de memória forte.
-* Java fornece coleta de lixo automática.
+* Ele usa um gerenciamento de memória forte;
+* Java fornece coleta de lixo automática;
 * Há tratamento de exceção e mecanismo de verificação de tipo em Java.
 
 ### Segura
