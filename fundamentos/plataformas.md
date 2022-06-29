@@ -1,12 +1,12 @@
 # Plataformas
 
-Com a linguagem Java conseguimos desenvolver softwares para várias finalidades de negócio. Seja uma aplicação desktop, uma distribuição web, eletrônicos e dispositivos móveis.
+Com a linguagem Java, conseguimos desenvolver softwares para várias finalidades de negócio. Seja uma aplicação desktop, uma distribuição web, eletrônicos e dispositivos móveis.
 
-Isso graças a distribuição dos recursos da linguagem através de plataformas bem estruturadas.
+Isso graças a distribuição dos recursos da linguagem, através de plataformas bem estruturadas.
 
 ### Plataformas da linguagem Java
 
-A linguagem Java conta com quatro ambientes de desenvolvimento.
+A linguagem Java conta com quatro ambientes de desenvolvimento:
 
 ![](<../.gitbook/assets/image (10) (1) (1) (1) (1).png>)
 
@@ -19,24 +19,24 @@ A linguagem Java conta com quatro ambientes de desenvolvimento.
 
 Agora que já sabemos que podemos desenvolver para vários cenários de negócio, é hora de conhecer as ferramentas de desenvolvimento da linguagem:
 
-O Java se subdivide em componentes de desenvolvimento (JDK) e de execução (JRE). Isso significa que, para desenvolver aplicações, é necessário ter instalado o JDK. Mas para apenas iniciar o executável (.jar) simplesmente a instalação da JRE será o suficiente.
+O Java se subdivide em componentes de desenvolvimento (JDK) e de execução (JRE). Isso significa que, para desenvolver aplicações, é necessário ter instalado o JDK. Mas para apenas iniciar o executável (.jar), simplesmente a instalação da JRE será o suficiente.
 
 **JDK (Java Development Kit) - Kit de Desenvolvimento Java**
 
-* Composto pelo Compilador (javac + JVM)
-* Visualizador de applets, bibliotecas de desenvolvimento
-* Programa para composição de documentação (javadoc)
+* Composto pelo compilador (javac + JVM);
+* Visualizador de applets, bibliotecas de desenvolvimento;
+* Programa para composição de documentação (javadoc);
 * Depurador básico de programas e versão da JRE.
 
 **JRE (Java Runtime Environment) - Ambiente de Execução Java**
 
-* É composta de uma JVM e por um conjunto de bibliotecas que permite a execução de softwares em Java.
-* Apenas permite a execução de programas, ou seja é necessário o programa Java compilado pela JDK gerando os arquivos **.class**.
+* É composta de uma JVM e por um conjunto de bibliotecas, que permite a execução de softwares em Java;
+* Apenas permite a execução de programas, ou seja, é necessário o programa Java compilado pela JDK gerando os arquivos **.class**.
 
 ### Processo de desenvolvimento
 
-* Todo código-fonte escrito em arquivo texto possui extensão .java
-* Este arquivo é compilado com o javac gerando o arquivo .class.
+* Todo código-fonte escrito em arquivo texto possui extensão .java;
+* Este arquivo é compilado com o javac gerando o arquivo .class;
 * O arquivo .class não contém código de máquina nativo, e sim o `bytecodes`.
 
 ![](<../.gitbook/assets/image (4) (1).png>)
@@ -45,7 +45,7 @@ O Java se subdivide em componentes de desenvolvimento (JDK) e de execução (JRE
 
 **Máquina virtual Java** (em [inglês](https://pt.wikipedia.org/wiki/L%C3%ADngua\_inglesa): _Java Virtual Machine_, **JVM**) é um programa que carrega e executa os aplicativos [Java](https://pt.wikipedia.org/wiki/Linguagem\_de\_programa%C3%A7%C3%A3o\_Java), convertendo os [bytecodes](https://pt.wikipedia.org/wiki/Bytecode\_Java) em código executável de máquina. A JVM é responsável pelo gerenciamento dos aplicativos, à medida que são executados.
 
-Graças à máquina virtual Java, os programas escritos em Java podem funcionar em qualquer plataforma de hardware e software que possua uma versão da JVM, tornando assim essas aplicações independentes da plataforma onde funcionam.
+Graças à máquina virtual Java, os programas escritos em Java podem funcionar em qualquer plataforma de hardware e software que possua uma versão da JVM, tornando assim, essas aplicações independentes da plataforma onde funcionam.
 
 ![Wikipedia - Camada responsável por interpretar os bytecodes para cada sistema operacional](<../.gitbook/assets/image (11) (1) (1) (1) (1) (1) (1).png>)
 
