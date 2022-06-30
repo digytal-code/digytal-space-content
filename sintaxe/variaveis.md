@@ -2,12 +2,12 @@
 
 ## Tipos de dados
 
-No Java, existem algumas palavras reservadas para a representação dos tipos de dados básicos que precisam ser manipulados para a construção de programas. Estes tipos de dados são conhecidos como tipos primitivos (Primitive Types).
+No Java, existem algumas palavras reservadas, para a representação dos tipos de dados básicos, que precisam ser manipulados, para a construção de programas. Estes tipos de dados são conhecidos como tipos primitivos (Primitive Types).
 
 {% hint style="info" %}
 Os oito tipos primitivos em Java são:
 
-&#x20;int, byte, short, long, float, double, boolean e char – esses tipos não são considerados objetos,  e portanto representam valores brutos. Eles são armazenados diretamente na pilha de memória. (Memory stack)
+&#x20;int, byte, short, long, float, double, boolean e char – esses tipos não são considerados objetos e portanto representam valores brutos. Eles são armazenados diretamente na pilha de memória. (Memory stack)
 {% endhint %}
 
 Tabela de Tipos Primitivos e seus valores:
@@ -21,23 +21,23 @@ Tabela de Tipos Primitivos e seus valores:
 
 
 
-Os tipos primitivos que podem conter partes fracionárias podem ser representados por dois tipos:
+Os tipos primitivos, que podem conter partes fracionárias podem ser representados por dois tipos:
 
 | Tipo   | Memória | Mínimo         | Máximo        | Precisão      |
 | ------ | ------- | -------------- | ------------- | ------------- |
 | float  | 4 bytes | -3,4028E + 38  | 3,4028E + 38  | 6 – 7 dígitos |
 | double | 8 bytes | -1,7976E + 308 | 1,7976E + 308 | 15 dígitos    |
 
-Apesar de o tipo **float** ocupar metade da memória consumida do que um tipo double, ele é menos utilizado. Ele sofre de uma limitação que compromete seu uso em determinadas situações: somente mantém uma precisão decimal entre 6 e 7 dígitos.
+Apesar de o tipo **float,** ocupar metade da memória consumida do que um tipo double, ele é menos utilizado. Ele sofre de uma limitação que compromete seu uso em determinadas situações: somente mantém uma precisão decimal entre 6 e 7 dígitos.
 
 Atualmente, com os computadores modernos, se tornou desnecessário utilizar os tipos `short` e `byte`, pois não precisamos nos preocupar tanto assim com o espaço de memória reduzido.&#x20;
 
 Da mesma forma, dificilmente utilizaremos o tipo `long`, pois não é tão comum trabalharmos com valores tão grandes.&#x20;
 
-Portanto, para representar números, na grande maioria das vezes utilizaremos o tipo `int` para representar números inteiros ou `double`  para representar números fracionados.&#x20;
+Portanto, para representar números, na grande maioria das vezes, utilizaremos o tipo `int` , para representar números inteiros ou `double`  para representar números fracionados.&#x20;
 
 {% hint style="info" %}
-_O ponto mais relevante em compreender a definição dos tipos de dados é o momento da definição do tipo para uma variável. **Qual tipo de dados eu utilizaria para determinar a idade de uma pessoa ou o salário de um funcionário?**_
+_O ponto mais relevante, em compreender a definição dos tipos de dados é o momento da definição do tipo para uma variável. **Qual tipo de dados eu utilizaria para determinar a idade de uma pessoa ou o salário de um funcionário?**_
 
 
 {% endhint %}
@@ -46,7 +46,7 @@ _O ponto mais relevante em compreender a definição dos tipos de dados é o mom
 
 ## Declaração de Variáveis
 
-Variável é uma identificação de um espaço em memória utilizado pelo nosso programa. Seguindo as convenções em linguagem de programação, toda variável é composta por: tipo de dados + identificação + valor atribuído.
+Variável, é uma identificação de um espaço em memória, utilizado pelo nosso programa. Seguindo as convenções em linguagem de programação, toda variável é composta por: tipo de dados + identificação + valor atribuído.
 
 A estrutura padrão para se declarar uma variável sempre é:
 
@@ -76,13 +76,13 @@ public class TipoDados {
 ```
 
 {% hint style="warning" %}
-Observe que o tipo long precisa terminar com L, o tipo float precisa terminar com F e alguns cenários do dia-a-dia podem estimular uma alteração de tipos de dados convencional.
+Observe que o tipo long precisa terminar com L, o tipo float precisa terminar com F e alguns cenários do dia-a-dia, podem estimular uma alteração de tipos de dados convencional.
 {% endhint %}
 
-Muitas das vezes criamos uma variável, definimos um valor correspondente, manipulamos esta variável e temos consciência de seu valor na aplicação. Mas cuidado !!
+Muitas das vezes criamos uma variável, definimos um valor correspondente, manipulamos esta variável e temos consciência de seu valor na aplicação. Mas, cuidado!
 
 {% hint style="warning" %}
-Java é fortemente "tipado"
+Java é fortemente "tipado".
 {% endhint %}
 
 Veja o cenário abaixo:
@@ -96,20 +96,20 @@ short numeroCurto2 = numeroNormal;
 ```
 
 {% hint style="info" %}
-Por mais que temos ciência que valor de `numeroNormal` cabe é um short, o **Java** não permite correr o risco.
+Por mais que tenhamos ciência do valor que`numeroNormal` cabe é um short, o **Java** não permite correr o risco.
 {% endhint %}
 
 ## Variáveis e Constantes
 
-Uma **variável** é uma área de memória, associada a um nome, que pode armazenar valores de um determinado tipo. Um tipo de dado define um conjunto de valores e um conjunto de operações. **Java** é uma linguagem com rigidez de tipos, diferente de linguagens como JavaScript, onde declarar o tipo da variável não é obrigatório.&#x20;
+Uma **variável** é uma área de memória, associada a um nome, que pode armazenar valores de um determinado tipo. Um tipo de dado, define um conjunto de valores e um conjunto de operações. **Java** é uma linguagem com rigidez de tipos, diferente de linguagens como JavaScript, onde declarar o tipo da variável não é obrigatório.&#x20;
 
-No Java utilizamos identificadores que representam uma referência (ponteiro) a um valor em memória, e esta referência pode ser redirecionada a outro valor, sendo portanto esta a causa do nome "variável", pois o valor pode variar.&#x20;
+No Java, utilizamos identificadores que representam uma referência (ponteiro) a um valor em memória, e esta referência pode ser redirecionada a outro valor, sendo portanto esta a causa do nome "variável", pois o valor pode variar.&#x20;
 
-Já as **Constantes** são valores armazenados em memória que não podem ser modificados depois de declarados. Em Java, esses valores são representados pela palavra reservada `final`, seguida do tipo.
+Já as **Constantes,** são valores armazenados em memória que não podem ser modificados depois de declarados. Em Java, esses valores são representados pela palavra reservada `final`, seguida do tipo.
 
 Por convenção, **Constantes** são sempre escritas em CAIXA ALTA.
 
-Abaixo temos um exemplo explicativo sobre uso de variáveis e constantes:
+Abaixo, temos um exemplo explicativo sobre uso de variáveis e constantes:
 
 ```java
 public class ExemploVariavel {
@@ -142,6 +142,6 @@ public class ExemploVariavel {
 ```
 
 {% hint style="warning" %}
-Compreendemos que para declarar uma variável como uma constante, utilizamos a palavra `final`, mas por convenção, esta variável deverá ser escrita toda em caixa alta.&#x20;
+Compreendemos que, para declarar uma variável como uma constante, utilizamos a palavra `final`, mas por convenção, esta variável deverá ser escrita toda em caixa alta.&#x20;
 {% endhint %}
 
