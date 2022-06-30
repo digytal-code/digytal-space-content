@@ -1,10 +1,10 @@
 ---
-description: Uma classe bem estruturada não quer guerra com ninguém
+description: Uma classe bem estruturada, não quer guerra com ninguém!
 ---
 
 # Anatomia das classes
 
-A escrita de códigos de um programa é feito através da composição de palavras pré-definidas pela linguagem com as expressões que utilizamos para determinar o nome do nossos arquivos, classes, atributos e métodos.
+A escrita de códigos de um programa é feito através da composição de, palavras pré-definidas pela linguagem, com as expressões que utilizamos para determinar o nome do nossos arquivos, classes, atributos e métodos.
 
 É muito comum mesclarmos expressões no idioma americano com o nosso vocabulário. Existem projetos que recomendam que toda a implementação do seu programa seja escrita na língua inglesa.
 
@@ -43,7 +43,7 @@ public class CalculadoraCientifica {
 * **Nome de variável**: toda variável deve ser escrita com letra minúscula, porém se a palavra for composta, a primeira letra da segunda palavra deverá ser MAIÚSCULA, exemplo: `ano` e `anoFabricacao`. O nome dessa prática para nomear variáveis dessa forma se chama "camelCase".&#x20;
 
 {% hint style="info" %}
-Existe uma regra adicional para variáveis quando na mesma queremos identificar que ela não sofrerá alteração de valor, exemplo: queremos determinar que uma variável de nome **br** sempre representará **"Brasil"** e nunca mudará seu valor, logo, determinamos como escrita o código abaixo:
+Existe uma regra adicional para variáveis, quando na mesma queremos identificar que ela não sofrerá alteração de valor, exemplo: queremos determinar que uma variável de nome **br** sempre representará **"Brasil"** e nunca mudará seu valor, logo, determinamos como escrita o código abaixo:
 {% endhint %}
 
 ```java
@@ -54,15 +54,15 @@ int ANO_2000 = 2000
 ```
 
 {% hint style="danger" %}
-Recomendações: Para declarar uma variável nós podemos utilizar caracteres, números e símbolos, porém devemos seguir algumas regras da linguagem.
+Recomendações: Para declarar uma variável nós podemos utilizar caracteres, números e símbolos, porém, devemos seguir algumas regras da linguagem.
 {% endhint %}
 
-* Deve conter apenas letras, \_ (underline), $ ou os números de 0 a 9
-* Deve obrigatoriamente se iniciar por uma letra (preferencialmente), \_ ou $, jamais com número
-* Deve iniciar com uma letra minúscula (boa prática – ver abaixo)
-* Não pode conter espaços
-* Não podemos usar palavras-chave da linguagem
-* O nome deve ser único dentro de um escopo
+* Deve conter apenas letras, \_ (underline), $ ou os números de 0 a 9;
+* Deve obrigatoriamente se iniciar por uma letra (preferencialmente), \_ ou $, jamais com número;
+* Deve iniciar com uma letra minúscula (boa prática – ver abaixo);
+* Não pode conter espaços;
+* Não podemos usar palavras-chave da linguagem;
+* O nome deve ser único dentro de um escopo.
 
 ```java
 // Declação inválida de variáveis
@@ -82,7 +82,7 @@ int longo = 1;
 
 ## Declarando variáveis e métodos
 
-Como identificar entre declaração de variáveis e métodos em nossa programa? Existe uma estrutura comum para ambas as finalidades, exemplo:
+Como identificar a diferença entre, declaração de variáveis e métodos em nossa programa?             Existe uma estrutura comum para ambas as finalidades, exemplo:
 
 * Declarar uma variável em Java segue sempre a seguinte estrutura:
 
@@ -113,19 +113,19 @@ String formatarCep (long cep)
 ```
 
 {% hint style="warning" %}
-Como parte da estrutura de declaração de variáveis e métodos também temos o aspecto da **visibilidade**, mas ainda não é necessário nesta etapa de estudos.
+Como parte da estrutura de declaração de variáveis e métodos, também temos o aspecto da **visibilidade**, mas ainda não é necessário nesta etapa de estudos.
 {% endhint %}
 
-## Identação
+## Indentação (indentation)
 
 Basicamente **indentar** é um termo utilizado para escrever o código do programa de forma hierárquica, facilitando assim a visualização e o entendimento do programa.
 
 ![](<../.gitbook/assets/image (5) (1) (1) (1) (1).png>)
 
-Abaixo, veja um exemplo de um algoritmo de validação de aprovação de estudante. Em uma aba, temos um código sem identação nenhuma, e na outra aba, temos o mesmo código seguindo um padrão de identação. Observe como é muito mais fácil entender a hierarquia do código na segunda aba.&#x20;
+Abaixo, veja um exemplo de um algoritmo de validação, de aprovação de estudante. Em uma aba, temos um código sem indentação nenhuma, e na outra aba, temos o mesmo código, seguindo um padrão de indentação. Observe como é muito mais fácil entender a hierarquia do código na segunda aba.&#x20;
 
 {% tabs %}
-{% tab title="Sem Identação" %}
+{% tab title="Sem Indentação" %}
 ```java
 // arquivo BoletimEstudantil.java
 
@@ -143,7 +143,7 @@ System.out.println("APROVADO");
 ```
 {% endtab %}
 
-{% tab title="Com Identação" %}
+{% tab title="Com Indentação" %}
 ```java
 public class BoletimEstudantil {
 	public static void main(String[] args) {
@@ -166,18 +166,18 @@ public class BoletimEstudantil {
 
 ![Ilustração de uso de pacotes](<../.gitbook/assets/image (2) (1).png>)
 
-Com o uso de pacotes as nossas classes (.java) passam a possuir duas identificações, o nome simples e nome qualificado:
+Com o uso de pacotes, as nossas classes (.java) passam a possuir duas identificações, o nome simples e nome qualificado:
 
 * **Nome Simples**: Nome do arquivo, exemplo `ContaBanco`.
 * **Nome Qualificado**: Nome do pacote + nome do arquivo, exemplo: `com.suaempresa.ContaBanco`.
 
 ## Java Beans
 
-Umas das maiores dificuldades na programação é escrever algoritmos legíveis a níveis que sejam compreendidos por todo seu time ou por você mesmo no futuro. Para isso a linguagem Java sugere, através de convenções, formas de escrita universal para nossas classes, atributos, métodos e pacotes.
+Umas das maiores dificuldades na programação é escrever algoritmos legíveis, a níveis que sejam compreendidos por todo seu time ou por você mesmo no futuro. Para isso, a linguagem Java sugere através de convenções, uma escrita universal, para nossas classes, atributos, métodos e pacotes.
 
 #### Variáveis
 
-Mais cedo já aprendemos algumas regras de declaração de variáveis, mas agora iremos conhecer algumas sugestões de de nomenclatura:
+Mais cedo já aprendemos algumas regras de declaração de variáveis, mas agora iremos conhecer algumas sugestões de nomenclatura:
 
 * Uma variável deve ser clara, sem abreviações ou definição sem sentido;
 * Uma variável é sempre no singular, **exceto quando se referir a um array ou coleção**.
@@ -202,7 +202,7 @@ String meuNome = "JOSEPH"
 
 #### Métodos
 
-Os métodos deverão ser nomeados como verbos, através de uma mistura de letras minúsculas e maiúsculas. Em princípio todas as letras que compõem o nome devem ser mantidas em minúsculo, com exceção da primeira letra de cada palavra composta a partir da segunda palavra.
+Os métodos deverão ser nomeados como verbos, através de uma mistura de letras minúsculas e maiúsculas. Em princípio todas as letras que compõem o nome devem ser mantidas em minúsculo, com exceção da primeira letra de cada palavra composta, a partir da segunda palavra.
 
 Exemplos sugeridos para nomenclatura de métodos:
 
