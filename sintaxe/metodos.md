@@ -10,7 +10,7 @@ Uma classe é definida por atributos e métodos. Já vimos que atributos são, e
 
 Esses critérios não são obrigatórios, mas é recomendável que sejam seguidos, pois essas convenções facilitam a vida dos programadores ao trabalharem em códigos de forma colaborativa. Ao seguir estas convenções, tornamos o código mais legível para nós e também para outras pessoas. Para métodos, os critérios são:&#x20;
 
-* Deve ser nomeado como verbo
+* Deve ser nomeado como verbo;
 * Seguir o padrão camelCase (Todas as letras minúsculas com a exceção da primeira letra da segunda palavra).
 
 Exemplos sugeridos para nomenclatura de métodos:
@@ -34,7 +34,7 @@ ATENÇÃO! Não existe em **Java** o conceito de **métodos** globais. Todos os 
 
 ### Critério de definição de métodos
 
-Mas, como sabemos a melhor forma de definir os métodos das nossas classes? Para chegar à essa conclusão, somos auxiliados por uma convenção estrutural para todos os métodos. Essa convenção é determinada pelos aspectos abaixo:
+Mas, como sabemos a melhor forma, de definir os métodos das nossas classes? Para chegar à essa conclusão, somos auxiliados por uma convenção estrutural para todos os métodos. Essa convenção é determinada pelos aspectos abaixo:
 
 1. **Qual a proposta principal do método?** Você deve se perguntar constantemente até compreender a real finalidade do mesmo.
 2. **Qual o tipo de retorno esperado após executar o método?** Você deve analisar se o método será responsável por retornar algum valor ou não.
@@ -43,11 +43,11 @@ Mas, como sabemos a melhor forma de definir os métodos das nossas classes? Para
 &#x20;Caso o método não retorne nenhum valor, ele será representado pela palavra-chave `void`.&#x20;
 {% endhint %}
 
-1. **Quais os parâmetros serão necessários para execução do método?** Os métodos as vezes precisam de argumentos como critérios para a execução.
+1. **Quais os parâmetros serão necessários para execução do método?** Os métodos às vezes precisarão de argumentos como critérios para a execução.
 2. **O método possui o risco de apresentar alguma exceção?** Exceções são comuns na execução de métodos, as vezes é necessário prever e tratar a possível existência de uma exceção.
-3. **Qual a visibilidade do método?** Será necessário que o método seja visível a toda aplicação, somente em mesmo pacotes, através de herança ou somente a nível a própria classe.
+3. **Qual a visibilidade do método?** Avaliar se será necessário que o método seja visível a toda aplicação, somente em pacotes, através de herança ou somente a nível a própria classe.
 
-Abaixo temos um exemplo de uma classe com dois métodos e suas respectivas considerações:
+Abaixo, temos um exemplo de uma classe com dois métodos e suas respectivas considerações:
 
 ```java
 public class MyClass {
@@ -93,7 +93,7 @@ public class MyClass {
 
 Vamos criar um exemplo de uma classe para representar uma SmartTV onde:
 
-1. Ela tenha as características: ligada (boolean), canal (int) e volume (int)
-2. Nossa TV poderá ligar e desligar e assim mudar o estado ligada
-3. Nossa TV aumentará e diminuirá o volume sempre em +1 ou -1
-4. Nossa TV poderá mudar de canal de 1 em 1 ou definindo o número correspondente
+1. Ela tenha as características: ligada (boolean), canal (int) e volume (int);
+2. Nossa TV poderá ligar e desligar e assim mudar o estado ligada;
+3. Nossa TV aumentará e diminuirá o volume sempre em +1 ou -1;
+4. Nossa TV poderá mudar de canal de 1 em 1 ou definindo o número correspondente.
