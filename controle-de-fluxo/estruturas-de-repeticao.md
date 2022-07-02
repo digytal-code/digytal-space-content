@@ -8,13 +8,13 @@
 
 Laços ou repetições são representados pelas seguintes estruturas:
 
-* **For** (para)
-* **While** (enquanto)
-* **Do While** (faça enquanto)
+* **For** (para);
+* **While** (enquanto);
+* **Do While** (faça enquanto).
 
 ## For
 
-O comando **`for`** (na tradução literal para a língua portuguesa “para”) permite que uma variável contadora seja testada e incrementada a cada iteração, sendo essas informações definidas na chamada do comando. O comando for recebe como entrada uma variável contadora, a condição para continuar a execução e o valor de incrementação.
+O comando **`for`** (na tradução literal para a língua portuguesa “para”) permite que uma variável contadora, seja testada e incrementada a cada iteração, sendo essas informações definidas na chamada do comando. O comando **for** recebe como entrada uma variável contadora, a condição para continuar a execução e o valor de incrementação.
 
 A estrutura de sintaxe do controle de repetição **`for`** é exibida abaixo:
 
@@ -30,7 +30,7 @@ for (bloco de inicialização; expressão booleana de validação; bloco de atua
 
 ![](<../.gitbook/assets/image (14) (1) (1) (1).png>)
 
-Vamos imaginar que Joãozinho precisa contar até 20 carneirinhos para pegar no sono:
+Vamos imaginar que Joãozinho precisa contar até 20 carneirinhos, para pegar no sono:
 
 ```java
 // ExemploFor.java
@@ -48,11 +48,11 @@ Vamos explicar a estrutura do código acima:
 
 **For position**
 
-1. int carneirinhos = 1`;` -> O programa entende que a variável carneirinhos começa com o valor igual a 1 e isso acontece somente uma vez;
-2. carneirinhos `< = 20;` -> O programa verifica se a variável carneirinhos ainda é menor que 20;
-3. O programa começa a executar o algorítimo, no nosso caso imprimir a quantidade de carneirinhos em contagem;
-4. carneirinhos `++` -> O programa aumenta em mais 1 o valor da variável carneirinhos;
-5. O fluxo é finalizado quando a variável carneirinhos for igual a 20.
+1. int carneirinhos = 1`;` -> O programa entende que a variável carneirinhos, começa com o valor igual a 1 e isso acontece somente uma vez;
+2. carneirinhos `< = 20;` -> O programa verifica se a variável carneirinhos, ainda é menor que 20;
+3. O programa começa a executar o algoritmo, no nosso caso, imprimir a quantidade de carneirinhos em contagem;
+4. carneirinhos `++` -> O programa aumenta em mais 1, o valor da variável carneirinhos;
+5. O fluxo é finalizado, quando a variável carneirinhos for igual a 20.
 
 ```java
 // Outras estruturas
@@ -73,7 +73,7 @@ for( ; carneirinhos <=20; ) {
 //for( somente 1x ; deve ser uma expresão boolean; acontecerá a cada final da execução ) { }
 ```
 
-Também usamos o controle de fluxo **`for`** para interagir sobre arrays e coleções:
+Também usamos o controle de fluxo **`for`** , para interagir sobre arrays e coleções:
 
 ```java
 // ExemploFor.java
@@ -89,15 +89,15 @@ public static void main(String[] args) {
 }
 ```
 
-> Observe que como os arrays começam com indice igual a **0 (zero)**, iniciamos a nossa variável **`x`** também com valor zero e validamos a quantidade de repetições a partir da quantidade de elementos do array.
+> Observe que, como os arrays começam com índice igual a **0 (zero)**, iniciamos a nossa variável **`x`** também com valor zero e validamos a quantidade de repetições, a partir da quantidade de elementos do array.
 
 {% hint style="info" %}
-Fala a verdade: Depois desta explicação deu até sono em? 😴😴
+Fala a verdade: Depois desta explicação deu até sono hein!? 😴😴
 {% endhint %}
 
 ### For Each
 
-O uso do **`for / each`** está fortemente relacionado com um cenário onde contenha um array ou coleção, e assim, a interação é baseada aos elementos da coleção.
+O uso do **`for / each`** está fortemente relacionado, com um cenário onde contenha um array ou coleção, e assim , a interação é baseada nos elementos da coleção.
 
 ```java
 // ExemploFor.java
@@ -116,12 +116,12 @@ public static void main(String[] args) {
 
 
 
-1. `String aluno : alunos` -> De forma abreviada é criada uma variável `nome` obtendo um elemento do vetor a cada ocorrência.
+1. `String aluno : alunos` -> De forma abreviada, é criada uma variável `nome` obtendo um elemento do vetor a cada ocorrência;
 2. A impressão de cada aluno é realizada.
 
-### break e continue
+### Break e Continue
 
-**Break** significa quebrar, parar, frear, interromper. E é isso que se faz quando o Java encontra esse comando pela frente. **Continue**, como o nome diz, ele 'continua' o laço. O comando **`break`** interrompe o laço, já o **`continue`** interrompe somente a iteração atual.
+**Break** significa quebrar, parar, frear, interromper. E é isso que se faz, quando o Java encontra esse comando pela frente. **Continue**, como o nome diz, ele 'continua' o laço. O comando **`break`** interrompe o laço, já o **`continue`** interrompe somente a iteração atual.
 
 ```java
 // class ExemploBreakContinue.java
@@ -160,14 +160,14 @@ public class ExemploBreakContinue {
 ```
 
 {% hint style="success" %}
-Observem que sempre o **`break`** e **`continue`** está condicinado a um critério de negócio.
+Observem que sempre o **`break`** e **`continue`**` ``,` está condicionado a um critério de negócio.
 {% endhint %}
 
 ## While
 
-O laço **`while`** (na tradução literal para a língua portuguesa “enquanto”) determina que enquanto uma condição for válida, o bloco de código será executado. O laço **`while`** testa a condição antes de executar o código, logo, caso a condição seja inválida no primeiro teste o bloco nem será executado.
+O laço **`while`** (na tradução literal para a língua portuguesa “enquanto”) determina que, enquanto uma condição for válida, o bloco de código será executado. O laço **`while`**, testa a condição antes de executar o código, logo, caso a condição seja inválida no primeiro teste o bloco nem será executado.
 
-A estrutura de sintaxe do controle de repetição **`while`** é exibida abaixo:
+A estrutura de sintaxe, do controle de repetição **`while`** é exibida abaixo:
 
 ```
 //estrutura do controle de fluxo while
@@ -215,7 +215,7 @@ public static void main(String[] args) {
 
 ## Do While
 
-O laço **`do / while`** (na tradução literal para a língua portuguesa “faça…enquanto”), assim como o laço while, considera que enquanto uma determinada condição for válida o bloco de código será executado. Entretanto, **`do / while`** testa a condição após executar o código,sendo assim, mesmo que a condição seja considerada inválida no primeiro teste o bloco será executado pelo menos uma vez.
+O laço **`do / while`** (na tradução literal para a língua portuguesa “faça…enquanto”), assim como o laço while, considera que, enquanto uma determinada condição for válida, o bloco de código será executado. Entretanto, **`do / while`** testa a condição após executar o código, sendo assim, mesmo que a condição seja considerada inválida, no primeiro teste o bloco será executado pelo menos uma vez.
 
 A estrutura de sintaxe do controle de repetição **`do / while`** é exibida abaixo:
 
@@ -232,7 +232,7 @@ while (expressão booleana de validação);
 
 ![](<../.gitbook/assets/image (5) (1).png>)
 
-Joãozinho resolveu ligar para o seu amigo dizendo que hoje se entupiu de comer docinhos:
+Joãozinho resolveu ligar para o seu amigo, dizendo que hoje se entupiu de comer docinhos:
 
 ```java
 // ExemploDoWhile.java
