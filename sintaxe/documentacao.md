@@ -6,7 +6,7 @@ Conforme site oficial, podemos compreender e explorar, todos os recursos organiz
 
 Hoje, costuma-se afirmar que, para se tornar um desenvolvedor nível avançado, é um requisito imprescindível adquirir a habilidade de compreender, a documentação oficial da linguagem e dos frameworks que são incorporados nos projetos atuais.
 
-Aqui, temos o link da documentação de uma das principais classes da linguagem Java.
+Aqui, temos o link da documentação de uma das principais classes da linguagem Java:
 
 {% embed url="https://docs.oracle.com/javase/7/docs/api/java/lang/String.html" %}
 Documentação da classe String na versão 7 da linguagem
