@@ -1,10 +1,10 @@
 # Estruturas condicionais
 
-A Estrutura Condicional possibilita a escolha de um grupo de ações e comportamentos a serem executadas quando determinadas condições são ou não satisfeitas. A Estrutura Condicional pode ser **Simples** ou **Composta**.
+A Estrutura Condicional, possibilita a escolha de um grupo de ações e comportamentos a serem executadas, quando determinadas condições são ou não satisfeitas. A Estrutura Condicional pode ser **Simples** ou **Composta**.
 
 ## Condicionais Simples
 
-Quando ocorre uma validação de execução de fluxo somente quando a condição for positiva, consideramos como uma estrutura **Simples**, exemplo:
+Quando ocorre uma validação de execução de fluxo, somente quando a condição for positiva, consideramos como uma estrutura **Simples**, exemplo:
 
 ![](<../.gitbook/assets/image (6) (1) (1) (1).png>)
 
@@ -27,7 +27,7 @@ public class CaixaEletronico {
 
 ## Condicionais Composta
 
-Algumas vezes o nosso programa deverá seguir mais de uma jornada de execução condionado a uma regra de negócio, este cenário é demoninado **Estrutura Condicional Composta**. Vejamos o exemplo abaixo:
+Algumas vezes, o nosso programa deverá seguir mais de uma jornada de execução, condionado a uma regra de negócio, este cenário é demoninado **Estrutura Condicional Composta**. Vejamos o exemplo abaixo:
 
 ![](../.gitbook/assets/if-else.png)
 
@@ -48,7 +48,7 @@ public class ResultadoEscolar {
 ```
 
 {% hint style="success" %}
-Vale ressaltar aqui que no Java em uma condição**`if/else`** as vezes necessitamos adicionar um bloco de **`{ }`**se a lógica conter mais de uma linha.
+Vale ressaltar aqui, que no Java, em uma condição**`if/else`** às vezes necessitamos adicionar um bloco de **`{ }`**`,`se a lógica conter mais de uma linha.
 {% endhint %}
 
 ## Condicionais encadeadas
@@ -75,7 +75,7 @@ public class ResultadoEscolar {
 
 ## Condição ternária
 
-Como vimos em operadores, podemos abreviar nosso algorítmico condicional refatorando com o conceito de operador ternário. Vamos refatorar os exemplos acima para ilustrar o poder deste recurso:&#x20;
+Como vimos em operadores, podemos abreviar nosso algoritmo condicional, refatorando com o conceito de operador ternário. Vamos refatorar os exemplos acima, para ilustrar o poder deste recurso:&#x20;
 
 ```java
 // Cenário 1
@@ -102,14 +102,14 @@ public class ResultadoEscolar {
 
 ## Switch Case
 
-A estrutura **switch** compara o valor de cada caso com o da variável sequencialmente, e sempre que encontra um valor correspondente, executa o código associado ao caso. Para evitar que as comparações continuem a ser executadas após um caso correspondente ter sido encontrado, acrescentamos o comando _**break**_ no final de cada bloco de códigos. O comando **break**, quando executado, encerra a execução da estrutura onde ele se encontra.&#x20;
+A estrutura **switch,** compara o valor de cada caso, com o da variável sequencialmente e sempre que encontra um valor correspondente, executa o código associado ao caso. Para evitar que as comparações continuem a ser executadas, após um caso correspondente ter sido encontrado, acrescentamos o comando _**break**_ no final de cada bloco de códigos. O comando **break**, quando executado, encerra a execução da estrutura onde ele se encontra.&#x20;
 
-Vamos imaginar que precisaremos imprimir uma medida com base em mapa de valores, exemplo:
+Vamos imaginar que precisaremos imprimir uma medida, com base em mapa de valores, exemplo:
 
 | Sigla | Tamanho |
 | ----- | ------- |
 | P     | PEQUENO |
-| M     | MEDIO   |
+| M     | MÉDIO   |
 | G     | GRANDE  |
 
 ```java
@@ -123,7 +123,7 @@ public class SistemaMedida {
 		if(sigla == "P")
 			System.out.println("PEQUENO");
 		else if(sigla == "M")
-			System.out.println("MEDIO");
+			System.out.println("MÉDIO");
 		else if(sigla == "G")
 			System.out.println("GRANDE");
 		else
@@ -148,7 +148,7 @@ public class SistemaMedida {
 			break;
 		}
 		case "M":{
-			System.out.println("MEDIO");
+			System.out.println("MÉDIO");
 			break;
 		}
 		case "G":{
@@ -166,17 +166,17 @@ public class SistemaMedida {
 ```
 
 {% hint style="danger" %}
-Observe que a nível de sintaxe não tivemos nenhum ganho quanto a redução de códigos e ainda tivemos mais uma preocupação em informar a palavra `break` em cada alternativa.
+Observe que a nível de sintaxe, não tivemos nenhum ganho quanto a redução de códigos e ainda tivemos mais uma preocupação: informar a palavra `break` em cada alternativa.
 {% endhint %}
 
-Porém um cenário que poderíamos adequar o uso do switch/case para melhorar nosso algoritmo seria conforme ilustração abaixo:
+Porém, um cenário que poderíamos adequar o uso do switch/case para melhorar nosso algoritmo seria conforme ilustração abaixo:
 
 Imagina que fomos requisitados a criar um sistema de plano telefônico onde:
 
-* O sistema terá 03 planos: BASIC, MIDIA , TURBO
-* BASIC: 100 minutos de ligação
-* MIDIA: 100 minutos de ligação + WhatsApp e Instagram grátis
-* TURBO: 100 minutos de ligação + WhatsApp e Instagram grátis + 5 GB Youtube
+* O sistema terá 03 planos: BASIC, MIDIA , TURBO;
+* BASIC: 100 minutos de ligação;
+* MÍDIA: 100 minutos de ligação + WhatsApp e Instagram grátis;
+* TURBO: 100 minutos de ligação + WhatsApp e Instagram grátis + 5 GB Youtube.
 
 ```java
 // Modo condicional convencional
@@ -188,10 +188,10 @@ public class PlanoOperadora {
 			System.out.println("100 minutos de ligação");
 		}else if(plano == "M") {
 			System.out.println("100 minutos de ligação");
-			System.out.println("Whats e Intagram grátis");	
+			System.out.println("WhatsApp e Instagram grátis");	
 		}else if(plano == "T") {
 			System.out.println("100 minutos de ligação");
-			System.out.println("Whats e Intagram grátis");	
+			System.out.println("WhatsApp e Instagram grátis");	
 			System.out.println("5Gb Youtube");	
 		}
 			
@@ -212,7 +212,7 @@ public class PlanoOperadora {
 				System.out.println("5Gb Youtube");
 			}
 			case "M": {
-				System.out.println("Whats e Intagram grátis");
+				System.out.println("WhatsApp e Instagram grátis");
 			}
 			case "B": {
 				System.out.println("100 minutos de ligação");
@@ -223,7 +223,7 @@ public class PlanoOperadora {
 ```
 
 {% hint style="warning" %}
-Se optarem por usar **`switch`** / **`case`**, estudem um  pouco mais sobre os conceitos de **`continue`**, **`break`** e **`default`**
+Se optarem por usar **`switch`** / **`case`**, estudem um  pouco mais, sobre os conceitos de **`continue`**, **`break`** e **`default`**`.`
 {% endhint %}
 
 #### &#x20;Referências
