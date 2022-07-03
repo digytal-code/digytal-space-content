@@ -1,28 +1,28 @@
 ---
-description: Nem tudo se copia, as vezes se herda
+description: Nem tudo se copia, às vezes se herda.
 ---
 
 # Herança
 
-Já imaginou você ter sido classificado para a vaga de emprego de seus sonhos e como desafio, justamente você criar um diagrama de classes e em seguida os respectivos arquivos .java que apresentasse os fundamentos de POO com base no contexto de vários aplicativos de mensagens instantâneas? Sorte sua que você está nos acompanhando em nossa jornada 😜
+Já imaginou, você ter sido classificado para a vaga de emprego de seus sonhos e como desafio, seria justamente você criar um diagrama de classes e em seguida os respectivos arquivos .java, que apresentasse os fundamentos de POO, com base no contexto de vários aplicativos de mensagens instantâneas? Sorte sua que você está nos acompanhando, em nossa jornada! 😜
 
 ![](<../../.gitbook/assets/image (8).png>)
 
 {% hint style="success" %}
-Com base na nossa classe **MsnMessenger**, você já poderia dar os primeiros passo para se dar bem no processo seletivo, simplemente, copiar e colar a estrutura para as novas classes **FacebookMessenger, Telegram** e **BINGO 😁😁😁!!!**
+Com base na nossa classe **MsnMessenger**, você já poderia dar os primeiros passos para se dar bem no processo seletivo, simplemente, copiar e colar a estrutura, para as novas classes **FacebookMessenger, Telegram** e **BINGO 😁😁😁!!!**
 {% endhint %}
 
 ![](<../../.gitbook/assets/image (19).png>)
 
-Agora é escrever o código das classes acima e esperar pela contratação !!
+Agora é escrever o código das classes acima e esperar pela contratação !!!
 
 {% hint style="danger" %}
-Lamentamos dizer, mas esta não seria a melhor alternativa para a proposta citada acima
+Lamentamos dizer, mas esta não seria a melhor alternativa para a proposta citada acima.
 {% endhint %}
 
-Além de uma compreensão do desafio, é necessário, que tenhamos domínio dos pilares de POO e aplicá-los em situações iguais a esta.
+Além de uma compreensão do desafio, é necessário que, tenhamos domínio dos pilares de POO e aplicá-los em situações iguais a esta.
 
-**NOTE:** Todas as três classes possuem a mesma estrutura comportamental, e diante deste contexto se encaixa perfeitamente o segundo pilar da POO, a Herança.
+**NOTE:** Todas as três classes, possuem a mesma estrutura comportamental e diante deste contexto, se encaixa perfeitamente o segundo pilar da POO, a Herança.
 
 ![Representação UML do sistema de mensagens insntantâneas](<../../.gitbook/assets/image (11) (1) (1) (1).png>)
 
@@ -100,8 +100,8 @@ public class ComputadorPedrinho {
 {% endtab %}
 {% endtabs %}
 
-Podemos avaliar a importância de compreender os pilares de POO para ter uma melhor implementação, reaproveitamento e reutilização de código em qualquer contexto das nossas aplicações, mas não para por ai.
+Podemos avaliar a importância de compreender os pilares de POO, para ter uma melhor implementação, reaproveitamento e reutilização de código, em qualquer contexto das nossas aplicações, mas não para por ai.
 
 {% hint style="warning" %}
-Será que todos os sistemas de mensagens realizam as suas operações de uma mesma maneira? E agora ? Este é um trabalho para os pilares **Abstração** e **Polimorfismo**.
+Será que todos os sistemas de mensagens, realizam as suas operações de uma mesma maneira? e agora ? este é um trabalho para os pilares **Abstração** e **Polimorfismo**.
 {% endhint %}
