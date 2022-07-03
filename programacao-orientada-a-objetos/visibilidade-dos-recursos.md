@@ -2,13 +2,13 @@
 
 ## Modificadores
 
-Em Java, utilizamos três palavras reservadas e um conceito default (sem nehuma palavra reservada) para definir os quatro tipo de visibilidade de atributos, métodos e até mesmo classes no que se refere ao acesso por outras classes. Iremos ilustrar do mais visível ao mais restrito tipo de visibilidade nos arquivos em nosso projeto.
+Em Java, utilizamos três palavras reservadas e um conceito default (sem nehuma palavra reservada) para definir os quatro tipo de visibilidade de atributos, métodos e até mesmo classes, no que se refere ao acesso por outras classes. Iremos ilustrar do mais visível, ao mais restrito tipo de visibilidade nos arquivos em nosso projeto.
 
-Para uma melhor ilustração, iremos representar os conceitos de visibilidade de recursos através do contexto em uma lanchonete que vende lanche natural e suco.
+Para uma melhor ilustração, iremos representar os conceitos de visibilidade de recursos, através do contexto em uma lanchonete, que vende lanche natural e suco.
 
 ### **Modificador public**&#x20;
 
-Como o próprio nome representa, quando nossa classe, método e atributo é definido como public, qualquer outra classe em qualquer outro pacote pode visualizar tais recursos.
+Como o próprio nome representa, quando nossa classe, método e atributo é definido como public, qualquer outra classe em qualquer outro pacote, poderá visualizar tais recursos.
 
 ![](../.gitbook/assets/lanchonete\_1.png)
 
@@ -20,11 +20,11 @@ package lanchonete;
 public class Cozinheiro {
 	//pode ser default
 	public void adicionarLancheNoBalcao() {
-		System.out.println("ADICIONANDO LANCHE NATURAL HAMBURGER NO BALCAO");
+		System.out.println("ADICIONANDO LANCHE NATURAL HAMBÚRGUER NO BALCÃO");
 	}
 	//pode ser default
 	public void adicionarSucoNoBalcao() {
-		System.out.println("ADICIONANDO SUCO NO BALCAO");
+		System.out.println("ADICIONANDO SUCO NO BALCÃO");
 	}
 	//pode ser default
 	public void adicionarComboNoBalcao() {
@@ -32,7 +32,7 @@ public class Cozinheiro {
 		adicionarSucoNoBalcao();
 	}
 	public void prepararLanche() {
-		System.out.println("PREPARANDO LANCHE TIPO HAMBURGUER");
+		System.out.println("PREPARANDO LANCHE TIPO HAMBÚRGUER");
 	}
 	public void prepararVitamina() {
 		System.out.println("PREPARANDO SUCO");
@@ -51,10 +51,10 @@ public class Cozinheiro {
 		System.out.println("LAVANDO INGREDIENTES");
 	}
 	public void baterVitaminaLiquidificador() {
-		System.out.println("BATENDO VITAMINA LIQUIDIFICADOR");
+		System.out.println("BATENDO VITAMINA NO LIQUIDIFICADOR");
 	}
 	public void fritarIngredientesLanche() {
-		System.out.println("FRITANDO A CARNE E OVO PARA O HAMBURGER");
+		System.out.println("FRITANDO A CARNE E OVO PARA O HAMBÚRGUER");
 	}
 	public void pedirParaTrocarGas(Atendente meuAmigo) {
 		meuAmigo.trocarGas();
@@ -86,7 +86,7 @@ public class Almoxarife {
 		//...?
 	}
 	public void trocarGas() {
-		System.out.println("ALMOXARIFE TROCANDO O GAS");
+		System.out.println("ALMOXARIFE TROCANDO O GÁS");
 	}
 }
 ```
@@ -99,7 +99,7 @@ package lanchonete;
 public class Atendente {
 	public void servindoMesa() {
 		//...?
-		System.out.println("SERVINDO MESA");
+		System.out.println("SERVINDO A MESA");
 	}
 	public void pegarLancheCozinha() {
 		System.out.println("PEGANDO O LANCHE NA COZINHA");
@@ -108,10 +108,10 @@ public class Atendente {
 		System.out.println("RECEBENDO PAGAMENTO");
 	}
 	public void trocarGas() {
-		System.out.println("ATENDENTE TROCANDO O GAS");
+		System.out.println("ATENDENTE TROCANDO O GÁS");
 	}
 	public void pegarPedidoBalcao() {
-		System.out.println("PEGANDO O PEDIDO NO BALCAO");
+		System.out.println("PEGANDO O PEDIDO NO BALCÃO");
 	}
 }
 
@@ -136,7 +136,7 @@ public class Cliente {
 		System.out.println("CONSULTANDO SALDO NO APLICATIVO");
 	}
 	public void pegarPedidoBalcao() {
-		System.out.println("PEGANDO O PEDIDO NO BALCAO");
+		System.out.println("PEGANDO O PEDIDO NO BALCÃO");
 	}
 }
 ```
@@ -200,21 +200,21 @@ public class Estabelecimento {
 {% endtabs %}
 
 {% hint style="info" %}
-**Acredite!** Nem tudo precisa ser visto por todos :rolling\_eyes:
+**Acredite!** Nem tudo precisa ser visto por todos. :rolling\_eyes:
 {% endhint %}
 
 ### **Modificador default**
 
-O modificador **`default`** está fortemente associado a organização das classes por pacotes, algumas implementações não precisam estar disponíveis por todo o projeto, e e este modificador de acesso restringe a visibilidade por pacotes.
+O modificador **`default`,** está fortemente associado a organização das classes por pacotes, algumas implementações, não precisam estar disponíveis por todo o projeto, e este modificador de acesso, restringe a visibilidade por pacotes.
 
 Dentro do pacote **`lanchonete`**, iremos criar dois sub-pacotes para representar a divisão do estabelecimento.&#x20;
 
-* **lanchonete.atendimento.cozinha**: Pacote que contém classes da parte da cozinha da lanchonete e atendimentos.
-* **lanchonete.area.cliente**: Pacote que contém classes relacionadas ao espaço do cliente.
+* **lanchonete.atendimento.cozinha**: Pacote que contém classes, da parte da cozinha da lanchonete e atendimentos.
+* **lanchonete.area.cliente**: Pacote que contém classes, relacionadas ao espaço do cliente.
 
 ![](../.gitbook/assets/pacotes.png)
 
-Para definir um método visível a nível de pacote basta NÃO declarar nenhum modificador, exemplo:
+Para definir um método visível a nível de pacote, basta NÃO declarar nenhum modificador, exemplo:
 
 ```java
 // Cozinheiro.java
@@ -233,22 +233,22 @@ void lavarIngredientes() {
 
 ### **Modificador private**
 
-Depois de reestruturar nosso estabelecimento (projeto), onde, temos as divisões (pacotes) espaço do cliente e atendimento, chegou a hora de uma reflexão sobre visibilidade ou modificadores de acesso.
+Depois de reestruturar nosso estabelecimento (projeto), onde temos as divisões (pacotes), espaço do cliente e atendimento, chegou a hora de uma reflexão sobre visibilidade ou modificadores de acesso.
 
-Conhecemos as ações disponíveis nas classes `Cozinheiro, Almoxarife, Atendente e Cliente`, mesmo com a organização da visibilidade por pacote, será se realmente estas classes precisam ser tão explicitas?
+Conhecemos as ações disponíveis nas classes `Cozinheiro, Almoxarife, Atendente e Cliente`, mesmo com a organização da visibilidade por pacote, será que realmente estas classes precisam ser tão explícitas?
 
-* Será se o `Cozinheiro` precisa saber que\como o `Almoxarife` controle as entradas e saídas ?
-* Que o `Cliente` precisa saber como o `Atendente` recebe o pedido para servir sua mesa ?
-* Que o `Atendente` precisa saber que antes de pagar o `Cliente` consulta o saldo no App ?
+* Será que o `Cozinheiro` precisa saber que\como o `Almoxarife` controla as entradas e saídas ?
+* Que o `Cliente` precisa saber como o `Atendente` recebe o pedido, para servir sua mesa ?
+* Que o `Atendente` precisa saber que antes de pagar, o `Cliente` consulta o saldo no App ?
 
-Diante destes questionamentos é que nossas classes precisam continuar mantendo suas ações (métodos) mas nem todas precisam ser vistas por ninguém.
+Diante destes questionamentos, é que nossas classes precisam continuar mantendo suas ações (métodos), mas nem todas precisam ser vistas por ninguém.
 
 {% hint style="info" %}
-A visibilidade de recursos da linguagem não está associada a ~~**interface gráfica**~~, mas sim, o que as classes conseguem **acessar** umas das outras😏
+A visibilidade de recursos da linguagem não está associada a **interface gráfica**, mas sim, o que as classes conseguem **acessar,** umas das outras.😏
 {% endhint %}
 
 ### Modificador protected
 
 {% hint style="success" %}
-Iremos explorar mais sobre este tipo de modificador de acesso quando formos abordar a competência Pilares de POO com ênfase em Herança, OK!
+Iremos explorar mais sobre este tipo de modificador de acesso, quando formos abordar a competência Pilares de POO com ênfase em Herança, OK!?
 {% endhint %}
