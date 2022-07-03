@@ -1,14 +1,14 @@
 ---
-description: Um mesmo comportamento de várias maneiras
+description: Um mesmo comportamento, de várias maneiras.
 ---
 
 # Polimorfismo
 
-Podemos observar no contexto de **Abstração** e **Herança** que conseguimos criar uma singularidade estrutural de nossos elementos. Isso quer dizer que, qualquer classe que deseja representar um serviço de mensagens, basta estender a classe **`ServicoMensagemInstantanea`** e implementar os respectivos métodos _abstratos_. O que vale reforçar aqui é, cada classe terá a mesma ação executando procedimentos de maneira especializada.&#x20;
+Podemos observar no contexto de **Abstração** e **Herança,** que conseguimos criar uma singularidade estrutural de nossos elementos. Isso quer dizer que, qualquer classe que deseja representar um serviço de mensagens, basta estender a classe **`ServicoMensagemInstantanea`** e implementar, os respectivos métodos _abstratos_. O que vale reforçar aqui é, cada classe terá a mesma ação, executando procedimentos de maneira especializada.&#x20;
 
 ![](<../../.gitbook/assets/image (9).png>)
 
-Este o resultado do que denominamos como Polimorfismo. Veja o exemplo abaixo:
+Este é o resultado do que denominamos como, Polimorfismo. Veja o exemplo abaixo:
 
 ```java
 public class ComputadorPedrinho {
@@ -37,19 +37,19 @@ public class ComputadorPedrinho {
 ```
 
 {% hint style="info" %}
-Para concluirmos a compreensão, Polimorfismo permite que as classes mais abstratas determinem ações uniformes para que cada classe filha concreta implementem os comportamentos de forma específica.
+Para concluirmos a compreensão, Polimorfismo permite que as classes mais abstratas, determinem ações uniformes, para que cada classe filha concreta, implemente os comportamentos de forma específica.
 {% endhint %}
 
 #### Modificador protected
 
-Vamos para uma retrospectiva quanto ao requisito do nosso sistema de mensagens instantâneas desde a etapa de encapsulamento.&#x20;
+Vamos para uma retrospectiva, quanto ao requisito do nosso sistema de mensagens instantâneas, desde a etapa de encapsulamento.&#x20;
 
-O nosso requisito solicita que além de Enviar e Receber Mensagens precisamos validar se o aplicativo está conectado a internet (**`validarConectadoInternet`**) e salvar o histórico de cada mensagem (**`salvarHistoricoMensagem`**).
+O nosso requisito, solicita que além de Enviar e Receber Mensagens, precisamos validar se o aplicativo está conectado a internet (**`validarConectadoInternet`**) e salvar o histórico de cada mensagem (**`salvarHistoricoMensagem`**).
 
-Sabemos que cada aplicativo costuma salvar as mensagens em seus respectivos servidores cloud, mas e quanto a validar se está conectado a internet? Não poderia ser um mecanismo comum à todos ? Logo qualquer classe filha de **ServicoMensagemInstantanea** poderia desfrutrar através de herança desta funcionalidade.
+Sabemos que cada aplicativo, costuma salvar as mensagens em seus respectivos servidores cloud, mas e quanto validar se está conectado a internet? Não poderia ser um mecanismo comum a todos ? Logo, qualquer classe filha, de **ServicoMensagemInstantanea** poderia desfrutar através de herança, esta funcionalidade.
 
 {% hint style="info" %}
-Mas fica a reflexão do que já aprendemos sobre visbilidade de recursos: Com o modificador **`private`** somente a classe conhece a implementação quanto que o modificador **`public`**  todos passarão a conhecer. Mas gostaríamos que somente as classes filha soubessem. Bem, é ai que entra o modificador **`protected`**.j
+Mas fica a reflexão do que já aprendemos sobre visibilidade de recursos: Com o modificador **`private`**somente a classe conhece a implementação, quanto que o modificador **`public`**todos passarão a conhecer. Mas gostaríamos que, somente as classes filhas soubessem. Bem, é ai que entra o modificador **`protected`**.j
 {% endhint %}
 
 ```java
