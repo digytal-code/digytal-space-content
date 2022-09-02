@@ -89,7 +89,7 @@ Como identificar a diferença entre, declaração de variáveis e métodos em no
 ```java
 // Estrutura
 
-Tipo NomeBemDefinido = Atribuição (opcional em alguns casos)
+Tipo NomeBemDefinido = Atribuicao (opcional em alguns casos)
 
 // Exemplo
 
