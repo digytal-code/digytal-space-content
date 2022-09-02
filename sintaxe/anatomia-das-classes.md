@@ -98,7 +98,7 @@ double altura = 1.62;
 Dog spike; //observe que aqui a variável spike não tem valor, é normal
 ```
 
-* Declarando métodos em Java segue uma estrutura bem simples:
+* Declarar métodos em Java segue uma estrutura bem simples:
 
 ```java
 // Estrutura
