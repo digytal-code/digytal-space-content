@@ -26,10 +26,10 @@ public class Student {
     Color color;
     Sex sex;
 
-    void eating(Food food){
+    void eating(Lunch lunch){
       //NOSSO CÓDIGO AQUI
     }
-    void drinking(Eat eat){
+    void drinking(Juice juice){
       //NOSSO CÓDIGO AQUI
     }
     void running(){
