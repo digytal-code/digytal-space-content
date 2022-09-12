@@ -41,7 +41,7 @@ package
 import ... 
 import ...
 
-public class MinhaClassea {
+public class MinhaClasse {
 }
 ```
 
