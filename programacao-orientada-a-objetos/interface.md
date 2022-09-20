@@ -30,7 +30,7 @@ Para uma melhor compreensão, vamos analisar os diagramas de classes abaixo, com
 
 **Cenário 1**
 
-![Exemplo de aplicação de Herança entre classes](<../.gitbook/assets/image (3) (2).png>)
+![Exemplo de aplicação de Herança entre classes](<../.gitbook/assets/image (3).png>)
 
 **Cenário 2**
 
