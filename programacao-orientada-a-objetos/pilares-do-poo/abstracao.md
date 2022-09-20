@@ -68,5 +68,9 @@ public class Telegram extends ServicoMensagemInstantanea {
 {% endtabs %}
 
 {% hint style="info" %}
-Em Java, o conceito de abstração é representado pela palavra reservada **`abstract`**e métodos, que **NÃO** possuem corpo na classe abstrata (pai).
+Em Java, o conceito de abstração é representado pela palavra reservada **`abstract`**e métodos que **NÃO** possuem corpo na classe abstrata (pai).
+{% endhint %}
+
+{% hint style="success" %}
+É muito difícil falar de `abstração` e **NÃO** mencionar `polimorfismo`.
 {% endhint %}
