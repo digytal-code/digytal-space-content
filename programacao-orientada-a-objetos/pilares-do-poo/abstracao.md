@@ -72,5 +72,5 @@ Em Java, o conceito de abstração é representado pela palavra reservada **`abs
 {% endhint %}
 
 {% hint style="success" %}
-É muito difícil falar de `abstração` e **NÃO** mencionar `polimorfismo`.
+É muito difícil falar de `abstração`e **NÃO** mencionar `polimorfismo`.
 {% endhint %}

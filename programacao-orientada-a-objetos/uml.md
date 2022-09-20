@@ -49,7 +49,7 @@ Uma associação, define um relacionamento entre duas classes, permitindo que, u
 
 * **Composição:** A composição já caracteriza uma dependência existencial, entre a classe principal e a classe associada. Imaginamos que uma admissão só poderá existir, contendo suas informações básicas e a composição do candidato selecionado.
 
-![Admissão é a classe principal e Candidato compõe a Admissão.](<../.gitbook/assets/image (1).png>)
+![Admissão é a classe principal e Candidato compõe a Admissão.](<../.gitbook/assets/image (1) (1).png>)
 
 #### Multiplicidade
 

@@ -31,7 +31,7 @@ Evite mudar o diretório de instalação.
 
 * Em seu explorer, deve ter algo mais ou menos assim:
 
-![](<../.gitbook/assets/image (1) (1).png>)
+![](<../.gitbook/assets/image (1) (1) (1).png>)
 
 * Precisamos agora, validar se a instalação também já configurou nossa variável de ambiente, para poder executar o Java pelo Prompt de comando ou PowerShell do Windows.
 * Abra o Prompt de comando e execute o comando `java -version`.
