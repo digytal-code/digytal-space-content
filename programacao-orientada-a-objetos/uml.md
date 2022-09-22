@@ -8,7 +8,7 @@ Na UML, temos três conceitos necessários para compreendermos inicialmente:&#x2
 
 **Diagramas**, **elementos** e **relacionamentos**.
 
-![](<../.gitbook/assets/image (7) (1).png>)
+![](<../.gitbook/assets/image (7) (1) (2).png>)
 
 As notações UML, são distribuídas em duas categorias de diagramas, a estrutural e comportamental conforme listagem abaixo:
 
@@ -41,7 +41,7 @@ Em um diagrama, as classes podem existir de forma independente, mas obviamente h
 
 Uma associação, define um relacionamento entre duas classes, permitindo que, um objeto tenha acesso a estrutura de um outro objeto.
 
-![](<../.gitbook/assets/image (7).png>)
+![](<../.gitbook/assets/image (7) (1).png>)
 
 * **Agregação:** Em uma agregação, a classe principal contém uma relação com outra classe, mas ela pode existir, sem a classe agregadora. Imagina um cadastro de Candidatos, podemos encontrar candidatos que ainda não possuam uma profissão:
 
