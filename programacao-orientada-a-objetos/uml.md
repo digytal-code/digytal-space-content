@@ -49,7 +49,7 @@ Uma associação, define um relacionamento entre duas classes, permitindo que, u
 
 * **Composição:** A composição já caracteriza uma dependência existencial, entre a classe principal e a classe associada. Imaginamos que uma admissão só poderá existir, contendo suas informações básicas e a composição do candidato selecionado.
 
-![Admissão é a classe principal e Candidato compõe a Admissão.](<../.gitbook/assets/image (1) (1).png>)
+![Admissão é a classe principal e Candidato compõe a Admissão, logo este SURGIRA uma composição entre Admissão e Colaborador - ver DDD](<../.gitbook/assets/image (1) (1).png>)
 
 #### Multiplicidade
 
@@ -77,7 +77,7 @@ Os atributos e métodos de uma classe, podem receber níveis de visibilidade, e 
 
 #### Que tal praticar ?
 
-![](<../.gitbook/assets/image (13).png>)
+![No momento da admissão, este Candidato deverá se tornar um Colaborador - ver DDD](<../.gitbook/assets/image (13).png>)
 
 ### Ferramentas
 
