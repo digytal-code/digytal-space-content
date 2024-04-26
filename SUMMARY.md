@@ -1,36 +1,50 @@
 # Table of contents
 
-* [🇧🇷 Brazil](README.md)
+* [Java Básico](README.md)
 
-## vocabulary
+## Fundamentos
 
-* [🅰️ Alphabet](vocabulary/alphabet.md)
-* [1️ Numbers](vocabulary/numbers.md)
-* [🏃‍♂️ Activities](vocabulary/activities.md)
-* [⚽ Sports](vocabulary/sports.md)
-* [🐶 Animals](vocabulary/animals.md)
-* [👕 Clothes](vocabulary/clothes.md)
-* [🏠 House](vocabulary/house.md)
-* [👨‍👩‍👧‍👦 Family](vocabulary/family.md)
-* [🗃️ Works](vocabulary/works/README.md)
-  * [👨‍💼 Professions](vocabulary/works/professions.md)
-  * [🏪 Work Places](vocabulary/works/work-places.md)
-* [🔎 Positions](vocabulary/positions.md)
-* [🗓️ Days of Year](vocabulary/days-of-year.md)
-* [#️ Symbols and Dots](vocabulary/symbols-and-dots.md)
-* [😊 Feelings](vocabulary/feelings.md)
+* [Java e sua história](fundamentos/java-e-sua-historia.md)
+* [Plataformas](fundamentos/plataformas.md)
+* [Configurando o ambiente](fundamentos/configurando-o-ambiente-de-desenvolvimento.md)
+* [Escolha sua IDE](fundamentos/escolha-sua-ide.md)
 
-***
+## Sintaxe
 
-* [✋ Parts of the human body](parts-of-the-human-body.md)
+* [Anatomia das classes](sintaxe/anatomia-das-classes.md)
+* [Tipos e Variáveis](sintaxe/variaveis.md)
+* [Operadores](sintaxe/operadores.md)
+* [Métodos](sintaxe/metodos.md)
+* [Escopo](sintaxe/escopo.md)
+* [Palavras reservadas](sintaxe/palavras-reservadas.md)
+* [Documentação](sintaxe/documentacao.md)
+* [Terminal e Argumentos](sintaxe/terminal-e-argumentos.md)
 
-## Gramática
+## Controle de fluxo
 
-* [🇬🇧 Nouns](gramatica/nouns.md)
-* [🇬🇧 Pronouns](gramatica/pronouns.md)
-* [🇬🇧 Adjectives](gramatica/adjectives.md)
-* [🇬🇧 Adverbs](gramatica/adverbs.md)
-* [🇬🇧 Articles](gramatica/articles.md)
-* [🇬🇧 Verb to be](gramatica/verb-to-be.md)
-* [🇬🇧 Conjuction](gramatica/conjuction.md)
-* [🇬🇧 Activities](gramatica/activities.md)
+* [Conceito](controle-de-fluxo/conceito.md)
+* [Estruturas condicionais](controle-de-fluxo/estruturas-condicionais.md)
+* [Estruturas de repetição](controle-de-fluxo/estruturas-de-repeticao.md)
+* [Estruturas excepcionais](controle-de-fluxo/estruturas-excepcionais.md)
+* [Cases](controle-de-fluxo/cases.md)
+
+## Programação Orientada a Objetos
+
+* [Conceito de POO](programacao-orientada-a-objetos/conceito-de-poo.md)
+* [Classes](programacao-orientada-a-objetos/classes.md)
+* [Pacotes](programacao-orientada-a-objetos/pacotes.md)
+* [Visibilidade dos recursos](programacao-orientada-a-objetos/visibilidade-dos-recursos.md)
+* [Getters e Setters](programacao-orientada-a-objetos/getters-e-setters.md)
+* [Construtores](programacao-orientada-a-objetos/construtores.md)
+* [Enums](programacao-orientada-a-objetos/enums.md)
+* [UML](programacao-orientada-a-objetos/uml.md)
+* [Pilares do POO](programacao-orientada-a-objetos/pilares-do-poo/README.md)
+  * [Encapsulamento](programacao-orientada-a-objetos/pilares-do-poo/encapsulamento.md)
+  * [Herança](programacao-orientada-a-objetos/pilares-do-poo/heranca.md)
+  * [Abstração](programacao-orientada-a-objetos/pilares-do-poo/abstracao.md)
+  * [Polimorfismo](programacao-orientada-a-objetos/pilares-do-poo/polimorfismo.md)
+* [Interface](programacao-orientada-a-objetos/interface.md)
+
+## MAVEN
+
+* [Introdução](maven/introducao.md)

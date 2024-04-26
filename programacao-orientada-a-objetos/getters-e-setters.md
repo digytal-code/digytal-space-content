@@ -6,7 +6,7 @@ Os métodos "Getters" e "Setters" são utilizados para buscar valores de atribut
 
 O método **Getter,** retorna o valor do atributo especificado.
 
-O método **Setter,** define outro novo valor para o atributo especificado.&#x20;
+O método **Setter,** define outro novo valor para o atributo especificado.
 
 Vemos o código abaixo, da criação de um objeto Aluno com nome e idade:
 
@@ -73,7 +73,7 @@ public class Escola {
 A proposta do código acima é a mesma que o código anterior, a diferença é que adotamos a convenção Java Beans, para definir e obter as características dos nossos objetos.
 {% endhint %}
 
-Uso do `this` no método `set`.&#x20;
+Uso do `this` no método `set`.
 
 É muito comum vermos nossos métodos de definição ter a seguinte sintaxe:
 
@@ -87,6 +87,5 @@ public void setNome(String nome) {
 ```
 
 {% hint style="warning" %}
-Observe que a descrição do nosso atributo `nome` é igual a descrição do parâmetro, logo, utilizamos mais uma palavra reservada `this,`para distinguir um do outro. Para mais detalhes veja [Palavras Reservadas](broken-reference).
+Observe que a descrição do nosso atributo `nome` é igual a descrição do parâmetro, logo, utilizamos mais uma palavra reservada `this,`para distinguir um do outro. Para mais detalhes veja [Palavras Reservadas](https://github.com/digytal-code/digytal-space-content/blob/main/programacao-orientada-a-objetos/broken-reference/README.md).
 {% endhint %}
-
